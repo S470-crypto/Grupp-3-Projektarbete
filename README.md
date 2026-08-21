@@ -13,9 +13,8 @@ Sami, Mikaela, Honeylyn, Andreas
 
 **fet stil**
 
-<<<<<<< HEAD
 
 TEST MED SIMON
-=======
+
 # testar Honelyn
->>>>>>> 9e1bf85 (uppdatering)
+
