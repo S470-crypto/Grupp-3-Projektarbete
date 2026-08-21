@@ -2,3 +2,10 @@
 Sami, Mikaela, Honeylyn, Andreas
 
 #Gomoku nu kör vi!
+
+
+# HEJ ALLIHOPPA!   
+
+
+
+
