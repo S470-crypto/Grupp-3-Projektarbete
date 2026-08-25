@@ -23,12 +23,12 @@
 
 
 **Huvudflöde:**
-    1. En unknown spelare försöker ansluta till en länk.
-	2. Systemet kontrollerar länken och matchen status
-	3. Systemet kontrollerar om anslutningen är giltig (xxantal timmar)
-	4. Om anslutningen är giltig, tillåter systemet personen att anslutna
-	5. Om anslutningen inte är giltig nekar systemet den personen som vill anslutna
-	6. Systemet visar meddelande om att personen inte kan anslutna.
+1. En unknown spelare försöker ansluta till en länk.
+2. Systemet kontrollerar länken och matchen status
+3. Systemet kontrollerar om anslutningen är giltig (xxantal timmar)
+4. Om anslutningen är giltig, tillåter systemet personen att anslutna
+5. Om anslutningen inte är giltig nekar systemet den personen som vill anslutna
+6. Systemet visar meddelande om att personen inte kan anslutna.
 
 
 **Postconditions:**
