@@ -21,13 +21,13 @@
 
 **Huvudflöde:**
 
-* Spelaren klickar på knappen för att pausa spelet.
-* Systemet fryser sessionen och förhindrar yttligare drag.
-* Systemet sparar det aktuella spelbrädets status och vems tur det är.
-* Spelare klickar på knappen för att återuppta spelet.
-* Systemet återställer spelbrädet till det senaste sparade läget.
-* Systemet visar spelbrädet och markerar vems tur det är.
-* Partiet är nu redo att fortsätta spelas.
+1. Spelaren klickar på knappen för att pausa spelet.
+2. Systemet fryser sessionen och förhindrar yttligare drag.
+3. Systemet sparar det aktuella spelbrädets status och vems tur det är.
+4. Spelare klickar på knappen för att återuppta spelet.
+5. Systemet återställer spelbrädet till det senaste sparade läget.
+6. Systemet visar spelbrädet och markerar vems tur det är.
+7. Partiet är nu redo att fortsätta spelas.
 
 
 **Undantagsflöde:** 
