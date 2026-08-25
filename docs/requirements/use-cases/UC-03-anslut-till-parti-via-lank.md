@@ -18,9 +18,10 @@
 4. Systemet visar att båda spelarna är anslutna och visar vems tur det är att börja göra ett drag. 
 
 **Alternativa flöden:**
-- 
+- Länken är ogiltig/har passerat tidsgränsen.
 
 **Postconditions:**
 - Båda spelarna (inbjuden och initierare) är anslutna till partiet och kan fortsätta spelet genom att gå in i use case "Spela drag". 
 
 **Testable end condition:**
+- Det finns en oanvänd giltig länk som spelaren kan klicka på för att ansluta till ett nytt parti. Status ändras från väntar på spelare till redo för drag, systemet visar att båda spelare är redo för spel.  
