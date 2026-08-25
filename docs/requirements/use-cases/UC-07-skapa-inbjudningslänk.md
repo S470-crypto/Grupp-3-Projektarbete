@@ -1,4 +1,4 @@
-**Use Case: UC-07-Skapa inbjudningslänk**
+**Use Case: UC-08-Skapa inbjudningslänk**
 
 **Meta:**
 
