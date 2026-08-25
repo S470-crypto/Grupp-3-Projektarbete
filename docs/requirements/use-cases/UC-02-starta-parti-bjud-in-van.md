@@ -1,4 +1,4 @@
-# Starta parti bjud in vän
+# Use Case: UC-02 Starta parti bjud in vän
 
 **Meta:**
 - Aktör: Spelare (initierare) och spelare (inbjuden/vän) som motståndare
