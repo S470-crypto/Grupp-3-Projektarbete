@@ -2,8 +2,11 @@
 
 **Meta**
 ID: UC-16
+
 Namn: Avgöra vems tur det är
+
 Aktör: System
+
 Syfte: Systemet ska kunna avgöra vilken spelares tur det är
 
 **Förvillkor**
