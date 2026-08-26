@@ -13,7 +13,7 @@
 * Gomoku hemsidan är öppen i en webbläsare.
 
 
-**Trigger:**Spelaren klickar på bjud im en vän.
+**Trigger:** Spelaren klickar på bjud im en vän.
 
 
 
