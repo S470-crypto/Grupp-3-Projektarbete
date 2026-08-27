@@ -21,6 +21,16 @@
 | ----------- | ----------- | 
 |    FR-02.1 |     Det ska gå att skapa konto som administratör och dataansvarig som ska kunna logga in.  | 
 |    FR-02.2 |      | 
+|    FR-02.3 |       | 
+|    FR-02.4 |        | 
+|    FR-02.5 |        | 
+
+## 2.3. Integritet och datarättigheter
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    FR-03.1 |     Systemet ska fråga om cookie samtycke via banner vid första kontakt med webbsidan, innan icke nödvändiga cookies sätts.  | 
+|    FR-03.2 |      | 
 |    FR-03.3 |       | 
-|    FR-04.4 |        | 
-|    FR-05.5 |        | 
+|    FR-03.4 |        | 
+|    FR-03.5 |        | 
