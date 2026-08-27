@@ -1,16 +1,16 @@
 # 6. User journey
 
 
-## UJ-01: Spelaren godkänner kakan
+## UJ-01: Spelaren samtycker till cookie
 
 ```mermaid
 journey
-    title Cookie Consent: Spelaren godkänner kakan
+    title Cookie Consent: Spelaren godkänner cookie
     section Informerat samtycke
         Ser cookie-banner: 4: Spelare
-        Godkänner kakan: 5: Spelare
+        Godkänner cookie: 5: Spelare
     section Funktionalitet oberoende av val
-        Kaka sätts: 5: Systemet
+        Cookie sätts: 5: Systemet
         Spelar parti: 5: Spelare
     section Effekt på lagring
         Lämnar sidan mitt i partiet: 3: Spelare
@@ -21,16 +21,16 @@ journey
         Kan ändra samtycke senare: 5: Spelare
 ```
 
-## UJ-02: Spelaren avböjer kakan
+## UJ-02: Spelaren nekar samtycke till cookie
 
 ```mermaid
 journey
-    title Cookie Consent: Spelaren avböjer kakan
+    title Cookie Consent: Spelaren avböjer cookie
     section Informerat samtycke
         Ser cookie-banner: 4: Spelare
         Avböjer kakan: 3: Spelare
     section Funktionalitet oberoende av val
-        Info visas, ingen kaka sätts: 3: Systemet
+        Info visas, ingen cookie sätts: 3: Systemet
         Spelar parti: 5: Spelare
     section Effekt på lagring
         Lämnar sidan mitt i partiet: 3: Spelare
