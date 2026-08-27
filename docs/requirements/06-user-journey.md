@@ -40,3 +40,6 @@ journey
     section Rätt att återkalla 
         Kan ändra samtycke senare: 4: Spelare
 ```
+
+
+_Koden till ovan diagram i mermaid har tagits fram med hjälp av AI (claude.ai)_ 
