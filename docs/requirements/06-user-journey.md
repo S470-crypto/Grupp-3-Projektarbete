@@ -28,7 +28,7 @@ journey
     title Cookie Consent: Spelaren avböjer cookie
     section Informerat samtycke
         Ser cookie-banner: 4: Spelare
-        Avböjer kakan: 3: Spelare
+        Avböjer cookie: 3: Spelare
     section Funktionalitet oberoende av val
         Info visas, ingen cookie sätts: 3: Systemet
         Spelar parti: 5: Spelare
