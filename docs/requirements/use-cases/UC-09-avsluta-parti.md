@@ -3,7 +3,7 @@
 
 **Meta:** 
 
-** Use case ID: **UC-09
+** Use case ID:** UC-09
 ** Namn: ** Avsluta parti
 ** Primär aktör:** Systemet
 
