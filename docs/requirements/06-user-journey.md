@@ -1,7 +1,7 @@
 # 6. User journey
 
 
-## Spår 1: Spelaren godkänner kakan
+## UJ-01: Spelaren godkänner kakan
 
 ```mermaid
 journey
@@ -21,7 +21,7 @@ journey
         Kan ändra samtycke senare: 5: Spelare
 ```
 
-## Spår 2: Spelaren avböjer kakan
+## UJ-02: Spelaren avböjer kakan
 
 ```mermaid
 journey
