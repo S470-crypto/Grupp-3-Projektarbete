@@ -1,13 +1,17 @@
-**Use Case:**UC-09-Avsluta parti
+**Use Case:** UC-09-Avsluta parti
 
 
 **Meta:** 
+**Use Case ID:** UC-09
 
-**Use case ID:**UC-09
-**Namn:**Avsluta parti
-**Primär aktör:**Systemet
 
-**Syfte:**Systemet identifierar automatiskt när ett parti är slut och avgör vinnare, systemet utgår itfrån vinst eller oavgjort (full bräda)
+**Namn:** Avsluta parti
+
+
+**Primär aktör:** Systemet
+
+
+**Syfte:** Systemet identifierar automatiskt när ett parti är slut och avgör vinnare, systemet utgår itfrån vinst eller oavgjort (full bräda)
 
 
 **Förvillkor:**
