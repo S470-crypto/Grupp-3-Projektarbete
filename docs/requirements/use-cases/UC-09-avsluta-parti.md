@@ -1,4 +1,4 @@
-**Use Case:**UC-09-Avsluta parti
+**Use Case:** UC-09-Avsluta parti
 
 
 **Meta:** 
