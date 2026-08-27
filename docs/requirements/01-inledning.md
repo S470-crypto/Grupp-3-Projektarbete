@@ -14,3 +14,9 @@ __Ska vi nämna något om aktörer här? Dator/AI, dataansvarig, administratör.
 
 ## Problem som ska lösas
 Kunden vill kunna spela Gomoku själv mot datorn eller mot en vän genom att skicka en länk. Spelet ska gå att spela på datorn eller i telefonen. Ingen nedladdning, inget konto eller inloggning ska krävas för att kunna spela spelet.  
+
+## Aktörer
+
+| Aktör | Aktörtyp | Beskrivning |
+|-------|------|-------------|
+| Spelare | Primär aktör | Personen som använder
