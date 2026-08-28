@@ -6,12 +6,6 @@ Gomoku är ett spel som spelas i webbläsaren på datorn eller telefonen. Spelar
 ## Syfte
 Det ska vara enkelt för spelaren att komma igång och starta ett spel/parti mot en motståndare (dator eller vän) och att genomföra det tills dess att något av tre slutresultat nåtts: vinst, förlust eller oavgjort.
 
-## Användare 
-
-Användare avser spelare som kan vara antingen den som bjuder in/initierar till spel eller den som blir inbjuden/motspelare.
-
-__Ska vi nämna något om aktörer här? Dator/AI, dataansvarig, administratör..__
-
 ## Problem som ska lösas
 Kunden vill kunna spela Gomoku själv mot datorn eller mot en vän genom att skicka en länk. Spelet ska gå att spela på datorn eller i telefonen. Ingen nedladdning, inget konto eller inloggning ska krävas för att kunna spela spelet.  
 
@@ -24,5 +18,6 @@ Kunden vill kunna spela Gomoku själv mot datorn eller mot en vän genom att ski
 | Motståndare | Sekundär aktör | Personen som till exempel en vän som spelar mot spelaren. |
 | Systemet | System aktör | Hanterar spelets funktioner, informationer som regler, status, resultat osv. |
 | Admin (System) | System aktör | Administratör som hanterar användare och systemet. |
+| Dataansvarig | System aktör | |
 
 
