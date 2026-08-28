@@ -38,7 +38,7 @@ En spelare placerar en bricka.
 
 **Undantagsflöde:**
 
-* I steg 2 konstaterar systemet att ingen har fått 5 i riad, men alla rutor på brädet är fyllda.
+* I steg 2 konstaterar systemet att ingen har fått 5 i rad, men alla rutor på brädet är fyllda.
 * 
 
 
