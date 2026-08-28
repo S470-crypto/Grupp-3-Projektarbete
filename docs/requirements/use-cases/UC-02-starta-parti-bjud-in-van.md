@@ -2,7 +2,9 @@
 
 ## Meta:
 **Use case:** Starta parti bjud in vän
+
 **Use case ID:** UC-02
+
 **Primära aktörer:** Spelare och motståndare (inbjuden/vän)
 
 ## Förvillkor:
