@@ -4,7 +4,7 @@
 | ----------- | ----------- | 
 |    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
 |    NFR-01.2 |Sparad speldata vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
-|    NFR-01.3 |Inbjudningslänken ska vara giltig i 5 minuter| 
+|    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
 
@@ -15,9 +15,9 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-01.1 | Det ska vara tydligt vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
-|    NFR-01.2 || 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
+|    NFR-01.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
+|    NFR-01.3 |Enkla icke tekniska felmeddelanden.| 
+|    NFR-01.4 |Webbsidan ska fungera på mobil och dator. | 
 |    NFR-01.5 |         | 
 
 
@@ -26,8 +26,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 |Spelet ska vara responsivt utan lag.  | 
+|    NFR-01.2 |Tolerans för prestanda och svarstid < 0.33s |
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
@@ -36,8 +36,8 @@
 ## **NFR4.3: Skalbarhet**
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
+|    NFR-01.2 |Systemet ska kunna hantera plötsliga belastningstoppar.| 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
@@ -47,7 +47,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
+|    NFR-01.1 |Systemet ska automatiskt återansluta en spelare vid kortare avbrott utan att partiet abryts. | 
 |    NFR-01.2 || 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
@@ -58,8 +58,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Länken inaktiveras efter 5 minuter. | 
+|    NFR-01.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
@@ -69,8 +69,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 | Kritiska scenarier som paus, återanslutning och timeout ska kunna testas automatiserat. | 
+|    NFR-01.2 |Loggning ska finnas för att i efterhand kunna spåra och felsöka avvikande spelförlopp.| 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
@@ -79,8 +79,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 |Partier som inte återupptagits inom 5 minuter ska rensas automatiskt.  | 
+|    NFR-01.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.| 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
