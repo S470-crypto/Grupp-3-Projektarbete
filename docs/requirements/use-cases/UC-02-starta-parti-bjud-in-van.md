@@ -7,6 +7,8 @@
 
 **Primära aktörer:** Spelare och motståndare (inbjuden/vän)
 
+**Syfte:** Spelaren vill skapa ett nytt Gomoku-parti för att spela mot motståndare (vän).
+
 ## Förvillkor:
 - Att spelaren är inne på spelets hemsida. 
 
