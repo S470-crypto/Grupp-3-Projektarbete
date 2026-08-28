@@ -1,4 +1,4 @@
-**Use Case: UC-07-Pause och återuppta parti
+**Use Case: UC-07-Pause och återuppta parti**
 
 
 **Use Case ID:** UC-07
