@@ -32,5 +32,5 @@
 - Partiet är inte längre aktivt och har lämnat väntandeläge.
 - Spelare har fått meddelande. 
 
-## Testar avslutning:
+## Testbar avslutning:
 Spelare väntar på att inbjuden motståndare ska ansluta. När 5 minuter passerat (efter tidsgräns) då avbryts "vänta på spelare" automatiskt och meddelande visas där det framgår att motståndare inte anslutit.
