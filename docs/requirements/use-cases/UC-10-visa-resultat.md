@@ -13,7 +13,7 @@
 - Parti har precis spelats och avgjorts mellan spelare (spelare och motståndare) eller mot dator/AI och kommit fram till ett resultat (någon har fått 5 i rad eller så är brädet fullt och det blev oavgjort).
 
 ## Trigger:
-- Kontroll görs i systemet om drag resulterat i vinst, förlust eller oavgjort se use case UC-06 spela drag. 
+- Kontroll görs i systemet om drag resulterat i vinst, förlust eller oavgjort. 
 
 ## Huvudflöde:
 1. Systemet känner av att kontrollen resulterat i ett slutresultat och avbryter det aktiva spelflödet. 
