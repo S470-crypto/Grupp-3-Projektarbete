@@ -2,8 +2,11 @@
 
 ## Meta:
 **Use case:** Visa resultat
+
 **Use case ID:** UC-10
+
 **Primär aktör:** Spelare och motståndare
+
 **Sekundär aktör:** Dator/AI
 
 ## Förvillkor:
