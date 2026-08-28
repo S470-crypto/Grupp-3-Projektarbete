@@ -14,10 +14,9 @@ Kunden vill kunna spela Gomoku själv mot datorn eller mot en vän genom att ski
 | Aktör | Typ | Beskrivning |
 |-------|------|-------------|
 | Spelare | Primär aktör | Personen som använder systemet för att spela. Hen kan starta, spela och avsluta Gomoku. |
-| Dator (AI) | System aktör | Spelar mot användaren som gör automatiska drag baserat på spelets regler. |
-| Motståndare | Sekundär aktör | Personen som till exempel en vän som spelar mot spelaren. |
-| Systemet | System aktör | Hanterar spelets funktioner, informationer som regler, status, resultat osv. |
-| Admin (System) | System aktör | Administratör som hanterar användare och systemet. |
-| Dataansvarig | System aktör | |
+| Dator (AI) | Sekundär system aktör | Spelar mot användaren som gör automatiska drag baserat på spelets regler. |
+| Motståndare | Primär aktör | Personen som till exempel en vän som spelar mot spelaren. |
+| Admin (System) | Primär/sekundär aktör | Administratör som hanterar användare och systemet. |
+| Dataansvarig | Primär/sekundär aktör | Säkerställer att GDPR följs, ansvarar för radering och eventuella personuppgiftsincidenter. |
 
 
