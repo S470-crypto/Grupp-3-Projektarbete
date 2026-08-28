@@ -30,4 +30,4 @@
 - Systemet i väntande läge på Spela drag.
 
 ## Testbar avslutning:
-- Ett nytt parti av Gomoku har skapats mellan två spelare och väntar på nästa drag.
+Ett nytt parti av Gomoku har skapats mellan två spelare och väntar på nästa drag.
