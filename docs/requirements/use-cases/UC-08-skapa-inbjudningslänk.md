@@ -3,8 +3,14 @@
 **Meta:**
 
 **Use Case ID:** UC-08
+
+
 **Namn:** Skapa inbjudningslänk
+
+
 **Primär aktör:** Spelaren
+
+
 **Syfte:** Att skapa en inbjudningslänk för att spela mot vänner.
 
 
