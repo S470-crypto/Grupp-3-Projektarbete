@@ -15,7 +15,7 @@
 - Motståndaren har inte klickat på länken/anslutit till partiet.
 - Partiet är i ett väntande läge/väntar på motståndare att ansluta.
 
-## Triggar:
+## Trigger:
 - Det finns en tidsgräns i systemet som passerats utan att motståndare anslutit till partiet via den delade länken. 
 
 ## Huvudflöden:
