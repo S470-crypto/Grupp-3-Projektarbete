@@ -17,7 +17,7 @@
 |    NFR-01.1 | Det ska vara tydligt vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
 |    NFR-01.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
 |    NFR-01.3 |Enkla icke tekniska felmeddelanden.| 
-|    NFR-01.4 |Webbsidan ska fungera på mobil och dator. | 
+|    NFR-01.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). | 
 |    NFR-01.5 |         | 
 
 
