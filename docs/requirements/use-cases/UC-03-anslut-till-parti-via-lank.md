@@ -3,8 +3,12 @@
 ## Meta:
 
 **Use case:** Anslut till parti via länk
+
 **Use case ID:** UC-03
+
 **Primär aktör:** Motståndare
+
+**Syfte:** Motståndare ska kunna ansluta till parti via delad länk
 
 ## Förvillkor:
 - Spelare har bjudit in till ett nytt parti genom att starta nytt parti och skicka delad länk.
