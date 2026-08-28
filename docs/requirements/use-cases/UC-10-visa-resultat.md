@@ -29,5 +29,5 @@
 - Resultatet visas tydligt för deltagande spelare.
 - Det går inte att göra flera drag i partiet. 
 
-## Testbart avslutning:
+## Testbar avslutning:
 När ett parti har avgjorts ska slutresultatet visas tydligt på webbsidan (vinst, förlust eller oavgjort) för de deltagande spelarna. När resultatet visas ska det även vara möjligt att välja att spela igen mot samma spelare eller att avsluta.
