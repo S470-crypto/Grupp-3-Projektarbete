@@ -3,8 +3,11 @@
 ## Meta:
 
 **Use case:** Spela igen mot samma motståndare
+
 **Use case ID:** UC-04
+
 **Primär aktör:** Spelare och motståndare
+
 **Syfte:** Kunna spela igen direkt efter ett parti mot samma motståndare utan att behöva börja om och skicka ny inbjudan/länk
 
 ## Förvillkor:
