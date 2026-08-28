@@ -38,7 +38,7 @@
 | ----------- | ----------- | 
 |    NFR-01.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
 |    NFR-01.2 |Systemet ska kunna hantera plötsliga belastningstoppar.| 
-|    NFR-01.3 || 
+|    NFR-01.3 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
 
@@ -90,8 +90,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |  | 
-|    NFR-01.2 || 
+|    NFR-01.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk på begäran  | 
+|    NFR-01.2 |Systemet ska ha en rutin för att upptäcka och rapportera personuppgiftsincidenter| 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
