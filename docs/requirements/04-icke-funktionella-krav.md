@@ -19,3 +19,80 @@
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
 |    NFR-01.5 |         | 
+
+
+
+## **NFR-4.2: Prestanda**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+
+## **NFR4.3: Skalbarhet**
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+
+## **NFR4.4: Drift** 
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+
+## **NFR4.5: Säkerhet**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+
+## **NFR4.6: Testbarhet**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+## **NFR4.7: Livscykelhantering**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
+
+## **NFR4.8: Regulatoriska krav**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-01.1 |  | 
+|    NFR-01.2 || 
+|    NFR-01.3 || 
+|    NFR-01.4 | | 
+|    NFR-01.5 |         | 
+
