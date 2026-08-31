@@ -26,8 +26,8 @@
 
 ## Alternativa flöden:
 **A1:**
-- Ingen ansluter inom tidsgränsen
-- Tidsgräns på 5 min, sedan blir länken inaktiv, se use case "Avbryt i väntan på timeout"
+- Ingen ansluter inom tidsgränsen på 5 minuter
+- Efter att 5 minuter har passerat blir länken inaktiv, se UC-05 "Avbryt väntan vid timeout"
 
 ## Eftervillkor:
 - Parti skapats med unikt länk-ID.
