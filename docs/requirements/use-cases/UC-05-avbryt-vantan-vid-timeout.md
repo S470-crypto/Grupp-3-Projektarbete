@@ -8,7 +8,7 @@
 
 **Primär aktör:** Spelare
 
-**Syfte:** Delad länk ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras. Spelare ska inte behöva vänta orimligt länge på att motståndare ska ansluta till partiet, när tidsgräns passerats kan spelaren välja att starta nytt parti eller avsluta. 
+**Syfte:** Delad länk ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras. Spelare kan vänta en rimlig tid på att motståndare ska ansluta till partiet, när tidsgräns passerats kan spelaren välja att starta nytt parti eller avsluta. 
 
 ## Förvillkor:
 - Spelaren har startat ett parti och delat en länk med motståndare.
