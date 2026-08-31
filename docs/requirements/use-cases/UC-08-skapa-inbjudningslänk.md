@@ -5,7 +5,7 @@
 **Namn: Välja svårighetsgrad**
 
 
-**Use Case ID: UC-03**
+**Use Case ID: UC-08**
 
 
 **Primär aktör: Spelare**
