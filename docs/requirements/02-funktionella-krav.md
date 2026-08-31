@@ -25,7 +25,7 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    FR-02.1 |     Det ska gå att logga in med en rollbaserad behörighet som administratör och dataansvarig i en panel som är skild från spelarnas vy. | 
-|    FR-02.2 |     Administratören ska kunna åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. | 
+|    FR-02.2 |     Administratören ska kunna skapa konton med rollbaserad behörighet, åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. | 
 |    FR-02.3 |     Systemet ska fråga om cookie samtycke via banner med tydlig information vid första kontakt med webbsidan, innan icke nödvändiga cookies sätts. | 
 |    FR-02.4 |     Det ska vara gå att samtycka eller neka till cookies och samtycke ska gå att återkalla.   | 
 |    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data.  | 
