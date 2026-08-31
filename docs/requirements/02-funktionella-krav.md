@@ -30,7 +30,7 @@
 |    FR-02.4 |     Det ska vara gå att samtycka eller neka till cookies och samtycke ska gå att återkalla.   | 
 |    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data.  | 
 |    FR-02.6 |     Partidata ska raderas automatiskt inom en period om .. dagar  | 
-|    FR-02.7 |     Vid eventuell personuppgiftsincident ska tillsynsmyndigheten kontaktas och spelare informeras via spelsidan (eftersom kontaktuppgifter saknas). | 
+|    FR-02.7 |     Vid eventuell personuppgiftsincident ska dataansvarig kontakta tillsynsmyndigheten och spelare informeras via spelsidan (eftersom kontaktuppgifter saknas). | 
 
 
 
