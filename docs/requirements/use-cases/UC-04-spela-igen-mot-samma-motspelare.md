@@ -27,7 +27,7 @@
 ## Alternativa flöden:
 
 **A1:**
--  Motståndaren har lämnat sidan vilket innebär att spelaren inte kan starta nytt parti mot den motståndaren. 
+-  Motståndaren har lämnat sidan vilket innebär att spelaren inte kan starta nytt parti mot samma motståndare, behöver i så fall skicka ny inbjudan via delad länk. 
 
 ## Eftervillkor:
 - Ett nytt parti har skapats mellan de två spelarna. 
