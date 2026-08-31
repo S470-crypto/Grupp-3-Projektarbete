@@ -1,25 +1,26 @@
-**Use Case: UC-07-Pause och återuppta parti**
+# **Use Case: UC-07-Pause och återuppta parti**
+
+**Namn:** Pausa och återuppta parti
 
 
 **Use Case ID:** UC-07
 
-**Namn:** Pausa och återuppta parti
 
 **Primär aktör:** Spelaren
 
 **Syfte:** Spelarne vill tillfälligt kunna pausa ett pågående Gomoku parti för att sedan kunna återuppta den vid ett senare tillfälle efter x antal minuter som längst.
 
-**Förvillkor:** 
+## **Förvillkor:** 
 * Spelaren har ett aktivt pågpende Gomoku parti.
 * Webbsidan är öppen i en webbläsare.
 
 
-**Trigger:** 
+## **Trigger:** 
 * Spelaren klickar på knappen som pausar spelet under en pågående match.
 
 
 
-**Huvudflöde:**
+## **Huvudflöde:**
 
 1. Spelaren klickar på knappen för att pausa spelet.
 2. Systemet fryser sessionen och förhindrar yttligare drag.
@@ -30,10 +31,17 @@
 7. Partiet är nu redo att fortsätta spelas.
 
 
-**Undantagsflöde:** 
+## **Alternativaflöden:** 
 * Internetanslutningen avbryts medans spelaren är pausad.
 * Spelaren stänger ner fliken under pausen.
 * Motståndaren lämnar spelet under pausade tillståndet.
+
+## **Eftervillkor:**
+* Partiet är återupptaget och har status pågående.
+* Spelbrädet är återställt till samma status som när spelet pausades.
+* Alla tidigare placerade pjäser finns kvar på sina ursprungliga positioner.
+* Det är samma spelares tur som innan partiet pausades.
+
 
 
 **Testbar avslutning:**
