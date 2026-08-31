@@ -1,4 +1,4 @@
- # Use Case: UC-01 - Starta nytt parti
+ # Use Case: UC-01 - Starta nytt parti mot dator (AI)
 
  **Meta**
 
