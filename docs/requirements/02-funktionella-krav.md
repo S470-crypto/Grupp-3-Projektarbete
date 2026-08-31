@@ -14,7 +14,7 @@
 |    FR-01.8 |     Systemet ska känna av att en bricka placerats på en giltig spelruta alternera turen mellan spelarna. | 
 |    FR-01.9 |     Systemet ska tillåta att en motståndare ansluter till ett startat parti via delad länk. | 
 |    FR-01.10 |    Systemet ska identifiera när spelare har fem brickor i rad på spelbrädan. | 
-|    FR-01.11 |    Systemet ska avbryta väntan på anslutning när det har gått 5 minuter om ingen ansluter till partiet.  | 
+|    FR-01.11 |    Systemet ska avbryta väntan på anslutning när det har gått mer än 5 minuter om ingen ansluter till partiet.  | 
 |    FR-01.12 |    Systemet ska endast tillåta att två spelare ansluter till ett parti, om en tredje spelare försöker ansluta ska det misslyckas.| 
 |    FR-01.13 |    Om spelare gett samtycke till nödvändiga cookies ska ett pågående parti ska kunna pausas och återupptas. | 
 |    FR-01.14 |    Systemet ska visa tydliga icke tekniska meddelanden vid fel som uppstått i systemet. | 
