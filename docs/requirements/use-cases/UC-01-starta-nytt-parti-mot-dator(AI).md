@@ -1,6 +1,6 @@
  # Use Case: UC-01 - Starta nytt parti mot dator (AI)
 
- ##**Meta**
+ ## **Meta**
 
  
 **Namn:** Starta nytt parti mot dator (AI)
@@ -15,7 +15,7 @@
 
 
 
- ##**Förvillkor:**
+ ## **Förvillkor:**
 
  * Spelaren har webbsidan öppen i en webbläsare (dator eller mobil)
  * Inget konto krävs
@@ -24,7 +24,7 @@
 ## **Trigger**
 Spelaren bestämmer sig för att starta ny parti.
 
- ##**Huvudflöde:**
+ ## **Huvudflöde:**
 
   1. Spelaren navigerar till startsidan.
   2. Spelaren väljer dator (AI) som motståndare.
@@ -36,7 +36,7 @@ Spelaren bestämmer sig för att starta ny parti.
 
 
 
-  **Alternativaflöden:**
+ ## **Alternativaflöden:**
 
   * Spelaren har ingen internetanslutning
   * Vännen ansluter inte 
@@ -48,7 +48,7 @@ Spelaren bestämmer sig för att starta ny parti.
 * Spelbrädet är tomt och korrekt initialiserat.
 * Partiets status är pågående.
 
-  **Testbar avslutning**
+ ## **Testbar avslutning**
 
   Ett nytt tomt Gokomu-parti har skapats och är redo att spelas. 
 
