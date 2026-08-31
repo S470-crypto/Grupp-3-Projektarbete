@@ -1,43 +1,42 @@
-**Use Case: UC-08-Skapa inbjudningslänk**
+## **UC-03 – Välja svårighetsgrad**
 
-**Meta:**
+## **Meta:**
 
-**Use Case ID:** UC-08
-
-
-**Namn:** Skapa inbjudningslänk
+**Namn: Välja svårighetsgrad**
 
 
-**Primär aktör:** Spelaren
+**Use Case ID: UC-03**
 
 
-**Syfte:** Att skapa en inbjudningslänk för att spela mot vänner.
+**Primär aktör: Spelare**
 
+**Syfte:**
+Spelaren vill kunna välja hur utmanande AI-motståndaren ska vara innan ett parti startas.
 
-**Förvillkor:**
-* Spelaren är ansluten till wifi.
-* Gomoku hemsidan är öppen i en webbläsare.
+## **Förvillkor:**
+* Spelaren befinner sig på startsidan eller menyn för att starta ett nytt parti.
+* Spelaren har valt AI som motståndare.
+* Inget parti har startats ännu.
+* Trigger
+* Spelaren väljer alternativet för svårighetsgrad.
 
+## **Huvudflöde:**
+* Systemet visar tillgängliga svårighetsgrader.
+* Spelaren väljer en svårighetsgrad, exempelvis Lätt, Medel eller Svår.
+* Systemet registrerar spelarens val.
+* Systemet visar vilken svårighetsgrad som har valts.
+* Spelaren startar ett nytt parti.
+* Systemet använder den valda svårighetsgraden för AI:ns spelstrategi.
 
-**Trigger:** Spelaren klickar på bjud im en vän.
+## **Alternativaflöden:**
 
+* Spelaren ändrar val: Spelaren väljer en annan svårighetsgrad innan partiet startas. Systemet uppdaterar valet.
 
+  
+  ## **Eftervillkor:**
+* En svårighetsgrad är vald och registrerad.
+* Den valda svårighetsgraden används av AI:n när partiet startas.
 
-**Huvudflöde:**
-1. Spelaren navigerar till inbjdningssektionen på hemsidan.
-2. Spelaren skapar en inbjudningslänk.
-3. Spelaren delar länken med önskad motståndare.
-4. Motståndaren lyckas gå med via länken och ett parti startas.
-
-
-**Undantagsflöde:**
-* Giltighetstid för länken går ut.
-* Länken skickas inte vidare till vald person.
-* Internet uppkoppling bryts medans länk skapas.
-
-
-**Testbar avslutning:**
-
-Länken skapades och inbjudan till vald person lyckades, parti har startats. 
-
-
+  
+## **Testbar avslutning:**
+Spelaren har valt en svårighetsgrad och när partiet startas använder AI:n den valda svårighetsgraden.
