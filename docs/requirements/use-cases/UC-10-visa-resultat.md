@@ -1,33 +1,41 @@
-# Use Case ID: UC-10 Visa resultat
+# Use Case ID: UC-10 Skapa konto som admin
 
 ## Meta:
-**Use case:** Visa resultat
+**Use case:** Skapa konto som admin
 
 **Use case ID:** UC-10
 
-**Primär aktör:** Spelare och motståndare
-
-**Sekundär aktör:** Dator/AI
+**Primär aktör:** Administratör
 
 ## Förvillkor:
-- Parti har precis spelats och avgjorts mellan spelare (spelare och motståndare) eller mot dator/AI och kommit fram till ett resultat (någon har fått 5 i rad eller så är brädet fullt och det blev oavgjort).
+- Administratören har ett konto med behörighet att lägga upp nya konton och tilldela behörighetsroller i systemet i en panel som är skild från spelarnas kontofria spelflöde.
+- Administratören är inloggad på sitt konto.
 
 ## Trigger:
-- Kontroll görs i systemet om drag resulterat i vinst, förlust eller oavgjort. 
+- En ny person t.ex. dataansvarig behöver ett eget konto med en rollbaserad behörighet för att kunna logga in i systemet och överse samt hantera sina ansvarsområden. Administratören initierar processen med att skapa nytt konto. 
 
 ## Huvudflöde:
-1. Systemet känner av att kontrollen resulterat i ett slutresultat och avbryter det aktiva spelflödet. 
-2. Systemet visar resultatet (vinst för en spelare, förlust för den andra spelaren eller oavgjort för båda) för spelare som deltagit i partiet. 
-3. Systemet visar möjlighet att spela igen eller avsluta. 
+1. Administratören går in på funktionen för att skapa nytt konto.
+2. Administratören anger uppgifter som efterfrågas (namn, epost, roll: Dataansvarig)
+3. Systemet skickar en inbjudningslänk till den angivna epostadressen för att verifiera att uppgifterna stämmer, godkänna ansvar som kommer med behörigheten samt att informationen lagras.
+4. Nytt lösenord skapas via länken.
+5. Systemet aktiverar kontot när nytt lösenord har skapats.
 
 ## Alternativt flöde:
 
-**A1:** ??
+**A1:** Inbjudningslänken aktiveras inte
+1. Kontot blir inte aktiverat via länken inom en rimlig tid (1 timme). 
+2. Kontot förblir inaktivt, administratör kan trigga systemet att skicka ut en ny länk med inbjudan eller radera kontot.
+
+**A2:** Angiven epostadress finns redan registrerad
+1. Systemet upptäcker att epostadressen redan finns registrerad.
+2. Systemet visar ett felmeddelande med en varning för administratören.
+3. Administratören får kontrollera uppgifterna och åtgärda problemet. 
 
 ## Eftervillkor:
-- Partiet är markerat som avslutat
-- Resultatet visas tydligt för deltagande spelare.
-- Det går inte att göra flera drag i partiet. 
+- Ett konto har skapats med rätt behörighet. 
+- Kontot har aktiverats.
+- Användaren har godkänt att informationen lagras.
 
 ## Testbar avslutning:
-När ett parti har avgjorts ska slutresultatet visas tydligt på webbsidan (vinst, förlust eller oavgjort) för de deltagande spelarna. När resultatet visas ska det även vara möjligt att välja att spela igen mot samma spelare eller att avsluta.
+Administratör med behörighet att registrera nya konton har skapat ett nytt konto och tilldelat rätt behörighetsroll till ny användare, länk med inbjudan skickas till det nya kontots angivna epost. När länken aktiverats och nytt lösenord skapats kan användare logga in på kontot.
