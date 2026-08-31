@@ -25,11 +25,12 @@
 4. Systemet visar att båda spelarna är anslutna och visar vems tur det är att börja göra ett drag. 
 
 ## Alternativa flöden:
-**A1:**
-- Länken är ogiltig/har passerat tidsgränsen.
+**A1:** Länken är ogiltig
+1. Tidsgränsen på 5 minuter har passerat utan att motståndaren har anslutit till partiet, länken är inaktiv/ogiltig.
+2. Systemet avbryter tillståndet "väntar på spelare" enligt UC-05.
 
 ## Eftervillkor:
 - Båda spelarna (spelare och motståndare) är anslutna till partiet och kan fortsätta spelet.
 
 ## Testbar avslutning:
-Det finns en oanvänd giltig länk som spelaren kan klicka på för att ansluta till ett nytt parti. Status ändras från väntar på spelare till redo för drag, systemet visar att båda spelare är redo för spel.  
+Det finns en oanvänd giltig länk som spelaren kan klicka på för att ansluta till ett nytt parti. Tillstånd ändras från väntar på spelare till redo för drag, systemet visar att båda spelare är redo för spel.  
