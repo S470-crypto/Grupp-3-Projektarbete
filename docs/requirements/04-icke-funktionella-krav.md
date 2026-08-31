@@ -79,7 +79,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Partier som inte återupptagits inom 5 minuter ska rensas automatiskt.  | 
+|    NFR-01.1 |Partier som inte återupptagits inom 5 minuter efter krasch/avstängning ska rensas automatiskt.  | 
 |    NFR-01.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.| 
 |    NFR-01.3 || 
 |    NFR-01.4 | | 
