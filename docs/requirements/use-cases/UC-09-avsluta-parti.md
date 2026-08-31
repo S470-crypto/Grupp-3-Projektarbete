@@ -1,7 +1,7 @@
-**Use Case:** UC-09-Avsluta parti
+# **Use Case:** UC-09-Avsluta parti
 
 
-**Meta:** 
+## **Meta:** 
 **Use Case ID:** UC-09
 
 
@@ -14,19 +14,19 @@
 **Syfte:** Systemet identifierar automatiskt när ett parti är slut och avgör vinnare, systemet utgår itfrån vinst eller oavgjort (full bräda)
 
 
-**Förvillkor:**
+## **Förvillkor:**
 * Ett aktvit Gomoku parti pågår.
 * En spelare har just placerat en giltig bricka på brädet.
 
 
 
 
-**Trigger:**
+## **Trigger:**
 En spelare placerar en bricka.
 
 
 
-**Huvudflöde:**
+## **Huvudflöde:**
 1. Spelaren placerar en bricka på brädet.
 2. Systemet kontrollerar brädet för att se om 5 i riad har uppnåtts (horisontellt, diagonalt eller ertikalt)
 3. Systemet identifierar att en spelare har fått 5 i rad.
@@ -36,14 +36,20 @@ En spelare placerar en bricka.
 
 
 
-**Undantagsflöde:**
+## **Alternativaflöden:**
 
-* I steg 2 konstaterar systemet att ingen har fått 5 i rad, men alla rutor på brädet är fyllda.
+* Systemet konstaterar att ingen spelare har fått 5 i rad och att alla rutor är fyllda. Systemet markerar partiet som oavgjort, låser brädet och visar en slutskärm med resultatet.
+
+
+
+## **Eftervillkor:**
+* Partiets status är satt till avslutat vid vinst eller oavgjort.
+* Vid vinst är vinnaren identifierad och resultatet visas för spelarna.
 * 
 
 
 
-**Testbar avslutning:**
+## **Testbar avslutning:**
 
 * Partiet är avslutat, brädet är låst och vinnare presenteras om inte avslutningen skedde via oavgjort resultat (fullt spelbräde.)
 
