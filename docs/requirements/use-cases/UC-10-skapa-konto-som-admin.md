@@ -7,6 +7,8 @@
 
 **Primär aktör:** Administratör
 
+**Syfte:** Ett personligt konto ska gå att skapa till en ny person med rätt behörighetsroll (Dataansvarig eller Administratör).
+
 ## Förvillkor:
 - Administratören har ett konto med behörighet att lägga upp nya konton och tilldela behörighetsroller i systemet i en panel som är skild från spelarnas kontofria spelflöde.
 - Administratören är inloggad på sitt konto.
