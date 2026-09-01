@@ -2,7 +2,6 @@
 
 ## Term och definition
 
-```markdown
 | Ord | Beskrivning |
 | --- | --- |
 | Dator (AI) | Motståndare vid enspelarläge. |
