@@ -1,4 +1,4 @@
-## **NFR-4: Datalagring**
+## **NFR-4.1: Datalagring**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -10,91 +10,93 @@
 
 
 
-## **NFR-4.1: Användbarhet**
+## **NFR-4.2: Användbarhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 | Det ska vara tydligt vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
-|    NFR-01.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
-|    NFR-01.3 |Enkla icke tekniska felmeddelanden.| 
-|    NFR-01.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). | 
-|    NFR-01.5 |         | 
+|    NFR-02.1 | Det ska vara tydligt vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
+|    NFR-02.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
+|    NFR-02.3 |Enkla icke tekniska felmeddelanden.| 
+|    NFR-02.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). | 
+|    NFR-02.5 |         | 
 
 
 
-## **NFR-4.2: Prestanda**
-
-| ID      | Beskrivning | 
-| ----------- | ----------- | 
-|    NFR-01.1 |Spelet ska vara responsivt utan lag.  | 
-|    NFR-01.2 |Tolerans för prestanda och svarstid < 0.33s |
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
-
-
-## **NFR4.3: Skalbarhet**
-| ID      | Beskrivning | 
-| ----------- | ----------- | 
-|    NFR-01.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
-|    NFR-01.2 |Systemet ska kunna hantera plötsliga belastningstoppar.| 
-|    NFR-01.3 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
-
-
-## **NFR4.4: Drift** 
+## **NFR-4.3: Prestanda**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Systemet ska automatiskt återansluta en spelare vid kortare avbrott utan att partiet abryts. | 
-|    NFR-01.2 || 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
+|    NFR-03.1 |Spelet ska vara responsivt utan lag.  | 
+|    NFR-03.2 |Tolerans för prestanda och svarstid < 0.33s |
+|    NFR-03.3 || 
+|    NFR-03.4 | | 
+|    NFR-03.5 |         | 
 
 
-## **NFR4.5: Säkerhet**
+## **NFR-4.4: Skalbarhet**
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
+|    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.| 
+|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
+|    NFR-04.4 | | 
+|    NFR-04.5 |         | 
+
+
+## **NFR-4.5: Drift** 
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Länken inaktiveras efter 5 minuter. | 
-|    NFR-01.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
+|    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid kortare avbrott utan att partiet abryts. | 
+|    NFR-05.2 || 
+|    NFR-05.3 || 
+|    NFR-05.4 | | 
+|    NFR-05.5 |         | 
 
 
-## **NFR4.6: Testbarhet**
-
-| ID      | Beskrivning | 
-| ----------- | ----------- | 
-|    NFR-01.1 | Kritiska scenarier som paus, återanslutning och timeout ska kunna testas automatiserat. | 
-|    NFR-01.2 |Loggning ska finnas för att i efterhand kunna spåra och felsöka avvikande spelförlopp.| 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
-
-## **NFR4.7: Livscykelhantering**
+## **NFR-4.6: Säkerhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Partier som inte återupptagits inom 5 minuter efter krasch/avstängning ska rensas automatiskt.  | 
-|    NFR-01.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.| 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
+|    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Länken inaktiveras efter 5 minuter. | 
+|    NFR-06.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
+|    NFR-06.3 || 
+|    NFR-06.4 | | 
+|    NFR-06.5 |         | 
 
 
-## **NFR4.8: Regulatoriska krav(GDPR)**
+## **NFR-4.7: Testbarhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk på begäran  | 
-|    NFR-01.2 |Systemet ska ha en rutin för att upptäcka och rapportera personuppgiftsincidenter| 
-|    NFR-01.3 || 
-|    NFR-01.4 | | 
-|    NFR-01.5 |         | 
+|    NFR-07.1 | Kritiska scenarier som paus, återanslutning och timeout ska kunna testas automatiserat. | 
+|    NFR-07.2 |Loggning ska finnas för att i efterhand kunna spåra och felsöka avvikande spelförlopp.| 
+|    NFR-07.3 || 
+|    NFR-07.4 | | 
+|    NFR-07.5 |         | 
+
+## **NFR-4.8: Livscykelhantering**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-08.1 |Partier som inte återupptagits inom 5 minuter efter krasch/avstängning ska rensas automatiskt.  | 
+|    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.| 
+|    NFR-08.3 || 
+|    NFR-08.4 | | 
+|    NFR-08.5 |         | 
+
+
+## **NFR-4.9: Regulatoriska krav(GDPR)**
+
+| ID      | Beskrivning | 
+| ----------- | ----------- | 
+|    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran.  | 
+|    NFR-09.2 |Systemet ska ha en rutin för att upptäcka och rapportera personuppgiftsincidenter.| 
+|    NFR-09.3 | Systemet minimerar insamlad persondata till att endast bestå av vad som är nödvändigt för att kunna använda spelet.| 
+|    NFR-09.4 | Spelaren kan begära att få information om den data som behandlas, lagringstid och med vilket ändamål.| 
+|    NFR-09.5 | Samtycke till cookies ska inhämtas innan nödvändiga cookies sätts, det ska vara enkelt att ge samtycke och att återkalla det.| 
+|    NFR-09.6 | Systemet använder lämpliga säkerhetsåtgärder fr lagrad data (åtkomstkontroll, kryptering, pseudonymisering och backup)| 
+|    NFR-09.7 | Personer med rollbaserad behörighet har åtkomst till systemet (administratör och dataansvarig) handlingar är spårbara och loggas. | 
 
 
  
