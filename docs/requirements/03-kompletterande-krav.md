@@ -1,26 +1,26 @@
 # 3. Kompletterande krav
 
-# Tillgänglighet och användarvillkor
+# Tillgänglighet, användarvillkor och information
 
 | ID | Beskrivning|
 |----|-------------|
-|KK-01|  Inbjudan till att delta i ett parti skickas till motspelare med kopierad länk |
-|KK-02|  Möjlighet att se resultat efter avslutat parti och spela igen mot samma spelare utan att behöva skicka ny länk. |
-|KK-03|  Systemet ska inte kräva prenumeration för att användas. |
-|KK-04|  Systemet kräva inte att skapa konto eller lösenord från användaren för att spela. |
-|KK-05|  Inbjudan ska delas via kanaler som användaren redan använder till exempel Sms, WhatsApp. | 
-|KK-O6|  Endast de två spelarna ska kunna se och delta i ett pågående parti. |
-|KK-07|  Felmeddelande ska vara formulerade i enkelt sätt. |
-|KK-08|  Ett pågående parti ska kunna försätta efter ett tillfälligt avbrott när spel informationen finns kvar. |
-|KK-09|  Systemet ska finnas en kort instruktion (FAQ) för hur man startar och bjuder in till ett parti. |
+|KK-01|  Användaren ska kunna förstå spelets grundläggande regler utan tidigare kunskap om Gomoku. |
+|KK-02|  Systemet ska visa eller ge en kort instruktion (FAQ) som förklarar hur man spelar och startar ett spel. |
+|KK-03|  Systemet ska informera användaren är borta eller för länge eller om spelet avbryts. |
+|KK-04|  Systemet ska informera användaren om att inbjudningslänken bara ska delas med den person som ska spela. |
+|KK-05|  =Inbjudan ska delas via kanaler som användaren redan använder till exempel Sms, WhatsApp. | 
+|KK-O6|  Systemet ska tydligt informera användaren när ett parti inte längre är tillgängligt. |
+|KK-07|  Spelets regler och villkor ska finnas tillgängliga innan användaren börjar spela. |
+|KK-08|  Användaren ska kunna spela utan att installera extra program. |
+|KK-09| Användaren ska kunna sluta spela utan att skapa ett konto eller logga ut.  |
 |KK-10|  Systemet ska finnas en kontakt information för att användare kan rapportera fel eller problem om spelet. |
+|KK-11| Spelet ska vara gratis och inte kräva en prenumeration eller betalning. |
+|KK-12| Ett parti ska följa Gomokus definierade spelregler, där en spelare vinner genom att placera fem brickor. |
+|KK-13| Ett parti ska ha tydlig början och ett tydligt slut. |
 
-# Integritet och GDPR
+# Integritet och information
 
 | ID | Beskrivning|
 |----|-------------|
-|KK-11| Systemet ska följa gällande regler om cookies inklusive krav på samtycke för icke-nödvändiga cookies. |
-|KK-12| Systemet ska informera användaren om  vilken data som samlas in och varför. |
-|KK-13| Systemet ska bara samla in och spara den data som behövs för att spelet ska fungera. |
-|KK-14| Systemet ska ange hur länge sparad speldata lagras och radera den automatiskt efter. |
-|KK-15| Användaren ska kunna begära att få se eller radera sina personuppgifter. |
+|KK-14| Systemet ska ge tydlig information om hur spelet behandlar användar- och speldata |
+|KK-12| Information om cookies och integritet ska vara lätt att hitta när användaren använder webbplatsen.
