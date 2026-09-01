@@ -25,13 +25,15 @@
 7. Systemet väntar på att spelare ska göra ett drag, use case Spela drag tar vid. 
 
 ## Alternativa flöden:
-**A1:**
-- Ingen ansluter inom tidsgränsen på 5 minuter
-- Efter att 5 minuter har passerat blir länken inaktiv, se UC-05 "Avbryt väntan vid timeout"
+**A1:** Länken blir inaktiv
+1. Motståndaren ansluter inte inom tidsgränsen (5 minuter)
+2. Systemet avbryter väntande tillstånd
+3. Länken är inaktiv och det går inte att ansluta till partiet, se UC-05 "Avbryt väntan vid timeout"
 
 ## Eftervillkor:
 - Parti skapats med unikt länk-ID.
-- Systemet i väntande läge på Spela drag.
+- Båda spelarna är anslutna till partiet.
+- Systemet visar vems tur det är att göra ett drag.
 
 ## Testbar avslutning:
 Ett nytt parti av Gomoku har skapats mellan två spelare och väntar på nästa drag.
