@@ -1,10 +1,10 @@
-# Use Case: UC-11 - Hindra andra för att ansluta
+# Use Case: UC-11 - Förhindra öbehöriga från att ansluta
 
 
 **Meta**
 
 
-**Use Case:** Hindra andra från ansluta
+**Use Case:** Förhindra öbehöriga från att ansluta
 
 **Use case ID:** UC-11
 
