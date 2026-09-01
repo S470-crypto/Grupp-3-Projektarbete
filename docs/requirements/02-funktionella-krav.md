@@ -18,6 +18,8 @@
 |    FR-01.12 |    Systemet ska endast tillåta att två spelare ansluter till ett parti, om en tredje spelare försöker ansluta ska det misslyckas.| 
 |    FR-01.13 |    Om spelare gett samtycke till nödvändiga cookies ska ett pågående parti ska kunna pausas och återupptas. | 
 |    FR-01.14 |    Systemet ska visa tydliga icke tekniska meddelanden vid fel som uppstått i systemet. | 
+|    FR-01.15 |    Systemet ska låta spelaren välja svårighetsgrad (Lätt, Medium, Svår) vid spel mot Dator (AI). |
+|    FR-01.16 |    Spelare ska kunna välja att avsluta ett pågående parti. 
 
 
 ## 2.2. Integritet, datarättighet och behörigheter
@@ -27,9 +29,9 @@
 |    FR-02.1 |     Det ska gå att logga in på sidan med en rollbaserad behörighet som administratör och dataansvarig i en del som är skild från spelarnas kontofria spelvy. | 
 |    FR-02.2 |     Administratören ska kunna åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. | 
 |    FR-02.3 |     Systemet ska fråga om cookie samtycke via banner med tydlig information vid första kontakt med webbsidan, innan icke nödvändiga cookies sätts. | 
-|    FR-02.4 |     Det ska vara gå att samtycka eller neka till cookies och samtycke ska gå att återkalla.   | 
-|    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data.  | 
-|    FR-02.6 |     Partidata ska raderas automatiskt inom en period om .. dagar  | 
+|    FR-02.4 |     Det ska gå att samtycka till eller neka till cookies och samtycke ska gå att återkalla.   | 
+|    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data genom att skicka förfrågan via hemsidan (till dataansvarig).  | 
+|    FR-02.6 |     Partidata ska raderas automatiskt efter 24 timmars inaktivitet vid pausat spel | 
 |    FR-02.7 |     Vid eventuell personuppgiftsincident ska dataansvarig kontakta tillsynsmyndigheten och spelare informeras via spelsidan (eftersom kontaktuppgifter saknas). | 
 |    FR-02.8 |     Administratören ska kunna skapa nya konton med rollbaserad behörighet och inaktivera samt radera inaktuella konton. | 
 
