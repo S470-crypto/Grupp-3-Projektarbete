@@ -19,15 +19,17 @@
 
 ## Huvudflöde:
 1. Systemet visar resultatet från avslutat parti och erbjuder möjligheten att spela igen eller avsluta.
-2. Spelaren väljer att spela igen. 
+2. Spelaren väljer att "spela igen". 
 3. Systemet skapar ett nytt parti mellan samma spelare och motståndare. 
 4. Ingen ny länkdelning eller annan process för att kunna ansluta krävs.
 5. Systemet visar automatiskt vilken spelare som ska börja och väntar på att ett drag ska ske.
 
 ## Alternativa flöden:
 
-**A1:**
--  Motståndaren har lämnat sidan vilket innebär att spelaren inte kan starta nytt parti mot samma motståndare, behöver i så fall skicka ny inbjudan via delad länk. 
+**A1:** Motståndaren har lämnat spelet
+1. Motståndaren har lämnat spelsidan och är inte längre tillgänglig för spel.
+2. Felmeddelande visas för spelaren med information om att motståndaren inte är aktiv.
+3. Det går inte att välja "spela igen" i samma spelsession, ny inbjudan behöver skickas med länk till nytt parti.
 
 ## Eftervillkor:
 - Ett nytt parti har skapats mellan de två spelarna. 
