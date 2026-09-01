@@ -21,4 +21,4 @@
 | Aktör | Kan vara dator (AI), Spelare, Motståndare, Admin (system), dataansvarig |
 | Cookie | Cookie consent för att spara data i audit.log i backend. |
 | System- och administrationsportalen | Portal som administratör och dataansvarig kan logga in i för att hantera drift, säkerhet och behörighetsfrågor. Administrationsgränssnitt som skiljer sig från spelarnas kontofria spelvy. |
-```
+
