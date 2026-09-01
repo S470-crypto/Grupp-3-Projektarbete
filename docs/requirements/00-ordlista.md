@@ -1,6 +1,6 @@
 # 0. Ordlista
 
-## Term och definition
+## Termer och definitioner
 
 | Ord | Beskrivning |
 | --- | --- |
