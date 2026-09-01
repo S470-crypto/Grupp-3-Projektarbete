@@ -4,9 +4,9 @@
 | ----------- | ----------- | 
 |    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
 |    NFR-01.2 |Sparad speldata vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
-|    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt| 
+|    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt (berättigat intresse) för att systemet ska fungera säkert och stabilt, ska framgå i integritetspolicyn| 
 |    NFR-01.4 | | 
-|    NFR-01.5 |         | 
+|    NFR-01.5 | |  
 
 
 
@@ -14,9 +14,9 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-02.1 | Det ska vara tydligt vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
+|    NFR-02.1 |Systemet ska tydligt visa vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
 |    NFR-02.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
-|    NFR-02.3 |Enkla icke tekniska felmeddelanden.| 
+|    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| 
 |    NFR-02.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). | 
 |    NFR-02.5 |         | 
 
@@ -60,7 +60,7 @@
 | ----------- | ----------- | 
 |    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Länken inaktiveras efter 5 minuter. | 
 |    NFR-06.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
-|    NFR-06.3 || 
+|    NFR-06.3 |Åtkomst till loggfiler är begränsad till de med rollbaserad behörighet i system och administrationsportalen.| 
 |    NFR-06.4 | | 
 |    NFR-06.5 |         | 
 
@@ -90,14 +90,15 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran.  | 
+|    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran av spelare.  | 
 |    NFR-09.2 |Systemet ska ha en rutin för att upptäcka och rapportera personuppgiftsincidenter.| 
 |    NFR-09.3 | Systemet minimerar insamlad persondata till att endast bestå av vad som är nödvändigt för att kunna använda spelet.| 
-|    NFR-09.4 | Spelaren kan begära att få information om den data som behandlas, lagringstid och med vilket ändamål.| 
+|    NFR-09.4 | Spelaren kan begära att få information om personlig data som behandlas, lagringstid och med vilket ändamål.| 
 |    NFR-09.5 | Samtycke till cookies ska inhämtas innan nödvändiga cookies sätts, det ska vara enkelt att ge samtycke och att återkalla det.| 
-|    NFR-09.6 | Systemet använder lämpliga säkerhetsåtgärder fr lagrad data (åtkomstkontroll, kryptering, pseudonymisering och backup)| 
-|    NFR-09.7 | Personer med rollbaserad behörighet har åtkomst till systemet (administratör och dataansvarig) handlingar är spårbara och loggas. | 
-
+|    NFR-09.6 | Systemet använder lämpliga säkerhetsåtgärder för lagrad data (åtkomstkontroll, kryptering, pseudonymisering och backup)| 
+|    NFR-09.7 | Endast personer med rollbaserad behörighet har åtkomst till systemets loggar (administratör och dataansvarig), deras handlingar i systemet är spårbara och loggas. |
+|    NFR-09.8 | Banner med cookie samtycke ska innehålla tydlig information om vad cookies fyller för funktion, hur samtycket lagras (i webbläsaren och pseudonymiserat i audit backend med datum för samtycke i 6 månader), att det går att återkalla samt versionshantering. | 
+|    NFR-09.9 | Spelare ska kunna se och uppdatera sina cookie preferenser på spelets webbsida. |
 
  
 
