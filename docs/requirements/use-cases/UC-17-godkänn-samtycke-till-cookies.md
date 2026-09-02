@@ -41,9 +41,6 @@ Systemets gränssnitt reflekterar exakt det turtillstånd som systemet har inter
 
 ## **Testbar avslutning**
 
-* Vid matchstart visar gränssnittet korrekt vilken spelare som går först
-
-* Indikatorn ska uppdateras direkt efter ett drag är gjort, utan att sidan ska behöva laddas om
-
-* I onlineläge ser båda spelare samma turinformation 
-
+- **T1:** Vid första besök utan tidigare samtycke visas cookie-dialogen.
+- **T2:** Efter klick på "Godkänn" döljs dialogen och alla cookies aktiveras. 
+- **T3:** Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies, och dialogen visas igen vid nästa besök.
