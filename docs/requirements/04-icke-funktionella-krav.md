@@ -91,13 +91,13 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran av spelare.  | 
-|    NFR-09.2 |Systemet ska ha en rutin för att upptäcka och rapportera personuppgiftsincidenter.| 
+|    NFR-09.2 |Systemet ska ha en dokumenterad rutin för att bedöma och rapportera personuppgiftsincidenter till tillsynsmyndigheten inom 72 timmar och spelare ska informeras via banner.| 
 |    NFR-09.3 | Systemet minimerar insamlad persondata till att endast bestå av vad som är nödvändigt för att kunna använda spelet.| 
 |    NFR-09.4 | Spelaren kan begära att få information om personlig data som behandlas, lagringstid och med vilket ändamål.| 
-|    NFR-09.5 | Samtycke till cookies ska inhämtas innan nödvändiga cookies sätts, det ska vara enkelt att ge samtycke och att återkalla det.| 
+|    NFR-09.5 | Samtycke till cookies ska inhämtas innan cookies sätts, det ska vara enkelt att ge samtycke och att återkalla det.| 
 |    NFR-09.6 | Systemet använder lämpliga säkerhetsåtgärder för lagrad data (åtkomstkontroll, kryptering, pseudonymisering och backup)| 
 |    NFR-09.7 | Endast personer med rollbaserad behörighet har åtkomst till systemets loggar (administratör och dataansvarig), deras handlingar i systemet är spårbara och loggas. |
-|    NFR-09.8 | Banner med cookie samtycke ska innehålla tydlig information om vad cookies fyller för funktion, hur samtycket lagras (i webbläsaren och pseudonymiserat i audit backend med datum för samtycke i 6 månader), att det går att återkalla samt versionshantering. | 
+|    NFR-09.8 | Banner med cookie samtycke ska innehålla tydlig information om vad cookies fyller för funktion, hur samtycket lagras och versionshantering. | 
 |    NFR-09.9 | Spelare ska kunna se och uppdatera sina cookie preferenser på spelets webbsida. |
 
  
