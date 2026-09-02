@@ -29,10 +29,10 @@
 |    FR-02.1 |     Det ska gå att logga in på sidan med en rollbaserad behörighet som administratör och dataansvarig i en del som är skild från spelarnas kontofria spelvy. | 
 |    FR-02.2 |     Administratören ska kunna åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. | 
 |    FR-02.3 |     Systemet ska fråga om cookie samtycke via banner med tydlig information vid första kontakt med webbsidan, innan icke nödvändiga cookies sätts. | 
-|    FR-02.4 |     Det ska gå att samtycka till eller neka till cookies och samtycke ska gå att återkalla.   | 
+|    FR-02.4 |     Spelare ska kunna samtycka till eller neka till cookies och samtycket ska gå att återkalla.   | 
 |    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data genom att skicka förfrågan via hemsidan (till dataansvarig).  | 
 |    FR-02.6 |     Partidata ska raderas automatiskt efter 24 timmars inaktivitet vid pausat spel | 
-|    FR-02.7 |     Vid eventuell personuppgiftsincident ska dataansvarig kontakta tillsynsmyndigheten och spelare informeras via spelsidan (eftersom kontaktuppgifter saknas). | 
+|    FR-02.7 |     Vid eventuell personuppgiftsincident ska dataansvarig bedöma och rapportera tillsynsmyndigheten inom 72 timmar och spelare informeras via spelsidan (eftersom kontaktuppgifter saknas). | 
 |    FR-02.8 |     Administratören ska kunna skapa nya konton med rollbaserad behörighet och inaktivera samt radera inaktuella konton. | 
 
 
