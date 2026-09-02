@@ -1,4 +1,4 @@
-# UC-20: Avsluta/lämna pågående spel
+# UC-20: Avsluta/lämna pågående parti
  
 ## Meta
 - **Use case:** Avsluta/lämna pågående parti
