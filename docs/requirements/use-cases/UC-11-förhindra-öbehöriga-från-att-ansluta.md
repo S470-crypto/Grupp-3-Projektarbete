@@ -1,46 +1,45 @@
-# Use Case: UC-11 - Förhindra öbehöriga från att ansluta
+# Use Case: UC-11 - Förhindra tredje spelare från att ansluta
 
 
 **Meta**
 
 
-**Use Case:** Förhindra öbehöriga från att ansluta
+**Use Case:** Förhindra tredje från att ansluta
 
 **Use case ID:** UC-11
 
-**Primär Aktör:** System
+**Primär Aktör:** Spelare
 
-**Syfte:** Hindrar personer som inte är behöriga från att gå med i matchen.
+**Syfte:** Förhindrar fler personer än två spelare ansluter till samma parti.
 
 
 
 ## Förutsättning:
 
 * Ett privat parti har skapats.
-* En unknown spelare försöker ansluta länken.
+* En tredje spelare försöker ansluta länken.
+* En eller två spelare kan vara ansluta via länken.
 
 
 ## Trigger:
 
-Unknown spelare trycka på länken för att ansluta.
+En tredje spelare försöker trycka på länken för att ansluta.
 
 
 ## Huvudflöde:
 
-1. En unknown spelare försöker ansluta till en länk.
-2. Systemet kontrollerar länken och matchen status
-3. Systemet kontrollerar om anslutningen är giltig eller länken är giltig (max 5 minuter).
-4. Om anslutningen är giltig, tillåter systemet personen att anslutna.
-5. Om anslutningen inte är giltig nekar systemet den personen som vill anslutna.
-6. Systemet visar meddelande om att personen inte kan anslutna.
+1. En spelare försöker ansluta till en partiet.
+2. Systemet kontrollerar hur många spelare redan är anslutna.
+3. Om två spelare redan är anslutna, nekas anslutningen.
+6. Systemet visar ett meddelande t.ex. **"Endast två spelare kan delta."**
 
 
 ## Eftervillkor:
 
-* Endast en behörig spelara har tillåtits att ansluta till matchen.
-* Obehörig personer kan inte ansluta.
+* Partiet innehåller högst två spelare.
+* En tredje spelare kan inte ansluta.
 
 
 ## Testbar avslutning:
 
-En person som inte har tillgång till spelet eller matchen kan inte ansluta.
+När två spelare redan anslutna ska en tredje spelares anslutningsförsök misslyckas.
