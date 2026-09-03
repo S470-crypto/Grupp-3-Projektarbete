@@ -12,7 +12,7 @@
 
 **Primär aktör:** Spelare
 
-## **Syfte:** Spelaren vill placera en spelpjäs på brädan
+ **Syfte:** Spelaren vill placera en spelpjäs på brädan
 
 
 ## **Förvillkor:**
