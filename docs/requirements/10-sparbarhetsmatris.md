@@ -26,9 +26,9 @@
 |    FR-02.1 | Logga in och ut med rollbaserad behörighet.|  UC-13, UC-14 | 
 |    FR-02.2 |  Cookie samtycke via banner. |  UC-17 |
 |    FR-02.3 |  Cookie går att samtycka till, neka eller återkalla.   |  UC-17, UC-18, UC-19  |
-|    FR-02.4 |  Begäran integritetsinformation.  | |
-|    FR-02.5 |  Hantering vid personuppgiftsincident. | |
+|    FR-02.4 |  Begäran integritetsinformation.  | UC-NFR-03 |
+|    FR-02.5 |  Hantering vid personuppgiftsincident. | UC-NFR-04|
 |    FR-02.6 |  Administratör hantering av konton. | UC-10 |
-|    FR-02.7 |  Begäran radering av integritetsinformation.  | |
+|    FR-02.7 |  Begäran radering av integritetsinformation.  | UC-NFR-02|
 |    FR-02.8 |  Åtgärder loggas i systemet. | UC-10, UC-15|
 |    FR-02.9|  Partidata raderas automatiskt. ||
