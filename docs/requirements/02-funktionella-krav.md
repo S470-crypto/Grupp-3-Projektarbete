@@ -18,7 +18,7 @@
 |    FR-01.12 |    Systemet ska endast tillåta att två spelare ansluter till ett parti, om en tredje spelare försöker ansluta ska det misslyckas.| 
 |    FR-01.13 |    Om spelare gett samtycke till nödvändiga cookies ska ett pågående parti ska kunna pausas och återupptas. | 
 |    FR-01.14 |    Systemet ska visa tydliga icke tekniska meddelanden vid fel som uppstått i systemet. | 
-|    FR-01.15 |    Systemet ska låta spelaren välja svårighetsgrad (Lätt, Medium, Svår) vid spel mot Dator (AI). |
+|    FR-01.15 |    Systemet ska låta spelaren välja svårighetsgrad (Lätt, Medel, Svår) vid spel mot Dator (AI). |
 |    FR-01.16 |    Spelare ska kunna välja att avsluta ett pågående parti. 
 |    FR-01.17 |    Systemet ska identifiera när spelbrädet är fullt och visa resultatet som oavgjort.|
 
