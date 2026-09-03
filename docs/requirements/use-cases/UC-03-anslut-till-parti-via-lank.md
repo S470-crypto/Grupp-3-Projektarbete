@@ -14,6 +14,7 @@
 - Spelare har bjudit in till ett nytt parti genom att starta nytt parti och skicka delad länk.
 - Det finns en delad oanvänd länk till ett startat parti som fortfarande aktiv. 
 - Tidsgränsen har inte passerats.
+- Motståndaren har tillgång till dator eller mobil.
 
 ## Trigger:
 - Den inbjudna motståndaren klickar på länken för att ansluta till partiet.
@@ -26,8 +27,8 @@
 
 ## Alternativa flöden:
 **A1:** Länken är ogiltig
-1. Tidsgränsen på 5 minuter har passerat utan att motståndaren har anslutit till partiet, länken är inaktiv/ogiltig.
-2. Systemet avbryter tillståndet "väntar på spelare" enligt UC-05.
+- Tidsgränsen på 5 minuter har passerat utan att motståndaren har anslutit till partiet, länken är inaktiv/ogiltig.
+- Systemet avbryter tillståndet "väntar på spelare" enligt UC-05.
 
 ## Eftervillkor:
 - Båda spelarna (spelare och motståndare) är anslutna till partiet och kan fortsätta spelet.
