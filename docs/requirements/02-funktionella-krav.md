@@ -35,7 +35,7 @@
 |    FR-02.6 |     Administratören ska kunna skapa nya konton med rollbaserad behörighet och inaktivera samt radera inaktuella konton. | 
 |    FR-02.7 |     Spelare ska kunna begära att personuppgifter raderade genom att skicka förfrågan via hemsidan (till dataansvarig).  | 
 |    FR-02.8 |     Systemet skapar en loggpost vid åtgärder som utförs av administratör eller dataansvarig i systemet. | 
-|    FR-02.09|     Partidata ska raderas automatiskt efter 24 timmars inaktivitet vid pausat spel. |
+|    FR-02.9|     Partidata ska raderas automatiskt efter 24 timmars inaktivitet vid pausat spel. |
 
 
 
