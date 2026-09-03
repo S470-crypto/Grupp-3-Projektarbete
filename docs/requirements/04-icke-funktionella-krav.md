@@ -27,7 +27,7 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-03.1 |Spelet ska vara responsivt utan lag.  | 
-|    NFR-03.2 |Tolerans för prestanda och svarstid < 0.33s |
+|    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 supress tester. |
 |    NFR-03.3 || 
 |    NFR-03.4 | | 
 |    NFR-03.5 |         | 
