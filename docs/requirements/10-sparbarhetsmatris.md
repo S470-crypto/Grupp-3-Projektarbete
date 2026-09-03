@@ -23,10 +23,12 @@
 |FR-01.15|                               |                |
 |FR-01.16|                               |                |
 |FR-01.17|                               |                |
-| FR-02.1 | Logga in rollbaserad behörighet|  UC-10  | 
-| FR-02.2 | Administratör behörighet |      |
-| FR-02.3 | Cookie samtycke|    |
-| FR-02.4 | Cookies samtycke kan godkännas, nekas eller återkallas   |    |
-| FR-02.5 | Begäran om integritetsinformation  | 
-| FR-02.6 | Vid personuppgiftsincident |     |
-| FR-02.7 | Hantering av rollbaserad behörighet |    |
+|    FR-02.1 | Logga in och ut med rollbaserad behörighet.|   | 
+|    FR-02.2 |  Cookie samtycke via banner. |    |
+|    FR-02.3 |  Cookie går att samtycka till, neka eller återkalla.   |   |
+|    FR-02.4 |  Begäran integritetsinformation.  | |
+|    FR-02.5 |  Hantering vid personuppgiftsincident. | |
+|    FR-02.6 |  Administratören hantering av konton. | |
+|    FR-02.7 |  Begäran radering av integritetsinformation.  | |
+|    FR-02.8 |  Åtgärder loggas i systemet. | |
+|    FR-02.09|  Partidata raderas automatiskt. ||
