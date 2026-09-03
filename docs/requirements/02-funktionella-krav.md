@@ -28,7 +28,7 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    FR-02.1 |     Det ska gå att logga in på sidan med en rollbaserad behörighet som administratör och dataansvarig i en del som är skild från spelarnas kontofria spelvy. | 
-|    FR-02.2 |     Administratören ska kunna åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. | 
+|    FR-02.2 |     Administratör och dataansvarig ska kunna logga in och ut i system- och administratörsportalen. | 
 |    FR-02.3 |     Systemet ska fråga om cookie samtycke via banner med tydlig information vid första kontakt med webbsidan, innan icke nödvändiga cookies sätts. | 
 |    FR-02.4 |     Spelare ska kunna samtycka till eller neka till cookies och samtycket ska gå att återkalla.   | 
 |    FR-02.5 |     Spelare ska kunna begära att få ut information om lagrad personlig data genom att skicka förfrågan via hemsidan (till dataansvarig).  | 
