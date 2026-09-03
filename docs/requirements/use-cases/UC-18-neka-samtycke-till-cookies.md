@@ -36,6 +36,6 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 - Spelet är fortsatt fullt spelbart trots nekat samtycke
 - Cookie-dialogen visas inte igen förrän valet löper ut, ändras, eller rensas av spelaren
 
-## 2.7 Testbar avslutning
+## Testbar avslutning
 - **T1:** Efter klick på "Neka" döljs dialogen och inga icke-nödvändiga cookies (t.ex. analytics) sätts.
 - **T2:** Spelet (t.ex. att starta match, göra drag, pausa/återuppta) fungerar fullt ut även efter nekat samtycke – ingen kärnfunktion får vara blockerad.
