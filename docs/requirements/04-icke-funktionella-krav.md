@@ -1,4 +1,4 @@
-## **NFR-4.1: Datalagring**
+## **NFR-1: Datalagring**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -10,7 +10,7 @@
 
 
 
-## **NFR-4.2: Användbarhet**
+## **NFR-2: Användbarhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -22,7 +22,7 @@
 
 
 
-## **NFR-4.3: Prestanda**
+## **NFR-3: Prestanda**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -33,7 +33,7 @@
 |    NFR-03.5 |         | 
 
 
-## **NFR-4.4: Skalbarhet**
+## **NFR-4: Skalbarhet**
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
@@ -43,7 +43,7 @@
 |    NFR-04.5 |         | 
 
 
-## **NFR-4.5: Drift** 
+## **NFR-5: Drift** 
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -54,7 +54,7 @@
 |    NFR-05.5 |         | 
 
 
-## **NFR-4.6: Säkerhet**
+## **NFR-6: Säkerhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -65,7 +65,7 @@
 |    NFR-06.5 |         | 
 
 
-## **NFR-4.7: Testbarhet**
+## **NFR-7: Testbarhet**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -75,7 +75,7 @@
 |    NFR-07.4 | | 
 |    NFR-07.5 |         | 
 
-## **NFR-4.8: Livscykelhantering**
+## **NFR-8: Livscykelhantering**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
@@ -86,7 +86,7 @@
 |    NFR-08.5 |         | 
 
 
-## **NFR-4.9: Regulatoriska krav(GDPR)**
+## **NFR-9: Regulatoriska krav(GDPR)**
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
