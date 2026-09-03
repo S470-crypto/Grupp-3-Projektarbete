@@ -31,4 +31,4 @@
 |    FR-02.6 |  Administratören hantering av konton. | |
 |    FR-02.7 |  Begäran radering av integritetsinformation.  | |
 |    FR-02.8 |  Åtgärder loggas i systemet. | |
-|    FR-02.09|  Partidata raderas automatiskt. ||
+|    FR-02.9|  Partidata raderas automatiskt. ||
