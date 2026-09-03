@@ -17,7 +17,7 @@
 |FR-01.9|                               |                |
 |FR-01.10|                               |                |
 |FR-01.11|                               |                |
-|FR-01.12|                               |                |
+|FR-01.12|   Bara två spelare kan vara anslutna till ett parti. |    UC-11           |
 |FR-01.13|                               |                |
 |FR-01.14|                               |                |
 |FR-01.15|                               |                |
