@@ -1,8 +1,8 @@
-# Use case: Logga in som behörig
+# Use case: UC-13 Logga in som behörig
 
 ## Meta
 
-**Use case:** UC-13 Logga in som behörig
+**Use case:** Logga in som behörig
 
 **Use case ID:** UC-13
 
