@@ -27,9 +27,9 @@
 
 ## Alternativa flöden:
 **A1:** Spelaren avbryter partiet
-1. Spelaren avbryter det startade partiet innan motståndaren klickat på länken.
-2. Systemet avbryter väntande tillstånd.
-3. Information visas för spelare och motståndare som klickar på länken att spelet har avbrutits. 
+- Spelaren avbryter det startade partiet innan motståndaren klickat på länken.
+- Systemet avbryter väntande tillstånd.
+- Information visas för spelare och motståndare som klickar på länken att spelet har avbrutits. 
 
 ## Eftervillkor:
 - Partiet är inte längre aktivt och har lämnat väntandeläge.
