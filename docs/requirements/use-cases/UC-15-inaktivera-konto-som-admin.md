@@ -1,4 +1,4 @@
-# Use case: Inaktivera konto som admin
+# Use case: UC-15 Inaktivera konto som admin
 
 ## Meta
 
