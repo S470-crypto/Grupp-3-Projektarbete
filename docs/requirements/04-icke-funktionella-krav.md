@@ -5,7 +5,7 @@
 |    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
 |    NFR-01.2 |Sparad speldata vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt (berättigat intresse) för att systemet ska fungera säkert och stabilt, ska framgå i integritetspolicyn| 
-|    NFR-01.4 | Partidata ska raderas automatiskt efter 24 timmars inaktivitet vid pausat spel| 
+|    NFR-01.4 | | 
 |    NFR-01.5 | |  
 
 
