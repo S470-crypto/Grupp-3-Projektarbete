@@ -29,9 +29,9 @@ Spelaren bestämmer sig för att starta ny parti.
   1. Spelaren navigerar till startsidan.
   2. Spelaren väljer dator (AI) som motståndare.
   3. Matchen startas direkt.
-  4. Systemet initierr ett nytt tomt spelbräde.
+  4. Systemet initierar ett nytt tomt spelbräde.
   5. Systemet avgör slumpmässigt eller enligt fast regel vem som börjar.
-  6. Systemet visr spelbrädet och markerr vems tur det är.
+  6. Systemet visar spelbrädet och markerar vems tur det är.
   7. Partiet är nu redo att spelas.
 
 
