@@ -10,7 +10,7 @@
 **Syfte:** Spelaren vill skapa ett nytt Gomoku-parti för att spela mot motståndare (vän).
 
 ## Förvillkor:
-- Att spelaren är inne på spelets hemsida. 
+- Att spelaren är inne på spelets hemsida (på dator eller mobil). 
 
 ## Trigger:
 - Spelaren väljer att spela mot annan motståndare som är en annan spelare/vän och skicka inbjudan via delad länk
@@ -26,9 +26,9 @@
 
 ## Alternativa flöden:
 **A1:** Länken blir inaktiv
-1. Motståndaren ansluter inte inom tidsgränsen (5 minuter)
-2. Systemet avbryter väntande tillstånd
-3. Länken är inaktiv och det går inte att ansluta till partiet, se UC-05 "Avbryt väntan vid timeout"
+- Motståndaren ansluter inte inom tidsgränsen (5 minuter)
+- Systemet avbryter väntande tillstånd
+- Länken är inaktiv och det går inte att ansluta till partiet, se UC-05 "Avbryt väntan vid timeout"
 
 ## Eftervillkor:
 - Parti skapats med unikt länk-ID.
