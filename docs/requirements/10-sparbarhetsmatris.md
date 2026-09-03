@@ -23,12 +23,12 @@
 |FR-01.15|   Välja svårighetsgrad |     UC-08   |
 |FR-01.16|   Avsluta pågående parti   |  UC-20      |
 |FR-01.17|   Systemet känner av oavgjort  |    UC-09      |
-|    FR-02.1 | Logga in och ut med rollbaserad behörighet.|   | 
-|    FR-02.2 |  Cookie samtycke via banner. |    |
-|    FR-02.3 |  Cookie går att samtycka till, neka eller återkalla.   |   |
+|    FR-02.1 | Logga in och ut med rollbaserad behörighet.|  UC-13, UC-14 | 
+|    FR-02.2 |  Cookie samtycke via banner. |  UC-17 |
+|    FR-02.3 |  Cookie går att samtycka till, neka eller återkalla.   |  UC-17, UC-18, UC-19  |
 |    FR-02.4 |  Begäran integritetsinformation.  | |
 |    FR-02.5 |  Hantering vid personuppgiftsincident. | |
 |    FR-02.6 |  Administratör hantering av konton. | UC-10 |
 |    FR-02.7 |  Begäran radering av integritetsinformation.  | |
-|    FR-02.8 |  Åtgärder loggas i systemet. | |
+|    FR-02.8 |  Åtgärder loggas i systemet. | UC-10, UC-15|
 |    FR-02.9|  Partidata raderas automatiskt. ||
