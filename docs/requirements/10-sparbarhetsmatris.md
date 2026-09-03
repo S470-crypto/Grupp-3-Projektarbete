@@ -23,7 +23,7 @@
 |FR-01.15|                               |                |
 |FR-01.16|                               |                |
 |FR-01.17|                               |                |
-| FR-02.1 | Logga in med en rollbaserad behörighet som administratör och dataansvarig |        | 
+| FR-02.1 | Logga in med en rollbaserad behörighet som administratör och dataansvarig |  UC-10  | 
 | FR-02.2 | Administratören ska kunna åtgärda tekniska problem samt övervaka drift, säkerhet och svarstider. |      |
 | FR-02.3 | Cookie samtycke via banner med tydlig information vid första kontakt med webbsidan.|    |
 | FR-02.4 | Spelare ska kunna samtycka till eller neka till cookies och samtycket ska gå att återkalla.   |    |
