@@ -27,9 +27,9 @@
 ## Alternativa flöden:
 
 **A1:** Motståndaren har lämnat spelet
-1. Motståndaren har lämnat spelsidan och är inte längre tillgänglig för spel.
-2. Felmeddelande visas för spelaren med information om att motståndaren inte är aktiv.
-3. Det går inte att välja "spela igen" i samma spelsession, ny inbjudan behöver skickas med länk till nytt parti.
+- Motståndaren har lämnat spelsidan och är inte längre tillgänglig för spel.
+- Felmeddelande visas för spelaren med information om att motståndaren inte är aktiv.
+- Det går inte att välja "spela igen" i samma spelsession, ny inbjudan behöver skickas med länk till nytt parti.
 
 ## Eftervillkor:
 - Ett nytt parti har skapats mellan de två spelarna. 
