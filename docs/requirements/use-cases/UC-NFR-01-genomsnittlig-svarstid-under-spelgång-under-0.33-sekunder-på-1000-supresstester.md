@@ -1,8 +1,8 @@
-# UC-NFR-01-genomsnittlig-svarstid-under-spelgång-under-0.33-sekunder-på-1000-supresstester
+# UC-NFR-01-genomsnittlig-svarstid-under-spelgång-under-0.33-sekunder-på-1000-cypresstester
 
 
 ## Meta
-**Use case:** Genomsittlig svarstid under spel gång på under 0.33 sekunder på 1000 supresstester.
+**Use case:** Genomsittlig svarstid under spel gång på under 0.33 sekunder på 1000 cypresstester.
 
 **Use case ID:** UC-NFR-01
 
