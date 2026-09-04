@@ -1,7 +1,7 @@
 # 1. Inledning
 
 ## 1.1 Om spelet
-Gomoku är ett spel som spelas i webbläsaren på datorn eller telefonen. Spelaren kan spela i realtid mot datorn/AI eller mot en vän via en delad länk. Ingen installation krävs för att spela spelet. 
+Gomoku är ett spel som spelas i webbläsaren på datorn eller telefonen. Spelaren kan spela i realtid mot Datorn (AI) eller mot en vän via en delad länk. Ingen installation krävs för att spela spelet. 
 
 ## 1.2 Syfte
 Det ska vara enkelt för spelaren att komma igång och starta ett spel/parti mot en motståndare (dator eller vän) och att genomföra det tills dess att något av tre slutresultat nåtts: vinst, förlust eller oavgjort.
