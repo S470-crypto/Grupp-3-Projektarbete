@@ -52,8 +52,8 @@
 |    NFR-02.4 |Webbsidan ska fungera på mobil och dator |   |
 |    NFR-03.1 |Spelet ska vara responsivt utan lag.  |  UC-NFR-01 |
 |    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 supress tester. | UC-NFR-01 |
-|    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |    |
-|    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|   |
+|    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |  UC-NFR-01   |
+|    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|  UC-NFR-01  |
 |    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|   |
 |    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott |   |
 |    NFR-06.1 |Obehöriga tredjeparter ska inte kunna gå med i ett parti. |   |
