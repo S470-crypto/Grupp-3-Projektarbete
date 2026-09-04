@@ -43,23 +43,23 @@
 | ----------- | ----------- | --------|
 |    NFR-01.1 |Speldata sparas vid krasch/omstart|     |
 |    NFR-01.2 |Speldata raderas 24 timmar efter senaste aktivitet|    |
-|    NFR-01.3 |Systemet ska lagra den data som krävs |   |
-|    NFR-01.4 | Cookies lagras pseudonymiserat i 6 månader|   |
-|    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |    |
-|    NFR-02.1 |Systemet visar turordning, resultat och hur spelare startar parti |   |
-|    NFR-02.2 |Ingen kontoregistrering krävs |    |
-|    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.|  |
-|    NFR-02.4 |Webbsidan ska fungera på mobil och dator |   |
+|    NFR-01.3 |Systemet ska lagra den data som krävs | UC-07, UC-17  |
+|    NFR-01.4 | Cookies lagras pseudonymiserat i 6 månader|  UC-17 |
+|    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |  UC-17  |
+|    NFR-02.1 |Systemet visar turordning, resultat och hur spelare startar parti | UC-01, UC-02, UC-04, UC-06, UC-09  |
+|    NFR-02.2 |Ingen kontoregistrering krävs |  UC-01, UC-02  |
+|    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| UC-12 |
+|    NFR-02.4 |Webbsidan ska fungera på mobil och dator |  UC-01, UC-02, UC-03, UC-04 |
 |    NFR-03.1 |Spelet ska vara responsivt utan lag.  |  UC-NFR-01 |
 |    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 supress tester. | UC-NFR-01 |
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |  UC-NFR-01   |
 |    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|  UC-NFR-01  |
-|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|   |
+|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|  UC-02 |
 |    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott |   |
-|    NFR-06.1 |Obehöriga tredjeparter ska inte kunna gå med i ett parti. |   |
+|    NFR-06.1 |Tredje person kan inte ansluta till länk (som är giltig 5 minuter) | UC-11, UC-05  |
 |    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |    |
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad|   UC-13, UC-NFR-04|
-|    NFR-07.1 | Paus, återanslutning och timeout ska kunna testas automatiserat. |  |
+|    NFR-07.1 |Paus, återanslutning och timeout ska kunna testas automatiserat. |  |
 |    NFR-07.2 |Loggfiler ska finnas |  UC-NFR-04  |
 |    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  |   |
 |    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.|    |
