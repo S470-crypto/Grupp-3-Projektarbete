@@ -54,13 +54,13 @@
 |    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 supress tester. | UC-NFR-01 |
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |    |
 |    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|   |
-|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)|   |
+|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|   |
 |    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott |   |
 |    NFR-06.1 |Obehöriga tredjeparter ska inte kunna gå med i ett parti. |   |
 |    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |    |
-|    NFR-06.3 |Åtkomst till loggfiler är begränsad till de med rollbaserad behörighet i system och administrationsportalen.|   UC-13, UC-NFR-04|
-|    NFR-07.1 | Kritiska scenarier som paus, återanslutning och timeout ska kunna testas automatiserat. | 
-|    NFR-07.2 |Loggning ska finnas för att i efterhand kunna spåra och felsöka avvikande spelförlopp.|  UC-NFR-04  |
+|    NFR-06.3 |Åtkomst till loggfiler är begränsad|   UC-13, UC-NFR-04|
+|    NFR-07.1 | Paus, återanslutning och timeout ska kunna testas automatiserat. |  |
+|    NFR-07.2 |Loggfiler ska finnas |  UC-NFR-04  |
 |    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  |   |
 |    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.|    |
 |    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran av spelare (inom en månad).  |  UC-NFR-02 |
