@@ -3,10 +3,11 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
-|    NFR-01.2 |Sparad speldata vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
-|    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt (berättigat intresse) för att systemet ska fungera säkert och stabilt, ska framgå i integritetspolicyn| 
+|    NFR-01.2 |Sparad speldata (länk-ID) vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
+|    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt. | 
 |    NFR-01.4 | Samtyckes-ID lagras pseudonymiserat i 6 månader sedan raderas det från audit log backend.| 
-|    NFR-01.5 | |  
+|    NFR-01.5 | Den data som systemet lagrar ska framgå i integritetspolicyn. |  
+|    NFR-01.6 | IP-adresser lagras 90 dagar enligt berättigat intresse för att systemet ska fungera säkert och stabilt.|  
 
 
 
