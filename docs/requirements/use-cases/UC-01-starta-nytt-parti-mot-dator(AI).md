@@ -22,7 +22,7 @@
  * Ingen aktiv parti pågående sedan tidigare
 
 ## **Trigger**
-Spelaren bestämmer sig för att starta ny parti.
+Spelaren bestämmer sig för att starta nytt parti mot dator (AI).
 
  ## **Huvudflöde:**
 
@@ -39,7 +39,6 @@ Spelaren bestämmer sig för att starta ny parti.
  ## **Alternativaflöden:**
 
   * Spelaren har ingen internetanslutning
-  * Vännen ansluter inte 
   * Sidan kraschar
 
 ## **Eftervillkor**
