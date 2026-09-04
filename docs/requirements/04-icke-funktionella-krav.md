@@ -58,7 +58,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Länken inaktiveras efter 5 minuter. | 
+|    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Oanvänd inbjudningslänk inaktiveras efter 5 minuter. | 
 |    NFR-06.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad till de med rollbaserad behörighet i system och administrationsportalen.| 
 |    NFR-06.4 | | 
@@ -79,7 +79,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-08.1 |Partier som inte återupptagits inom 5 minuter efter krasch/avstängning ska rensas automatiskt.  | 
+|    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  | 
 |    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.| 
 |    NFR-08.3 || 
 |    NFR-08.4 | | 
