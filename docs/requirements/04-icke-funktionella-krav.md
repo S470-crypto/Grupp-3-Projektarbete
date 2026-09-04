@@ -93,7 +93,7 @@
 |    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran av spelare (inom en månad).  | 
 |    NFR-09.2 |Systemet ska ha en dokumenterad rutin för att bedöma och rapportera personuppgiftsincidenter till tillsynsmyndigheten inom 72 timmar och spelare ska informeras via banner.| 
 |    NFR-09.3 |Endast personer med rollbaserad behörighet har åtkomst till systemets loggar (administratör och dataansvarig), deras handlingar i systemet är spårbara och loggas. | 
-|    NFR-09.4 | Spelaren kan begära att få information om personlig data som behandlas, lagringstid och med vilket ändamål.| 
+|    NFR-09.4 | Spelaren kan begära att få information om personlig data som behandlas, lagringstid och med vilket ändamål (återkoppling inom en månad).| 
 |    NFR-09.5 | Samtycke till cookies ska inhämtas innan cookies sätts, det ska vara enkelt att ge samtycke och att återkalla det.| 
 |    NFR-09.6 | Systemet ska använda lämpliga säkerhetsåtgärder för lagrad data (åtkomstkontroll, kryptering och pseudonymisering)| 
 |    NFR-09.7 | Samtycke till cookies ska lagras pseudonymiserat med samtyckes-ID och separerat från länk-ID och IP-adress.| 
