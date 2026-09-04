@@ -17,7 +17,8 @@ Spelaren vill kunna välja hur utmanande AI-motståndaren ska vara innan ett par
 * Spelaren befinner sig på startsidan eller menyn för att starta ett nytt parti.
 * Spelaren har valt AI som motståndare.
 * Inget parti har startats ännu.
-* Trigger
+
+## Trigger:
 * Spelaren väljer alternativet för svårighetsgrad.
 
 ## **Huvudflöde:**
