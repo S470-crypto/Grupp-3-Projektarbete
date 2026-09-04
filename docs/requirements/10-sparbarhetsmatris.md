@@ -19,7 +19,7 @@
 |FR-01.11| Avbryt väntan på spelare |       UC-05 |
 |FR-01.12|   Bara två spelare kan vara anslutna till ett parti. |    UC-11           |
 |FR-01.13| Pausa och återuppta parti |    UC-07    |
-|FR-01.14|  Visa felmeddelande |       UC-12  |
+|FR-01.14|  Visa felmeddelande |       UC-12, NFR-02.3  |
 |FR-01.15|   Välja svårighetsgrad |     UC-08   |
 |FR-01.16|   Avsluta pågående parti   |  UC-20      |
 |FR-01.17|   Systemet känner av oavgjort  |    UC-09      |
