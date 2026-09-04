@@ -1,4 +1,4 @@
-# UC-NFR-01-genomsnittlig-svarstid-under-spel-gång-under-0.33-sekunder-på-1000-supresstester
+# UC-NFR-01-genomsnittlig-svarstid-under-spelgång-under-0.33-sekunder-på-1000-supresstester
 
 
 ## Meta
@@ -21,7 +21,7 @@
 ## Huvudflöde
 1. Testsystemet startar spelet.
 2. Testsystemet initierar mätning av svarstid.
-3. Testsystemet genomför ett stresstest under pågående spel.
+3. Testsystemet genomfös under pågående spel.
 4. Systemets svarstid reistreras.
 5. Steg 3 och 4 upprepas 1000 gånger.
 
