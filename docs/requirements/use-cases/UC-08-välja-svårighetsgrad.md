@@ -1,14 +1,14 @@
-## **UC-03 – Välja svårighetsgrad**
+## **UC-08 – Välja svårighetsgrad**
 
 ## **Meta:**
 
-**Namn: Välja svårighetsgrad**
+**Use case:** Välja svårighetsgrad
 
 
-**Use Case ID: UC-08**
+**Use Case ID:** UC-08
 
 
-**Primär aktör: Spelare**
+**Primär aktör:** Spelare
 
 **Syfte:**
 Spelaren vill kunna välja hur utmanande AI-motståndaren ska vara innan ett parti startas.
@@ -21,12 +21,12 @@ Spelaren vill kunna välja hur utmanande AI-motståndaren ska vara innan ett par
 * Spelaren väljer alternativet för svårighetsgrad.
 
 ## **Huvudflöde:**
-* Systemet visar tillgängliga svårighetsgrader.
-* Spelaren väljer en svårighetsgrad, exempelvis Lätt, Medel eller Svår.
-* Systemet registrerar spelarens val.
-* Systemet visar vilken svårighetsgrad som har valts.
-* Spelaren startar ett nytt parti.
-* Systemet använder den valda svårighetsgraden för AI:ns spelstrategi.
+1. Systemet visar tillgängliga svårighetsgrader.
+2. Spelaren väljer en svårighetsgrad, exempelvis Lätt, Medel eller Svår.
+3. Systemet registrerar spelarens val.
+4. Systemet visar vilken svårighetsgrad som har valts.
+5. Spelaren startar ett nytt parti.
+6. Systemet använder den valda svårighetsgraden för AI:ns spelstrategi.
 
 ## **Alternativaflöden:**
 
