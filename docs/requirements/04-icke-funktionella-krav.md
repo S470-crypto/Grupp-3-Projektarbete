@@ -7,7 +7,7 @@
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt. | 
 |    NFR-01.4 | Samtyckes-ID lagras pseudonymiserat i 6 månader sedan raderas det från audit log backend.| 
 |    NFR-01.5 | Den data som systemet lagrar ska framgå i integritetspolicyn. |  
-|    NFR-01.6 | IP-adresser lagras 90 dagar enligt berättigat intresse för att systemet ska fungera säkert och stabilt.|  
+
 
 
 
