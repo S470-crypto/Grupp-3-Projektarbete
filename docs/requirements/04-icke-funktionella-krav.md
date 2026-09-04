@@ -5,7 +5,7 @@
 |    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
 |    NFR-01.2 |Sparad speldata vid krasch/avstängd process ska automatiskt raderas 24 timmar efter senaste aktivitet| 
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt (berättigat intresse) för att systemet ska fungera säkert och stabilt, ska framgå i integritetspolicyn| 
-|    NFR-01.4 | | 
+|    NFR-01.4 | Samtyckes-ID lagras pseudonymiserat i 6 månader innan det raderas från audit log backend.| 
 |    NFR-01.5 | |  
 
 
@@ -15,10 +15,9 @@
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
 |    NFR-02.1 |Systemet ska tydligt visa vems tur det är, vilket resultat matchen fick och hur användaren startar ett nytt parti. | 
-|    NFR-02.2 |Ingen registrering krävs, anonymt och friktionsfritt att komma igång.| 
+|    NFR-02.2 |Ingen kontoregistrering krävs, det ska vara lätt/friktionsfritt att komma igång och spela.| 
 |    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| 
-|    NFR-02.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). | 
-|    NFR-02.5 |         | 
+|    NFR-02.4 |Webbsidan ska fungera på mobil och dator (support av 16:9 och 9:16 aspect ratio). Webbsidan ska t.ex. fungera i chrome och iphone. | 
 
 
 
