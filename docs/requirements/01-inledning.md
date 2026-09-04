@@ -1,13 +1,14 @@
 # 1. Inledning
 
 ## 1.1 Om spelet
-Gomoku är ett spel som spelas i webbläsaren på datorn eller telefonen. Spelaren kan spela i realtid mot Datorn (AI) eller mot en vän via en delad länk. Ingen installation krävs för att spela spelet. 
+Gomoku är ett brädspel som kan spelas i webbläsaren på datorn eller mobilen där två spelare turas om att lägga ut brickor för att först få 5 st brickor i rad (vågrätt, lodrätt eller diagonalt). Spelaren kan spela i realtid mot Datorn (AI) eller mot en vän via en delad länk. Ingen installation krävs för att spela spelet. 
 
 ## 1.2 Syfte
-Det ska vara enkelt för spelaren att komma igång och starta ett spel/parti mot en motståndare (dator eller vän) och att genomföra det tills dess att något av tre slutresultat nåtts: vinst, förlust eller oavgjort.
+Det ska vara enkelt för spelaren att komma igång och starta ett spel/parti mot en motståndare (dator eller vän) och att genomföra det tills dess att något av tre slutresultat nåtts: vinst, förlust eller oavgjort. Spelet ska gå att spela på datorn eller i mobilen.  
 
-## 1.3 Problem som ska lösas
-Kunden vill kunna spela Gomoku själv mot datorn eller mot en vän genom att skicka en länk. Spelet ska gå att spela på datorn eller i telefonen. Ingen nedladdning, inget konto eller inloggning ska krävas för att kunna spela spelet.  
+## 1.3. Systemavgränsning
+Spelet täcker spel mot datorn (AI) eller mot en vän (genom att skicka en länk med länk-ID). Ingen nedladdning, inget konto eller inloggning ska krävas för att kunna spela spelet. 
+Systemet inkluderar inte användarkonton för spelarna eller topplistor. 
 
 ## 1.4 Aktörer
 
