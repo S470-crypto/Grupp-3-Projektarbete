@@ -17,7 +17,7 @@ Systemet inkluderar inte användarkonton för spelarna eller topplistor.
 | Spelare | Primär aktör (Mänsklig) | Personen som använder systemet för att spela. Hen kan starta parti/spelet, bjuda in till spel, spela mot motståndare (vän) eller Dator (AI). |
 | Dator (AI) | Sekundär systemaktör | Agerar som motståndare och spelar mot spelaren i systemet när hen väljer att spela mot dator (AI), beräknar och gör automatiska drag baserat på spelets regler. |
 | Motståndare | Primär aktör (Mänsklig) | Personen som till exempel en vän som spelar mot spelaren. |
-| Administratör (Systemadmin) | Primär/sekundär aktör (Mänsklig) | Administratör som hanterar behörigheter för användare, drift, tekniska fel och övervakar systemet. |
+| Administratör (Systemadmin/Admin) | Primär/sekundär aktör (Mänsklig) | Administratör som hanterar behörigheter för användare, drift, tekniska fel och övervakar systemet. |
 | Dataansvarig | Primär/sekundär aktör (Mänsklig)| Säkerställer att GDPR följs, ansvarar för radering och eventuella personuppgiftsincidenter. |
 | Systemet | Sekundär systemaktör | Validerar drag och raderar inaktiva spelpartier |
 
