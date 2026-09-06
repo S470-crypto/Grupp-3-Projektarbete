@@ -55,11 +55,11 @@
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |  UC-NFR-01   |
 |    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|  UC-NFR-01  |
 |    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|  UC-02 |
-|    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott |   |
+|    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott | UC-07, UC-20  |
 |    NFR-06.1 |Tredje person kan inte ansluta till länk (som är giltig 5 minuter) | UC-11, UC-05  |
 |    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |    |
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad|   UC-13, UC-NFR-04|
-|    NFR-07.1 |Paus, återanslutning och timeout ska kunna testas automatiserat. |  |
+|    NFR-07.1 |Paus, återanslutning och timeout ska kunna testas automatiserat. | UC-07 |
 |    NFR-07.2 |Loggfiler ska finnas |  UC-NFR-04  |
 |    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  |   |
 |    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.|    |
