@@ -21,4 +21,18 @@ Systemet inkluderar inte användarkonton för spelarna eller topplistor.
 | Dataansvarig | Primär/sekundär aktör (Mänsklig)| Säkerställer att GDPR följs, ansvarar för radering och eventuella personuppgiftsincidenter. |
 | Systemet | Sekundär systemaktör | Validerar drag och raderar inaktiva spelpartier |
 
+## 1.5 Översikt av dokumentstruktur
 
+|   Dokument    | Innehåll    |
+|-------------|-------------|
+|   00-Ordlista | Beskriver de begrepp som används     |
+|   01-Inledning | Kortfattad beskrivning av systemet och syfte   |
+|   02-Funktionella krav | Vad systemet måste göra   |
+|   03-Kompletterande krav | Antaganden och begränsningar  |
+|   04-Icke funktionella krav | Hur systemet ska fungera och kvalitetsegenskaper|
+|   05-Begreppsmodell| Hur systemet ska fungera och kvalitetsegenskaper|
+|   06-User journey | Diagram över användarresa |
+|   07-Use cases overview | Översikt över use cases och diagram|
+|   08-Diagram | Tillståndsdiagram och aktivitetsdiagram|
+|   09-Verksamhetsregler | Beskriver spelets regler |
+|   10-Spårbarhetsmatris| Tabeller visar översikt krav kopplat till use cases|
