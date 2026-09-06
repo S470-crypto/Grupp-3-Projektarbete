@@ -131,3 +131,8 @@ Spelbegrepp: En Spelare initierar ett Parti och bjuder in en Motståndare (via e
 Systembegrepp: Systemet hanterar alla pågående partier och skriver all aktivitet till Audit.log. Admin och Dataansvarig loggar in i System- och administrationsportalen för att hantera drift, säkerhet och behörigheter — separat från spelarnas kontofria Spelvy.
 
 GDPR/integritetsbegrepp: GDPR styr hur personuppgifter hanteras genom krav på Samtycke (via Cookie), Pseudonymisering, Kryptering och Anonymisering, samt hur en eventuell Personuppgiftsincident ska loggas och hanteras.
+
+
+# Spelregler 
+
+.....
