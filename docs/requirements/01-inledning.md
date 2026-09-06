@@ -25,7 +25,7 @@ Systemet inkluderar inte användarkonton för spelarna eller topplistor.
 
 |   Dokument    | Innehåll    |
 |-------------|-------------|
-|   00-Ordlista | Beskriver de begrepp som används     |
+|   00-Ordlista | Beskriver de centrala begrepp som används     |
 |   01-Inledning | Kortfattad beskrivning av systemet och syfte   |
 |   02-Funktionella krav | Vad systemet måste göra   |
 |   03-Kompletterande krav | Antaganden och begränsningar  |
