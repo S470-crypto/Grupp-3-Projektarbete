@@ -30,7 +30,7 @@ Systemet inkluderar inte användarkonton för spelarna eller topplistor.
 |   02-Funktionella krav | Vad systemet måste göra   |
 |   03-Kompletterande krav | Antaganden och begränsningar  |
 |   04-Icke funktionella krav | Hur systemet ska fungera och kvalitetsegenskaper|
-|   05-Begreppsmodell| Hur systemet ska fungera och kvalitetsegenskaper|
+|   05-Begreppsmodell| Visuell karta över centrala begrepp och hur de hänger samman|
 |   06-User journey | Diagram över användarresa |
 |   07-Use cases overview | Översikt över use cases och diagram|
 |   08-Diagram | Tillståndsdiagram och aktivitetsdiagram|
