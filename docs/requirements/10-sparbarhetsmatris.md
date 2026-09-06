@@ -31,7 +31,7 @@
 |    FR-02.6 |  Administratör hantering av konton. | UC-10 |
 |    FR-02.7 |  Begäran radering av integritetsinformation.  | UC-NFR-02|
 |    FR-02.8 |  Åtgärder loggas i systemet. | UC-10, UC-15|
-|    FR-02.9|  Parti/speldata raderas automatiskt. ||
+|    FR-02.9|  Parti/speldata raderas automatiskt. | UC-NFR-06|
 
 
 
@@ -41,8 +41,8 @@
 
 | NFR-ID      | Beskrivning |    UC-ID  |
 | ----------- | ----------- | --------|
-|    NFR-01.1 |Speldata sparas vid krasch/omstart|     |
-|    NFR-01.2 |Speldata raderas 24 timmar efter senaste aktivitet|    |
+|    NFR-01.1 |Speldata sparas vid krasch/omstart|   UC-NFR-06  |
+|    NFR-01.2 |Speldata raderas 24 timmar efter senaste aktivitet|  UC-NFR-06  |
 |    NFR-01.3 |Systemet ska lagra den data som krävs | UC-07, UC-17  |
 |    NFR-01.4 | Cookies lagras pseudonymiserat i 6 månader|  UC-17 |
 |    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |  UC-17  |
@@ -57,13 +57,13 @@
 |    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|  UC-02 |
 |    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott | UC-07, UC-20  |
 |    NFR-06.1 |Tredje person kan inte ansluta till länk (som är giltig 5 minuter) | UC-11, UC-05  |
-|    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |    |
+|    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |  UC-02, UC-15, UC-17  |
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad|   UC-13, UC-NFR-04|
 |    NFR-07.1 |Paus, återanslutning och timeout ska kunna testas automatiserat. | UC-07 |
 |    NFR-07.2 |Loggfiler ska finnas |  UC-NFR-04  |
-|    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  |   |
-|    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.|    |
-|    NFR-09.1 |Systemet ska kunna radera all sparad speldata kopplad till en specifik session/länk-ID på begäran av spelare (inom en månad).  |  UC-NFR-02 |
+|    NFR-08.1 |Partier som inte återupptagits inom 24 timmar efter krasch/avstängning ska rensas automatiskt.  |  UC-NFR-06 |
+|    NFR-08.2 |Systemet ska kunna uppdateras utan att pågående partier går förlorade.|  UC-NFR-06  |
+|    NFR-09.1 |Systemet ska kunna radera all sparad speldata på begäran av spelare (inom en månad).  |  UC-NFR-02 |
 |    NFR-09.2 |Systemet ska ha en dokumenterad rutin för personuppgiftsincidenter |  UC-NFR-04  |
 |    NFR-09.3 | Åtkomstkontroll |  UC-10, UC-NFR-02, UC-NFR-03, UC-NFR-04 |
 |    NFR-09.4 | Spelaren kan begära att få information om personlig data |  UC-NFR-03 |
