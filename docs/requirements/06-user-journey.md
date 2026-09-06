@@ -68,13 +68,13 @@ journey
     section Åtkomst via länk
       Klickar på länken: 5: Motståndare
     section Verifiering
-      Verifierar att länken är aktiv och att partiet väntar på spelare: 5: Systemet
+      Verifierar giltig länk: 5: Systemet
     section Anslutning
-      Ansluter motståndaren till partiet: 5: Systemet
+      Ansluter till partiet: 5: Systemet
     section Redo att spela
-      Visar att båda spelarna är anslutna och vems tur det är: 5: Systemet
+      Visar anslutna spelare och vems tur: 5: Systemet
 ```
-
+ 
 ## UJ-05: Spelaren avslutar/lämnar pågående parti
  
 ```mermaid
@@ -85,9 +85,9 @@ journey
       Visar bekräftelsedialog: 4: Systemet
       Bekräftar avslutet: 4: Spelare
     section Sparning av tillstånd
-      Sparar spelets aktuella tillstånd: 5: Systemet
-      Markerar partiet som avslutat i förtid eller pausat: 5: Systemet
+      Sparar spelets tillstånd: 5: Systemet
+      Markerar partiet avslutat/pausat: 5: Systemet
     section Effekt beroende på spelläge
-      Enspelarläge, partiet avslutas helt: 5: Systemet
-      Online-spel, motspelaren informeras om att spelaren lämnat: 3: Systemet
+      Enspelarläge avslutas helt: 5: Systemet
+      Motspelaren informeras: 3: Systemet
 ```
