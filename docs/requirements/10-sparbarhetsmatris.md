@@ -31,7 +31,7 @@
 |    FR-02.6 |  Administratör hantering av konton. | UC-10 |
 |    FR-02.7 |  Begäran radering av integritetsinformation.  | UC-NFR-02|
 |    FR-02.8 |  Åtgärder loggas i systemet. | UC-10, UC-15|
-|    FR-02.9|  Partidata raderas automatiskt. ||
+|    FR-02.9|  Parti/speldata raderas automatiskt. ||
 
 
 
