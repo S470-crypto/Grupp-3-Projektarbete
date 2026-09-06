@@ -42,4 +42,20 @@ journey
 ```
 
 
-_Koden till ovan diagram i mermaid har tagits fram med hjälp av AI (claude.ai)_ 
+## UJ-03: Spelaren startar parti mot dator (AI)
+ 
+```mermaid
+journey
+    title Starta parti: Spelaren mot dator (AI)
+    section Val av motståndare
+      Navigerar till startsidan: 5: Spelare
+      Väljer dator (AI) som motståndare: 5: Spelare
+    section Matchstart
+      Matchen startas direkt: 5: Systemet
+      Initierar nytt tomt spelbräde: 5: Systemet
+    section Turordning
+      Avgör vem som börjar (slump/fast regel): 5: Systemet
+      Visar spelbrädet och markerar vems tur det är: 5: Systemet
+    section Redo att spela
+      Partiet är redo att spelas: 5: Spelare
+```
