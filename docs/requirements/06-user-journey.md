@@ -59,3 +59,18 @@ journey
     section Redo att spela
       Partiet är redo att spelas: 5: Spelare
 ```
+
+## UJ-04: Motståndare ansluter till parti via länk
+ 
+```mermaid
+journey
+    title Ansluta till parti via länk
+    section Åtkomst via länk
+      Klickar på länken: 5: Motståndare
+    section Verifiering
+      Verifierar att länken är aktiv och att partiet väntar på spelare: 5: Systemet
+    section Anslutning
+      Ansluter motståndaren till partiet: 5: Systemet
+    section Redo att spela
+      Visar att båda spelarna är anslutna och vems tur det är: 5: Systemet
+```
