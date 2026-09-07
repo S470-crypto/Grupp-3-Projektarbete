@@ -10,7 +10,7 @@ Vi skapade en use case-modell och diagram som kunde användas för att identifie
 
 |   Dokument    | Innehåll    |
 |-------------|-------------|
-|   00-Ordlista | Beskriver de centrala begrepp som används     |
+|   [00-Ordlista] (#https://github.com/S470-crypto/Grupp-3-Projektarbete/blob/main/docs/requirements/00-ordlista.md) | Beskriver de centrala begrepp som används     |
 |   01-Inledning | Kortfattad beskrivning av systemet och syfte   |
 |   02-Funktionella krav | Vad systemet måste göra   |
 |   03-Kompletterande krav | Antaganden och begränsningar  |
