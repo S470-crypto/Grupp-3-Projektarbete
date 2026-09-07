@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # UC-NFR-01-genomsnittlig-svarstid-under-spelgång-under-0.33-sekunder-på-1000-cypresstester
 
 
