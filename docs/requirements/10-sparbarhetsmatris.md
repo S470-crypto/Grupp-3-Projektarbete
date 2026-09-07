@@ -110,4 +110,4 @@
 |UC-NFR-06| Automatisk rensning av partidata| FR-02.9, NFR-01.2,  NFR-08.1  |
 |UC-NFR-07| Automatiskt sparande av speldata vid krasch eller omstart | FR-01.13, NFR-01.1,  NFR-05.1  |
 |UC-NFR-08| Uppdatera systemet utan att pågående partier går förlorade | FR-01.13, NFR-08.2 |
-|UC-NFR-09| Säkerställa krypterad kommunikation mellan klient och server| FR-01.1, NFR-06.2, NFR-09.6 |
+|UC-NFR-09| Säkerställa krypterad kommunikation mellan klient och server| FR-01.1, NFR-01.4, NFR-06.2, NFR-09.6 |
