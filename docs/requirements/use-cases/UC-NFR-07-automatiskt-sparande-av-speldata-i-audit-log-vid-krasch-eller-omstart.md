@@ -1,10 +1,10 @@
 [Tillbaka till README](../../../README.md)
-# UC-NFR-07 Automatiskt sparande av speldata i audit.log vid krasch eller omstart 
+# UC-NFR-07 Automatiskt sparande av speldata vid krasch eller omstart 
 
 
 ## Meta 
 
-**Use case:** Automatiskt sparande av speldata i audit.log vid krasch eller omstart
+**Use case:** Automatiskt sparande av speldata vid krasch eller omstart
 
 **Use case ID:** UC-NFR-07
 
@@ -12,7 +12,7 @@
 
 **Sekundär aktör:** Spelare (mottagare av återställd data)
 
-**Syfte:** Säkerställa att pågående speldata bevaras kontinuerligt så att ett parti kan återställas om webbläsaren kraschar eller sidan laddas om.
+**Syfte:** Säkerställa att pågående speldata sparas kontinuerligt så att ett parti kan återställas om webbläsaren kraschar eller sidan laddas om.
 
 ## Förvillkor: 
 
@@ -25,7 +25,7 @@
 
 ## Huvudflöde: 
 1. Ett drag görs eller partiets tillstånd förändras på annat sätt (t.ex. paus)
-2. Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (länk-ID)
+2. Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (länk-ID) på servern
 3. Spelaren fortsätter spela som vanligt utan att märka av sparandet
 4. Om webbläsaren kraschar eller sidan laddas om oavsiktligt, upptäcker systemet vid nästa sidladdning att en session med sparad, oavslutad data finns
 5. Systemet återställer partiet till senast sparade tillstånd automatiskt
@@ -41,6 +41,7 @@
 
  - Systemet kan inte återställa partiet tillförlitligt.
  - Spelaren informeras via ett felmeddelande och erbjuds att starta ett nytt parti.
+ - Om systemet misslyckats med att spara speldata så registreras det i loggen (hanteras av admin).
 
 **A3: Automatisk rensning har skett (efter 24 timmar)**
 
@@ -48,15 +49,15 @@
 
 ## Eftervillkor: 
 
-- Partiets senaste tillstånd är alltid sparat inom en kort, definierad tidsram efter varje förändring
-Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd.
+- Partiets senaste tillstånd är alltid sparat inom en kort, definierad tidsram efter varje förändring.
+- Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd.
 
 ## Testbar avslutning: 
 
--  Efter varje giltigt drag är spelbrädets nya tillstånd sparat (i 24 timmar).
+- Efter varje giltigt drag är spelbrädets nya tillstånd sparat (i 24 timmar).
    
 - Vid simulerad krasch (t.ex. stängd flik) och återöppning återställs partiet till exakt det tillstånd det hade precis innan kraschen.
   
 - Om ingen sparad data finns visas startsidan normalt utan felaktig återställning.
   
-- Om sparandet misslyckas tekniskt loggas detta internt utan att synligt krascha spelarens upplevelse.
+- Om sparande misslyckats så registreras det i loggen (hanteras av admin).
