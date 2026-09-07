@@ -205,7 +205,7 @@ flowchart TD
  
     RensaStart(["Spelaren rensar cookies"]):::terminal -.-> Dialog
 ```
-# Aktivitetsdiagram: Starta parti
+## **Aktivitetsdiagram: Starta parti**
  
 ```mermaid
 %% Täcker use cases: UC-01 (Starta parti mot dator), UC-08 (Välj svårighetsgrad),
@@ -254,4 +254,41 @@ via länk"]:::usecase
     Third -- Nej --> SlutOK
     Neka --> SlutOK
     After -- Avsluta --> SlutEnd(["Slut"]):::terminal
+```
+
+## **Aktivitetsdiagram: Spelloopen**
+ 
+```mermaid
+%% Täcker use cases: UC-06 (Spela drag), UC-16 (Avgöra vems tur det är),
+%% UC-12 (Visa felmeddelande), UC-07 (Pausa och återuppta parti),
+%% UC-20 (Avsluta/lämna pågående parti)
+%% Vinst-/oavgjortkontrollen (beslutsnoden nedan) motsvarar spelets regelkontroll efter varje drag.
+flowchart TD
+    classDef terminal fill:#374151,stroke:#111827,color:#ffffff,stroke-width:1px;
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f,stroke-width:1px;
+    classDef usecase fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a,stroke-width:1px;
+    classDef error fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d,stroke-width:1px;
+    classDef info fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-width:1px;
+ 
+    Start(["Parti startat"]):::terminal --> Turn["Visa vems tur det är"]:::usecase
+    Turn --> GorDrag["Spelare gör drag"]:::usecase
+    GorDrag --> Valid{"Giltigt drag?"}:::decision
+    Valid -- Nej --> Fel["Visa felmeddelande"]:::error
+    Fel --> GorDrag
+    Valid -- Ja --> Check{"Vinst eller
+fullt bräde?"}:::decision
+    Check -- Nej --> Turn
+    Check -- Ja --> Result["Visa resultat: vinst/oavgjort"]:::info
+    Result --> Slut(["Fortsätt till:
+Efter avslutat parti"]):::terminal
+ 
+    Turn -. Pausar .-> Pausa["Pausa och återuppta parti"]:::usecase
+    Pausa -. Återupptar .-> Turn
+ 
+    Turn -. "Avslutar i förtid" .-> Avsluta["Avsluta/lämna
+pågående parti"]:::usecase
+    Avsluta --> Notify{"Online-spel?"}:::decision
+    Notify -- Ja --> Inform["Informera motspelare"]:::info
+    Inform --> SlutAvbrutet(["Slut"]):::terminal
+    Notify -- Nej --> SlutAvbrutet
 ```
