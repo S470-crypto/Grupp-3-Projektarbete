@@ -1,3 +1,4 @@
+[Tillbaka till README](../../README.md)
 # 3. Kompletterande krav
 
 # Tillgänglighet, användarvillkor och information
