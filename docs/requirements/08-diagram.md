@@ -30,16 +30,23 @@ stateDiagram-v2
     class Nekat nekat
  
     note right of EjHanterat
-        Dialogen visas på nytt varje gång
-        detta tillstånd nås (första besök,
-        efter rensning, eller om spelaren
-        stänger dialogen utan att välja)
+        Dialogen visas på nytt
+varje gång
+        detta tillstånd nås
+(första besök,
+        efter rensning, eller
+om spelaren
+        stänger dialogen utan
+att välja)
     end note
  
     note right of Nekat
-        Spelet är fullt spelbart i detta
-        tillstånd - endast strikt nödvändiga
-        cookies (t.ex. autosave) är aktiva
+        Spelet är fullt spelbart i
+ detta
+        tillstånd - endast strikt
+ nödvändiga
+        cookies (t.ex. autosave)
+är aktiva
     end note
 ```
 ## **Tillståndsdiagram: Partiets tillstånd**
@@ -93,13 +100,16 @@ stateDiagram-v2
  
     note right of VäntarPåMotståndare
         Länken är giltig i 5 minuter.
-        Vid fler än två anslutningsförsök
+        Vid fler än två
+anslutningsförsök
         nekas ytterligare spelare
     end note
  
     note right of AvbrutetIFörtid
-        Vid online-spel informeras kvar-
-        varande spelare om att motståndaren
+        Vid online-spel
+informeras kvarvarande
+spelare om att
+motståndaren
         lämnat partiet
     end note
 ```
