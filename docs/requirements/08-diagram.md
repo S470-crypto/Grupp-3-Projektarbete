@@ -182,3 +182,26 @@ historiska loggar bevaras.
 |    Starta parti |UC-01, UC-08, UC-02, UC-03, UC-05, UC-11| 
 |    Spelloop |UC-06, UC-16, UC-12, UC-07, UC-20| 
 |    Efter avslutat parti |UC-04| 
+
+## **Aktivitetsdiagram: Cookie-hantering**
+ 
+```mermaid
+%% Täcker use cases: UC-17 (Godkänn samtycke), UC-18 (Neka samtycke), UC-19 (Rensa cookies)
+flowchart TD
+    classDef terminal fill:#374151,stroke:#111827,color:#ffffff,stroke-width:1px;
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f,stroke-width:1px;
+    classDef cookie fill:#dcfce7,stroke:#15803d,color:#14532d,stroke-width:1px;
+ 
+    Start(["Spelaren besöker webbplatsen"]):::terminal --> Check{"Giltigt samtycke registrerat?"}:::decision
+    Check -- Nej --> Dialog["Visa cookie-dialog"]:::cookie
+    Check -- Ja --> Slut(["Till: Startsida/Spelläge"]):::terminal
+ 
+    Dialog --> Val{"Spelarens val"}:::decision
+    Val -- Godkänn --> Godkant["Registrera godkänt samtycke"]:::cookie
+    Val -- Neka --> Nekat["Registrera nekat samtycke"]:::cookie
+    Val -- "Stänger utan val" --> Slut
+    Godkant --> Slut
+    Nekat --> Slut
+ 
+    RensaStart(["Spelaren rensar cookies"]):::terminal -.-> Dialog
+```
