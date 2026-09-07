@@ -30,3 +30,6 @@
 | Samtycke | Cookie consent. |
 | Anonymisering | Personuppgifter som tas bort så att en person inte längre kan identifieras. |
 | Personuppgiftsincident | En personuppgiftsincident är en säkerhetsincident som leder till oavsiktlig eller olaglig förstöring eller förlust av personuppgifter. |
+| Applikationsinsats | en specifik, aktiv körning av ett datorprogram eller en applikation.  |
+ | Rollback  | När systemet återgår till den tidigare sparade versionen.  |
+ | TLS-certifikat | En digital fil som krypterar informationen som skickas mellan en webbserver och en besökares webbläsare. |
