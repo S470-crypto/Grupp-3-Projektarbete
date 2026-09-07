@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # UC-NFR-03 Hantera begäran om integritetsinformation
 
 ## Meta
