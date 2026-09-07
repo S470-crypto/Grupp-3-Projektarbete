@@ -58,7 +58,7 @@
 |    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|  UC-02 |
 |    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid avbrott | UC-07, UC-20  |
 |    NFR-06.1 |Tredje person kan inte ansluta till länk (som är giltig 5 minuter) | UC-11, UC-05  |
-|    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |  UC-02, UC-15, UC-17  |
+|    NFR-06.2 |Kommunikation mellan klient och server ska ske krypterat |  UC-02, UC-15, UC-17, UC-NFR-09  |
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad|   UC-13, UC-NFR-04|
 |    NFR-07.1 |Paus, återanslutning och timeout ska kunna testas automatiserat. | UC-07 |
 |    NFR-07.2 |Loggfiler ska finnas |  UC-NFR-04  |
