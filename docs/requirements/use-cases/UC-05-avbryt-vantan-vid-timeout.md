@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # Use Case-ID: UC-05 Avbryt väntan vid timeout
 
 ## Meta:
