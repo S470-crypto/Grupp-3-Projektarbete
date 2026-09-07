@@ -1,6 +1,7 @@
+[Tillbaka till README](../../../README.md)
 # **UC-17 Godkänn samtycke till cookies**
 
-## **Meta**
+## **Meta:**
 Use case: Godkänn samtycke till cookies
 
 Use case ID: UC-17
@@ -9,13 +10,13 @@ Primär aktör: Spelare
 
 Syfte: Ge spelaren möjlighet att aktivt acceptera användning av cookies, i enlighet med GDPR.
 
-## **Förvillkor**
+## **Förvillkor:**
 
 - Spelaren besöker webbplatsen för första gången, eller har tidigare rensat sina cookies
 - Inget giltigt samtyckesval finns registrerat för spelaren
 - Cookie-dialogen är korrekt konfigurerad och tillgänglig i gränssnittet
 
-  ## **Trigger**
+  ## **Trigger:**
 Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtyckesstatus finns, vilket gör att cookie-dialogen visas.
 
 ## **Huvudflöde**
@@ -27,12 +28,14 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 6. Systemet aktiverar cookie-samling för spelaren
 7. Cookie-dialogen stängs och spelaren kan fortsätta använda webbplatsen normalt
 
-## **Alternativa flöden**
+## **Alternativa flöden:**
 
-- **A1 – Spelaren stänger dialogen utan att välja:** Om spelaren stänger bannern (t.ex. via kryss) utan att aktivt klicka "Godkänn" eller "Neka", ska detta *inte* tolkas som samtycke. Systemet behandlar detta som om inget val gjorts, och dialogen bör visas igen vid nästa sidladdning.
-- **A2 – Spelaren ändrar tidigare godkännande:** Om spelaren senare vill ändra sitt samtycke (t.ex. via en cookie-inställningslänk i sidfoten), leder detta till samma flöde som ovan men med möjlighet att uppdatera ett redan existerande val.
+**A1 – Spelaren stänger dialogen utan att välja:**
+- - Om spelaren stänger bannern (t.ex. via kryss) utan att aktivt klicka "Godkänn" eller "Neka", ska detta *inte* tolkas som samtycke. Systemet behandlar detta som om inget val gjorts, och dialogen bör visas igen vid nästa sidladdning.
+**A2 – Spelaren ändrar tidigare godkännande:**
+- Om spelaren senare vill ändra sitt samtycke (t.ex. via en cookie-inställningslänk i sidfoten), leder detta till samma flöde som ovan men med möjlighet att uppdatera ett redan existerande val.
 
-## **Eftervillkor**
+## **Eftervillkor:**
 
 - Spelarens samtyckesval är sparat och kopplat till spelarens webbläsare/session
 - Endast de cookie-kategorier som spelaren godkänt är aktiva
@@ -41,6 +44,6 @@ Systemets gränssnitt reflekterar exakt det turtillstånd som systemet har inter
 
 ## **Testbar avslutning**
 
-- **T1:** Vid första besök utan tidigare samtycke visas cookie-dialogen.
-- **T2:** Efter klick på "Godkänn" döljs dialogen och alla cookies aktiveras. 
-- **T3:** Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies, och dialogen visas igen vid nästa besök.
+- Vid första besök utan tidigare samtycke visas cookie-dialogen.
+- Efter klick på "Godkänn" döljs dialogen och alla cookies aktiveras. 
+- Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies, och dialogen visas igen vid nästa besök.
