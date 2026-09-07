@@ -21,3 +21,4 @@ Vi skapade en use case-modell och diagram som kunde användas för att identifie
 |   [08-Diagram](docs/requirements/08-diagram.md) | Tillståndsdiagram och aktivitetsdiagram|
 |   [09-Verksamhetsregler](docs/requirements/09-verksamhetsregler.md) | Beskriver spelets regler |
 |   [10-Spårbarhetsmatris](docs/requirements/10-sparbarhetsmatris.md)| Tabeller visar översikt av krav kopplat till use cases|
+|   [Use cases](docs/requirements/use-cases)| Genväg till use cases|
