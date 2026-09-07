@@ -1,4 +1,4 @@
-**UC-18 Upptäcka vinst**
+[Tillbaka till README](../../../README.md)
 
 # UC-18: Neka samtycke till cookies
  
@@ -27,8 +27,11 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 
 
 ## Alternativa flöden
-- **A1 – Spelaren ändrar tidigare nekat samtycke till godkännande:** Spelaren kan senare ändra sitt val via cookie-inställningar, vilket leder över till UC-17.
-- **A2 – Tekniskt fel vid lagring av nekat samtycke:** Om det nekade valet av tekniska skäl inte kan sparas, ska systemet ändå inte aktivera icke-nödvändiga cookies, och bör visa dialogen igen vid nästa besök.
+**A1 – Spelaren ändrar tidigare nekat samtycke till godkännande:**
+- Spelaren kan senare ändra sitt val via cookie-inställningar, vilket leder över till UC-17.
+- 
+**A2 – Tekniskt fel vid lagring av nekat samtycke:**
+- Om det nekade valet av tekniska skäl inte kan sparas, ska systemet ändå inte aktivera icke-nödvändiga cookies, och bör visa dialogen igen vid nästa besök.
 
 ## Eftervillkor
 - Spelarens nekande är sparat och kopplat till spelarens session
@@ -37,5 +40,5 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 - Cookie-dialogen visas inte igen förrän valet löper ut, ändras, eller rensas av spelaren
 
 ## Testbar avslutning
-- **T1:** Efter klick på "Neka" döljs dialogen och inga icke-nödvändiga cookies (t.ex. analytics) sätts.
-- **T2:** Spelet (t.ex. att starta match, göra drag, pausa/återuppta) fungerar fullt ut även efter nekat samtycke – ingen kärnfunktion får vara blockerad.
+- Efter klick på "Neka" döljs dialogen och inga icke-nödvändiga cookies (t.ex. analytics) sätts.
+- Spelet (t.ex. att starta match, göra drag, pausa/återuppta) fungerar fullt ut även efter nekat samtycke – ingen kärnfunktion får vara blockerad.
