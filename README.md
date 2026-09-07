@@ -1,10 +1,11 @@
 # Grupp-3-Projektarbete
 Av: Sami, Mikaela, Honelyn, Andreas
 
+## Projektet
 Detta är ett skolprojekt som ingick i kursen krav och användningsfall. 
-Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad).
-Genom att intervjua en fiktiv kund skulle vi fånga upp testbara krav. 
-Vi har skapat diagram för att identifiera tillstånd och aktiviteter med fokus på kravanalysen snarare än själva implementationen av systemet. 
+- Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som vi identifierat.
+- Genom att intervjua en fiktiv kund skulle vi fånga upp testbara krav.
+- Vi har skapat diagram för att identifiera tillstånd och aktiviteter med fokus på kravanalysen snarare än själva implementationen av systemet. 
 
 
 
