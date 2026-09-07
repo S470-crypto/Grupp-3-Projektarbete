@@ -205,3 +205,53 @@ flowchart TD
  
     RensaStart(["Spelaren rensar cookies"]):::terminal -.-> Dialog
 ```
+# Aktivitetsdiagram: Starta parti
+ 
+```mermaid
+%% Täcker use cases: UC-01 (Starta parti mot dator), UC-08 (Välj svårighetsgrad),
+%% UC-02 (Starta parti, bjud in vän), UC-03 (Anslut till parti via länk),
+%% UC-05 (Avbryt väntan vid timeout), UC-11 (Förhindra obehöriga från att ansluta)
+flowchart TD
+    classDef terminal fill:#374151,stroke:#111827,color:#ffffff,stroke-width:1px;
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f,stroke-width:1px;
+    classDef usecase fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a,stroke-width:1px;
+    classDef error fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d,stroke-width:1px;
+ 
+    Start(["Spelaren väljer spelläge"]):::terminal --> Mode{"Välj spelläge"}:::decision
+ 
+    subgraph Dator["Mot dator (AI)"]
+        direction TB
+        Svarighet["Välj svårighetsgrad"]:::usecase
+        StartaDator["Starta parti mot dator"]:::usecase
+        Svarighet --> StartaDator
+    end
+ 
+    Mode -- "Mot dator" --> Svarighet
+    StartaDator --> SlutOK(["Fortsätt till: Spelloopen"]):::terminal
+ 
+    subgraph Van["Mot vän"]
+        direction TB
+        StartaVan["Starta parti, dela länk"]:::usecase
+        Wait{"Ansluter motståndare
+inom 5 min?"}:::decision
+        Ansluter["Motståndare ansluter
+via länk"]:::usecase
+        Third{"Fler försöker ansluta?"}:::decision
+        Neka["Neka ytterligare anslutning"]:::usecase
+        Timeout["Avbryt väntan"]:::error
+        After{"Nytt parti eller avsluta?"}:::decision
+ 
+        StartaVan --> Wait
+        Wait -- Ja --> Ansluter
+        Ansluter --> Third
+        Third -- Ja --> Neka
+        Wait -- "Timeout / avbryter" --> Timeout
+        Timeout --> After
+        After -- "Nytt parti" --> StartaVan
+    end
+ 
+    Mode -- "Mot vän" --> StartaVan
+    Third -- Nej --> SlutOK
+    Neka --> SlutOK
+    After -- Avsluta --> SlutEnd(["Slut"]):::terminal
+```
