@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # UC-NFR-04 Hantering av information vid dataintrång
 
 ## Meta
@@ -28,7 +29,7 @@
 
 2. Om dataansvarig bedömmer att risken är på en nivå som kräver anmälan till tillsynsmyndigheten så rapporteras det inom 72 timmar (enl GDPR art. 33).
 
-3. Dataansvarig formulerar ett offentligt meddelande med tydlig information om vad som skett som ska visas på spelsidan i en banner (GDPR art. 34.3 eftersom spelarna saknar konton med kontaktuppgifter och kan inte kontaktas personligen).
+3. Dataansvarig formulerar ett offentligt meddelande med tydlig information om vad som skett som ska visas på spelsidan i en banner (GDPR art. 34 eftersom spelarna saknar konton med kontaktuppgifter och kan inte kontaktas personligen).
 
 4. Dataansvarig sammanställer informationen och dokumenterar incidenten, åtgärder och beslut (enl GDPR art. 33)
 
@@ -36,7 +37,7 @@
 
 ## Alternativa flöden:
 
-**A1:** Risken bedöms vara låg
+**A1: Risken bedöms vara låg**
 
 - Om det är osannolikt att incidenten medför finns en risk för spelarnas rättigheter behöver det inte rapporteras till tillsynsmyndigheten men incidenter ska alltid dokumenteras av dataansvarig. 
 
