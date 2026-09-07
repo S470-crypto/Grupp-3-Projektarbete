@@ -5,7 +5,7 @@
 
 ## 10.1 Funktionella krav och relaterade use cases
 
-|FR-ID  | Krav (kortfattat)                  | UC-ID          |
+|FR-ID  | Krav (kortfattad beskrivning)                  | UC-ID          |
 |-------|-------------------------------|----------------|
 |FR-01.1|  Starta parti utan konto  |UC-01, UC-02    |
 |FR-01.2|  Bjud in till parti via delad länk |   UC-02, UC-03    |
@@ -20,7 +20,7 @@
 |FR-01.11| Avbryt väntan på spelare |       UC-05 |
 |FR-01.12|   Bara två spelare kan vara anslutna till ett parti. |    UC-11           |
 |FR-01.13| Pausa och återuppta parti |    UC-07    |
-|FR-01.14|  Visa felmeddelande |       UC-12, NFR-02.3  |
+|FR-01.14|  Visa felmeddelande |       UC-12 |
 |FR-01.15|   Välja svårighetsgrad |     UC-08   |
 |FR-01.16|   Avsluta pågående parti   |  UC-20      |
 |FR-01.17|   Systemet känner av oavgjort  |    UC-09      |
@@ -40,7 +40,7 @@
 ## 10.2 Icke funktionella krav och relaterade use cases
 
 
-| NFR-ID      | Beskrivning |    UC-ID  |
+| NFR-ID      | Krav (kortfattad beskrivning)   |    UC-ID  |
 | ----------- | ----------- | --------|
 |    NFR-01.1 |Speldata sparas vid krasch/omstart|   UC-NFR-07  |
 |    NFR-01.2 |Speldata raderas 24 timmar efter senaste aktivitet|  UC-NFR-06  |
@@ -79,23 +79,23 @@
 |UC-01|  Starta parti mot dator (AI) |FR-01.1, FR-01.4, NFR-02.1, NFR-02.2,  NFR-02.4 |
 |UC-02|  Starta parti bjud in vän |FR-01.2, NFR-02.1, NFR-02.2,  NFR-02.4, NFR-04.3 |
 |UC-03|  Anslut till parti via länk |FR-01.2, FR-01.9, NFR-02.2,  NFR-02.4 |
-|UC-04| Spela igen mot samma motståndare | |
-|UC-05| Avbryt väntan vid timeout| |
-|UC-06| Spela drag | |
-|UC-07| Pausa och återuppta parti| |
-|UC-08| Välja svårighetsgrad| |
-|UC-09| Avsluta parti (visa resultat)| |
-|UC-10| Skapa konto som admin| |
+|UC-04| Spela igen mot samma motståndare |FR-01.3 |
+|UC-05| Avbryt väntan vid timeout|FR-01.11, NFR-06.1  |
+|UC-06| Spela drag | FR-01.6, FR-01.8, NFR-02.1 |
+|UC-07| Pausa och återuppta parti| FR-01.13, NFR-05.1|
+|UC-08| Välja svårighetsgrad| FR-01.15 |
+|UC-09| Avsluta parti (visa resultat)|  NFR-02.1|
+|UC-10| Skapa konto som admin| FR-02.6, NFR-09.3 |
 |UC-11| Förhindra tredje spelare från att ansluta| |
-|UC-12| Visa felmeddelande| |
-|UC-13| Logga in som behörig| |
-|UC-14| Logga ut som behörig| |
-|UC-15| Inaktivera konto som admin| |
-|UC-16| Avgöra vems tur det är| |
-|UC-17| Godkänn samtycke till cookies| |
-|UC-18| Neka samtycke till cookies| |
-|UC-19| Rensa cookies (återkalla)| |
-|UC-20| Avsluta/lämna pågående parti| |
+|UC-12| Visa felmeddelande| FR-01.14 |
+|UC-13| Logga in som behörig| FR-02.1 |
+|UC-14| Logga ut som behörig| FR-02.1 |
+|UC-15| Inaktivera konto som admin| FR-02.6, FR-02.8, NFR-06.3, NFR-07.2, NFR-09.3 |
+|UC-16| Avgöra vems tur det är| FR-01.8 |
+|UC-17| Godkänn samtycke till cookies| FR-02.2, NFR-01.3, FR-02.3, NFR-01.4, NFR-09.5, NFR-09.6 |
+|UC-18| Neka samtycke till cookies| FR-02.2, FR-02.3, NFR-09.5   |
+|UC-19| Rensa cookies (återkalla)| FR-02.3, NFR-09.5 |
+|UC-20| Avsluta/lämna pågående parti| FR-01.16, NFR-05.1 |
 
 
 ## 10.4 Icke funktionella use cases relaterade till krav
