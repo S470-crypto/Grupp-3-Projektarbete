@@ -14,19 +14,20 @@ Sekundär aktör: Spelare (påverkas indirekt), System
 Syfte: Säkerställa att driftuppdateringar (t.ex. ny kodversion) kan genomföras utan att spelare förlorar sina pågående partier (NFR-08.2).
 
 ## Förvillkor: 
-En ny systemversion är redo att distribueras
-Pågående partier finns i systemet vid uppdateringstillfället
-Systemet stödjer en uppdateringsstrategi som bevarar tillstånd (t.ex. rullande uppdatering, tillståndsseparerad lagring)
-Trigger: 
+* En ny systemversion är redo att distribueras
+* Pågående partier finns i systemet vid uppdateringstillfället
+* Systemet stödjer en uppdateringsstrategi som bevarar tillstånd (t.ex. rullande uppdatering, tillståndsseparerad lagring)
+
+## Trigger: 
 Administratören initierar en driftsättning av en ny systemversion.
 
 ## Huvudflöde: 
-Administratören initierar uppdateringen
-Systemet säkerställer att alla pågående partiers tillstånd är sparat i en beständig lagring, separat från applikationsinstansen som ska uppdateras (kopplar till UC-NFR-06)
-Den nya versionen driftsätts, t.ex. genom att nya instanser startas parallellt med de gamla
-Trafik och pågående sessioner flyttas gradvis över till den nya versionen
-Spelare med pågående partier fortsätter sina partier på den nya versionen med bevarat tillstånd
-De gamla instanserna avvecklas när inga sessioner längre använder dem
+1. Administratören initierar uppdateringen
+2. Systemet säkerställer att alla pågående partiers tillstånd är sparat i en beständig lagring, separat från applikationsinstansen som ska uppdateras (kopplar till UC-NFR-06)
+3. Den nya versionen driftsätts, t.ex. genom att nya instanser startas parallellt med de gamla
+4. Trafik och pågående sessioner flyttas gradvis över till den nya versionen
+5. Spelare med pågående partier fortsätter sina partier på den nya versionen med bevarat tillstånd
+6. De gamla instanserna avvecklas när inga sessioner längre använder dem
 
 
 ## Alternativa flöden: 
