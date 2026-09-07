@@ -25,7 +25,7 @@
 
 ## Huvudflöde: 
 1. Ett drag görs eller partiets tillstånd förändras på annat sätt (t.ex. paus)
-2. Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (länk-ID) på servern
+2. Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (länk-ID) på servern. Länk-ID lagras i spelarens webbläsare via sessionscookie.
 3. Spelaren fortsätter spela som vanligt utan att märka av sparandet
 4. Om webbläsaren kraschar eller sidan laddas om oavsiktligt, upptäcker systemet vid nästa sidladdning att en session med sparad, oavslutad data finns
 5. Systemet återställer partiet till senast sparade tillstånd automatiskt
