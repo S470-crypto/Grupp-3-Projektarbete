@@ -48,7 +48,7 @@
 |    NFR-01.4 | Cookies lagras pseudonymiserat i 6 månader|  UC-17 |
 |    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |  UC-17  |
 |    NFR-02.1 |Systemet visar turordning, resultat och hur spelare startar parti | UC-01, UC-02, UC-04, UC-06, UC-09  |
-|    NFR-02.2 |Ingen kontoregistrering krävs |  UC-01, UC-02  |
+|    NFR-02.2 |Ingen kontoregistrering krävs |  UC-01, UC-02, UC-03  |
 |    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| UC-12 |
 |    NFR-02.4 |Webbsidan ska fungera på mobil och dator |  UC-01, UC-02, UC-03, UC-04 |
 |    NFR-03.1 |Spelet ska vara responsivt utan lag.  |  UC-NFR-01 |
@@ -71,3 +71,11 @@
 |    NFR-09.5 | Samtycke till cookies godkänns eller nekas, återkallas| UC-17, UC-18, UC-19|
 |    NFR-09.6 | Samtycke till cookies ska lagras|  UC-17  |
 
+
+## 10.3 Use cases relaterat till krav
+
+|UC-ID  | UC (kortfattat)                  | Krav ID         |
+|-------|-------------------------------|----------------|
+|UC-01|  Starta parti mot dator (AI) |FR-01.1, FR-01.4, NFR-02.1, NFR-02.2,  NFR-02.4 |
+|UC-02|  Starta parti bjud in vän |FR-01.2, NFR-02.1, NFR-02.2,  NFR-02.4, NFR-04.3 |
+|UC-03|  Anslut till parti via länk |FR-01.2, FR-01.9, NFR-02.2,  NFR-02.4 |
