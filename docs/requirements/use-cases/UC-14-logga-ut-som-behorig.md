@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # Use case: UC-14 Logga ut som admin
 
 ## Meta
