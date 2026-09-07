@@ -23,7 +23,7 @@
 
 ## Huvudflöde:
 
-1. Systemet identifierar spelpartier där senaste aktiviteten genomfördes för mer än 24 timmar sedan.
+1. Systemet identifierar partier där senaste aktiviteten genomfördes för mer än 24 timmar sedan.
 
 2. Systemet markerar partierna som ska rensas/raderas med "rensning".
 
