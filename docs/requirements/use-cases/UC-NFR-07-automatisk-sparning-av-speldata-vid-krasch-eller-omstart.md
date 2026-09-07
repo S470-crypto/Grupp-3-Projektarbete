@@ -29,14 +29,14 @@ Spelaren kan fortsätta partiet exakt där det avbröts
 
 
 ## Alternativa flöden: 
-**A1:** Ingen sparad data hittas (t.ex. vid ett nytt besök)
+**AF1:** Ingen sparad data hittas (t.ex. vid ett nytt besök)
 systemet visar startsidan som vanligt, ingen återställning sker. 
 Sparandet misslyckas tekniskt (t.ex. lagringsfel)
 
-**A2:** Systemet fortsätter spelet i minnet men flaggar internt att autosave misslyckats.
+**AF2:** Systemet fortsätter spelet i minnet men flaggar internt att autosave misslyckats.
 Om en krasch sker innan nästa lyckade sparning går den senaste, osparade förändringen förlorad.
 
-**A3:** Sparad data är korrupt eller ofullständig vid återställningsförsök
+**AF3:** Sparad data är korrupt eller ofullständig vid återställningsförsök
 * Systemet kan inte återställa partiet tillförlitligt.
 * Spelaren informeras (se UC-12, Visa felmeddelande) och erbjuds att starta ett nytt parti.
 
