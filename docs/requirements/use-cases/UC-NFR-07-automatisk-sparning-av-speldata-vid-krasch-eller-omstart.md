@@ -1,8 +1,8 @@
 
-#Use case: UC-NFR-07 Automatisk sparning av speldata vid krasch eller omstart 
+# Use case: UC-NFR-07 Automatisk sparning av speldata vid krasch eller omstart 
 
 
-##Meta 
+## Meta 
 Use case: Automatisk sparning av speldata vid krasch eller omstart
 
 Use case ID: UC-NFR-06
@@ -13,13 +13,13 @@ Sekundär aktör: Spelare (mottagare av återställd data)
 
 Syfte: Säkerställa att pågående speldata bevaras kontinuerligt så att ett parti kan återställas om webbläsaren kraschar eller sidan laddas om oavsiktligt (NFR-01.1).
 
-##Förvillkor: 
+## Förvillkor: 
 Ett parti pågår (status: pågående eller pausad)
 Autosave-funktionen är aktiv och tillgänglig
 Trigger: 
 Ett drag görs, partiet pausas, eller partiets tillstånd förändras på annat sätt under ett pågående parti.
 
-##Huvudflöde: 
+## Huvudflöde: 
 Ett drag görs eller partiets tillstånd förändras på annat sätt (t.ex. paus)
 Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (session-/länk-ID)
 Spelaren fortsätter spela som vanligt utan att märka av sparandet
@@ -28,7 +28,7 @@ Systemet återställer partiet till senast sparade tillstånd automatiskt
 Spelaren kan fortsätta partiet exakt där det avbröts
 
 
-##Alternativa flöden: 
+## Alternativa flöden: 
 A1: Ingen sparad data hittas (t.ex. vid ett nytt besök)
 
 Systemet visar startsidan som vanligt, ingen återställning sker.
@@ -42,11 +42,11 @@ Systemet kan inte återställa partiet tillförlitligt.
 Spelaren informeras (se UC-12, Visa felmeddelande) och erbjuds att starta ett nytt parti.
 
 
-##Eftervillkor: 
+## Eftervillkor: 
 Partiets senaste tillstånd är alltid sparat inom en kort, definierad tidsram efter varje förändring
 Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd
 
-##Testbar avslutning: 
+## Testbar avslutning: 
 T1: Efter varje giltigt drag är det nya brädtillståndet sparat inom en definierad tidsgräns.
 T2: Vid simulerad krasch (t.ex. stängd flik) och återöppning återställs partiet till exakt det tillstånd det hade precis innan kraschen.
 T3: Om ingen sparad data finns visas startsidan normalt utan felaktig återställning.
