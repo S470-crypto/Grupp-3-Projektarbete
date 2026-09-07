@@ -22,12 +22,12 @@ Autosave-funktionen är aktiv och tillgänglig
 Ett drag görs, partiet pausas, eller partiets tillstånd förändras på annat sätt under ett pågående parti.
 
 ## Huvudflöde: 
-Ett drag görs eller partiets tillstånd förändras på annat sätt (t.ex. paus)
-Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (session-/länk-ID)
-Spelaren fortsätter spela som vanligt utan att märka av sparandet
-Om webbläsaren kraschar eller sidan laddas om oavsiktligt, upptäcker systemet vid nästa sidladdning att en session med sparad, oavslutad data finns
-Systemet återställer partiet till senast sparade tillstånd automatiskt
-Spelaren kan fortsätta partiet exakt där det avbröts
+1. Ett drag görs eller partiets tillstånd förändras på annat sätt (t.ex. paus)
+2. Systemet sparar automatiskt det aktuella spelbrädets tillstånd, tur-status och partiets metadata (session-/länk-ID)
+3. Spelaren fortsätter spela som vanligt utan att märka av sparandet
+4. Om webbläsaren kraschar eller sidan laddas om oavsiktligt, upptäcker systemet vid nästa sidladdning att en session med sparad, oavslutad data finns
+5. Systemet återställer partiet till senast sparade tillstånd automatiskt
+6. Spelaren kan fortsätta partiet exakt där det avbröts
 
 
 ## Alternativa flöden: 
@@ -45,7 +45,7 @@ Om en krasch sker innan nästa lyckade sparning går den senaste, osparade för�
 
 ## Eftervillkor: 
 Partiets senaste tillstånd är alltid sparat inom en kort, definierad tidsram efter varje förändring
-Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd
+Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd.
 
 ## Testbar avslutning: 
 T1: Efter varje giltigt drag är det nya brädtillståndet sparat inom en definierad tidsgräns.
