@@ -1,9 +1,10 @@
+[Tillbaka till README](../../../README.md)
 **UC-16 Avgöra vems tur det är**
 
 **Meta**
-ID: UC-16
+Use case ID: UC-16
 
-Namn: Avgöra vems tur det är
+Use case: Avgöra vems tur det är
 
 Aktör: System
 
