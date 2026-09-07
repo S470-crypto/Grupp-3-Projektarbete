@@ -14,14 +14,16 @@ Syfte: Skydda all data som skickas mellan klient och server från avlyssning och
 ## Förvillkor: 
 Systemet är konfigurerat att endast tillåta krypterade anslutningar (t.ex. HTTPS/WSS)
 Ett giltigt TLS-certifikat är installerat och aktivt
-Trigger: 
+
+
+## Trigger: 
 En klient (spelarens webbläsare) initierar kommunikation med servern, t.ex. vid sidladdning, drag, eller realtidsuppdatering i ett online-parti.
 
 ## Huvudflöde: 
-Klienten initierar en anslutning till servern
-Servern och klienten upprättar en krypterad anslutning (TLS-handskakning)
-All efterföljande kommunikation (t.ex. drag, tur-status) skickas krypterat
-Spelaren använder spelet utan att märka av krypteringen
+1. Klienten initierar en anslutning till servern
+2. Servern och klienten upprättar en krypterad anslutning (TLS-handskakning)
+3. All efterföljande kommunikation (t.ex. drag, tur-status) skickas krypterat
+4. Spelaren använder spelet utan att märka av krypteringen
 
 ## Alternativa flöden: 
 **A1:** Klienten försöker ansluta okrypterat (t.ex. via http:// istället för https://)
