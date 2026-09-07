@@ -114,6 +114,66 @@ motståndaren
     end note
 ```
 
+## **Tillståndsdiagram: Administratörskonto**
+ 
+```mermaid
+%% Täcker use cases: UC-10 (Skapa konto som admin), UC-13 (Logga in som behörig),
+%% UC-14 (Logga ut som behörig), UC-15 (Inaktivera konto som admin)
+stateDiagram-v2
+    classDef waiting fill:#fef3c7,stroke:#b45309,color:#78350f,stroke-width:1px
+    classDef active fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a,stroke-width:1px
+    classDef neutral fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-width:1px
+    classDef cancelled fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d,stroke-width:1px
+ 
+    [*] --> KontoSkapas : Admin skapar konto
+ 
+    state KontoSkapas {
+        [*] --> VäntarPåAktivering
+    }
+    note right of KontoSkapas
+        Om aktivering inte sker inom
+1 timme kan admin skicka
+en ny inbjudningslänk
+        eller radera kontot
+    end note
+ 
+    KontoSkapas --> KontoAktivt : Aktiverar via länk
+    KontoSkapas --> KontoRaderat : Admin raderar konto
+ 
+    state KontoAktivt {
+        [*] --> Utloggad
+        Utloggad --> Inloggad : Loggar in
+        Inloggad --> Utloggad : Loggar ut
+        Inloggad --> Utloggad : Inaktivitet i 15 min
+ 
+        class Utloggad neutral
+        class Inloggad active
+    }
+    note right of KontoAktivt
+        Felaktiga inloggningsuppgifter
+ger ett felmeddelande,
+kontot förblir i
+        tillståndet Utloggad
+    end note
+ 
+    KontoAktivt --> KontoInaktiverat : Inaktiverar konto
+    note right of KontoInaktiverat
+        Inaktivering nekas om
+kontot är det enda med
+aktuell behörighetsroll.
+        Vid genomförd inaktivering
+raderas personuppgifter,
+historiska loggar bevaras.
+    end note
+ 
+    KontoInaktiverat --> [*]
+    KontoRaderat --> [*]
+ 
+    class KontoSkapas waiting
+    class KontoAktivt active
+    class KontoInaktiverat cancelled
+    class KontoRaderat cancelled
+```
 
 ## 8.2 Aktivitetsdiagram
 | Diagram | Täcker Use case| 
