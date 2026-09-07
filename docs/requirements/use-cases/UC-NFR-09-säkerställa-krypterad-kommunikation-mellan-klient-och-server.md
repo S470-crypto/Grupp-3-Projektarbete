@@ -26,8 +26,11 @@ Spelaren använder spelet utan att märka av krypteringen
 ## Alternativa flöden: 
 **A1:** Klienten försöker ansluta okrypterat (t.ex. via http:// istället för https://)
  Servern omdirigerar automatiskt till en krypterad anslutning, eller nekar anslutningen om omdirigering inte är möjlig.
+ 
 **A2:** TLS-certifikatet har gått ut eller är ogiltigt
 Webbläsaren varnar spelaren och blockerar som standard anslutningen. Detta ska aldrig inträffa i produktion och bör fångas av övervakning innan spelare påverkas.
+
+
 **A3:** Anslutningen försöker nedgraderas p.g.a. en föråldrad klient/webbläsare
 
 Systemet nekar anslutningen istället för att tillåta en svagare, osäker krypteringsnivå.
