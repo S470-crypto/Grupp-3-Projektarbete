@@ -53,7 +53,7 @@ Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd
 
 ## Testbar avslutning: 
 
--  Efter varje giltigt drag är det nya brädtillståndet sparat inom en definierad tidsgräns.
+-  Efter varje giltigt drag är spelbrädets nya tillstånd sparat (i 24 timmar).
    
 - Vid simulerad krasch (t.ex. stängd flik) och återöppning återställs partiet till exakt det tillstånd det hade precis innan kraschen.
   
