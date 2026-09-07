@@ -7,25 +7,25 @@
 
 **Use case ID:** UC-15
 
-**Primär aktör:** Administratör
+**Primär aktör:** Admin
 
-**Syfte:** En administratör med behörighet kan inaktivera konton t.ex. om en person slutar och inte längre ska ha behörighet till systemet
+**Syfte:** Admin med behörighet kan inaktivera konton t.ex. om en person slutar och inte längre ska ha behörighet till systemet (åtkomstkontroll)
 
 ## Förvillkor
 
-- Administratören är inloggad i system- och administrationsportalen och har en aktiv session, denne har behörighet att inaktivera konton.
+- Admin är inloggad i system- och administrationsportalen och har en aktiv session, denne har behörighet att inaktivera konton.
 
 ## Trigger
 
-- Administratören får information om att ett konto med dataansvarigs roll/behörighet ska inaktiveras.
+- Admin får information om att ett konto med dataansvarigs roll/behörighet ska inaktiveras.
 
 ## Huvudvillkor
 
-1. Administratören navigerar till översikten för konton, väljer det konto som ska inaktiveras och väljer inaktivera konto.
+1. Admin navigerar till översikten för konton, väljer det konto som ska inaktiveras och väljer inaktivera konto.
 
 2. Systemet ställer kontrollfråga för att bekräfta att inaktiveringen är korrekt.
 
-3. Administratören bekräftar inaktiveringen.
+3. Admin bekräftar inaktiveringen.
 
 4. Systemet inaktiverar kontot, inloggning spärras och om det eventuella aktiva sessioner avslutas.
 
@@ -49,7 +49,7 @@
 
 ## Testbar avslutning
 
-När en administratör bekräftat att ett konto ska inaktiveras i system- och administrationsportalen så ska kontot inaktiveras och inloggning är inte längre möjlig. Personliga uppgifter pseudonymiseras, historiska handlingar finns kvar för spårbarhet dock utan att kunna koppla direkt till person.
+När admin bekräftat att ett konto ska inaktiveras i system- och administrationsportalen så ska kontot inaktiveras och inloggning är inte längre möjlig. Personliga uppgifter pseudonymiseras, historiska handlingar finns kvar för spårbarhet dock utan att kunna koppla direkt till person.
 
 
 
