@@ -3,8 +3,8 @@
 
 ## Termer och definitioner
 
-| Ord | Beskrivning |
-| --- | --- |
+| Ord      | Beskrivning | 
+| ----------- | ----------- | 
 | Dator (AI) | Motståndare vid enspelarläge. |
 | Spelare | Huvudspelare, den som initierar/bjuder in till spel. |
 | Motståndare | Motspelaren (vän) blir inbjuden till spel. |
@@ -17,8 +17,16 @@
 | Förlust | Spelare förlorar spelet mot motspelaren. |
 | Systemet | Hanterar spelet och funktionerna i det. |
 | Bricka | Det som spelarna placerar på brädet. |
-| Spelruta | Där brickan placeras. |
+| Spelruta | Ruta/positionär brickan placeras. |
 | Länk-ID | En unik ID som finns i varje inbjudningslänk som skapas. |
 | Aktör | Kan vara dator (AI), Spelare, Motståndare, Admin (system), dataansvarig |
 | Cookie | Cookie consent för att spara data i audit.log i backend. |
 | System- och administrationsportalen | Portal som administratör och dataansvarig kan logga in i för att hantera drift, säkerhet och behörighetsfrågor. Administrationsgränssnitt som skiljer sig från spelarnas kontofria spelvy. |
+| GDPR | General data protection regulation. |
+| Pseudonymisering | Personuppgifter ersätts med en kod eller psudonym så att data inte längre kan kopplas till en specifik person. |
+| Kryptering | Gör läsbar information till olöslig kod för att skyyda den från obehöriga. |
+| Audit.log | All system aktivitet lagras i audi.log |
+| Spelvy | |
+| Samtycke | Cookie consent. |
+| Anonymisering | Personuppgifter som tas bort så att en person inte längre kan identifieras. |
+| Personuppgiftsincident | En personuppgiftsincident är en säkerhetsincident som leder till oavsiktlig eller olaglig förstöring eller förlust av personuppgifter. |
