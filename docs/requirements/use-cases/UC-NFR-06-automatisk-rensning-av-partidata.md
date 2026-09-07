@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # UC-NFR-06 Automatisk rensning av partidata
 
 ## Meta:
