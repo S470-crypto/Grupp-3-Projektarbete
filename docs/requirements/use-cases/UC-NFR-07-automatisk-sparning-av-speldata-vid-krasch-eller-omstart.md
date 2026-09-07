@@ -1,5 +1,5 @@
 
-# Use case: UC-NFR-07 Automatisk sparning av speldata vid krasch eller omstart 
+# UC-NFR-07 Automatisk sparning av speldata vid krasch eller omstart 
 
 
 ## Meta 
