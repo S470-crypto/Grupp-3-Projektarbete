@@ -2,13 +2,13 @@
 # **UC-17 Godkänn samtycke till cookies**
 
 ## **Meta:**
-Use case: Godkänn samtycke till cookies
+**Use case:** Godkänn samtycke till cookies
 
-Use case ID: UC-17
+**Use case ID:** UC-17
 
-Primär aktör: Spelare
+**Primär aktör:** Spelare
 
-Syfte: Ge spelaren möjlighet att aktivt acceptera användning av cookies, i enlighet med GDPR.
+**Syfte:** Ge spelaren möjlighet att aktivt acceptera användning av cookies, i enlighet med GDPR.
 
 ## **Förvillkor:**
 
@@ -31,7 +31,8 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 ## **Alternativa flöden:**
 
 **A1 – Spelaren stänger dialogen utan att välja:**
-- - Om spelaren stänger bannern (t.ex. via kryss) utan att aktivt klicka "Godkänn" eller "Neka", ska detta *inte* tolkas som samtycke. Systemet behandlar detta som om inget val gjorts, och dialogen bör visas igen vid nästa sidladdning.
+- Om spelaren stänger bannern (t.ex. via kryss) utan att aktivt klicka "Godkänn" eller "Neka", ska detta *inte* tolkas som samtycke. Systemet behandlar detta som om inget val gjorts, och dialogen bör visas igen vid nästa sidladdning.
+  
 **A2 – Spelaren ändrar tidigare godkännande:**
 - Om spelaren senare vill ändra sitt samtycke (t.ex. via en cookie-inställningslänk i sidfoten), leder detta till samma flöde som ovan men med möjlighet att uppdatera ett redan existerande val.
 
