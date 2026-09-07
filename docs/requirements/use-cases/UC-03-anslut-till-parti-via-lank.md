@@ -1,3 +1,4 @@
+[Tillbaka till README](../../../README.md)
 # Use case ID: UC-03 Anslut till parti via länk
 
 ## Meta:
