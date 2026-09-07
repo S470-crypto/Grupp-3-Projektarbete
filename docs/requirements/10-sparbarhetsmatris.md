@@ -79,7 +79,7 @@
 |UC-01|  Starta parti mot dator (AI) |FR-01.1, FR-01.4, NFR-02.1, NFR-02.2,  NFR-02.4 |
 |UC-02|  Starta parti bjud in vän |FR-01.2, NFR-02.1, NFR-02.2,  NFR-02.4, NFR-04.3 |
 |UC-03|  Anslut till parti via länk |FR-01.2, FR-01.9, NFR-02.2,  NFR-02.4 |
-|UC-04| Spela igen mot samma motståndare |FR-01.3 |
+|UC-04| Spela igen mot samma motståndare |FR-01.3, NFR-02.1 |
 |UC-05| Avbryt väntan vid timeout|FR-01.11, NFR-06.1  |
 |UC-06| Spela drag | FR-01.6, FR-01.8, NFR-02.1 |
 |UC-07| Pausa och återuppta parti| FR-01.13, NFR-05.1|
@@ -87,11 +87,11 @@
 |UC-09| Avsluta parti (visa resultat)|  FR-01.5, NFR-02.1|
 |UC-10| Skapa konto som admin| FR-02.6, NFR-09.3 |
 |UC-11| Förhindra tredje spelare från att ansluta| FR-01.12, NFR-06.1 |
-|UC-12| Visa felmeddelande| FR-01.14 |
-|UC-13| Logga in som behörig| FR-02.1 |
-|UC-14| Logga ut som behörig| FR-02.1 |
+|UC-12| Visa felmeddelande| FR-01.14, NFR-02.3 |
+|UC-13| Logga in som behörig| FR-02.1, NFR-09.3 |
+|UC-14| Logga ut som behörig| FR-02.1, NFR-09.3 |
 |UC-15| Inaktivera konto som admin| FR-02.6, FR-02.8, NFR-06.3, NFR-07.2, NFR-09.3 |
-|UC-16| Avgöra vems tur det är| FR-01.8 |
+|UC-16| Avgöra vems tur det är| FR-01.8, NFR-02.1 |
 |UC-17| Godkänn samtycke till cookies| FR-02.2, NFR-01.3, FR-02.3, NFR-01.4, NFR-09.5, NFR-09.6 |
 |UC-18| Neka samtycke till cookies| FR-02.2, FR-02.3, NFR-09.5   |
 |UC-19| Rensa cookies (återkalla)| FR-02.3, NFR-09.5 |
@@ -109,5 +109,5 @@
 |UC-NFR-05| Granska systemloggar | |
 |UC-NFR-06| Automatisk rensning av partidata| FR-02.9, NFR-01.2,  NFR-08.1  |
 |UC-NFR-07| Automatiskt sparande av speldata vid krasch eller omstart | FR-01.13, NFR-01.1,  NFR-05.1  |
-|UC-NFR-08| Uppdatera systemet utan att pågående partier går förlorade | NFR-08.2 |
-|UC-NFR-09| Säkerställa krypterad kommunikation mellan klient och server| NFR-06.2 |
+|UC-NFR-08| Uppdatera systemet utan att pågående partier går förlorade | FR-01.13, NFR-08.2 |
+|UC-NFR-09| Säkerställa krypterad kommunikation mellan klient och server| FR-01.1, NFR-06.2, NFR-09.6 |
