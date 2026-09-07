@@ -292,3 +292,28 @@ pågående parti"]:::usecase
     Inform --> SlutAvbrutet(["Slut"]):::terminal
     Notify -- Nej --> SlutAvbrutet
 ```
+## **Aktivitetsdiagram: Efter avslutat parti**
+ 
+```mermaid
+%% Täcker use case: UC-04 (Spela igen mot samma motspelare)
+flowchart TD
+    classDef terminal fill:#374151,stroke:#111827,color:#ffffff,stroke-width:1px;
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f,stroke-width:1px;
+    classDef usecase fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a,stroke-width:1px;
+    classDef error fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d,stroke-width:1px;
+ 
+    Start(["Resultat visas"]):::terminal --> Again{"Spela igen?"}:::decision
+    Again -- Ja --> Active{"Motståndare fortfarande
+ansluten?"}:::decision
+    Active -- Ja --> SpelaIgen["Spela igen mot
+samma motståndare"]:::usecase
+    SpelaIgen --> Slut(["Fortsätt till:
+Spelloopen"]):::terminal
+    Active -- Nej --> Err["Visa felmeddelande:
+motståndare ej aktiv"]:::error
+    Err --> Back(["Fortsätt till:
+Starta parti"]):::terminal
+    Again -- Nej --> SlutFinal(["Slut"]):::terminal
+```
+
+(*Alla diagram är konstruerade med hjälp av Claude AI*)
