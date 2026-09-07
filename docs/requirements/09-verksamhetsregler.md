@@ -1,6 +1,8 @@
 [Tillbaka till README](../../README.md)
-# 9. Verksamhetsregler
+# 9. Verksamhetsregler för Gomoku spel
 
+Verksamhets regler beskriver de regler som styr hur Gomoku-spelet ska fungera och hur spelare, partier och information ska hanteras.
+Reglerna kompletterar de funktionella och icke-funktionella kraven genom att beskriva vad som alltid ska gälla, oavsett hur resultat bestäms, vilka rättigheter spelare har , hur inbjudningar hanteras och hur spel- och användardata behandlas. Reglerna gäller från ett parti har börjat spelar till det avslutas, sparas eller tas bort. De ska också förhindra att spelare gör saker som inte är tillåtna eller får tillgång till information och funktioner som de inte har rätt till.
 
 
 
