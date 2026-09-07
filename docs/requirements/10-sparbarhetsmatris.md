@@ -86,7 +86,7 @@
 |UC-08| Välja svårighetsgrad| FR-01.15 |
 |UC-09| Avsluta parti (visa resultat)|  NFR-02.1|
 |UC-10| Skapa konto som admin| FR-02.6, NFR-09.3 |
-|UC-11| Förhindra tredje spelare från att ansluta| |
+|UC-11| Förhindra tredje spelare från att ansluta| FR-01.12, NFR-06.1 |
 |UC-12| Visa felmeddelande| FR-01.14 |
 |UC-13| Logga in som behörig| FR-02.1 |
 |UC-14| Logga ut som behörig| FR-02.1 |
