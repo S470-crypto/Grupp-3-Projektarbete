@@ -65,11 +65,12 @@ Reglerna kompletterar de funktionella och icke-funktionella kraven genom att bes
 
 | ID | Regler |
 |----|------|
-| VR-05.1 |  Ett pågående parti ska kunna pausas när kraven för att spara partiet är uppfyllda. |
+| VR-05.1 |  Ett lämnat eller pausat parti får återupptas inom 24 timmar om lagring är tillåten. |
+| VR-05.2 |  Ett avslutat parti får inte återupptas. | 
 | VR-05.2 | Ett pausat parti får återupptas så länge det fortfarande är giltigt. |
 | VR-05.3 | Ett pausat parti som inte återupptas inom 24 timmar ska raderas. |
 | VR-05.4 | Ett avslutat parti får inte återupptas som ett pågående parti. |
-| VR-05.5 | Vid ett tekniskt avbrott ska spelet kunna återansluta utan att partiet förloras (om partiet fortfarande är giltigt). |
+| VR-05.5 | Vid tekniskt avbrott ska spelet kunna återansluta utan att partiet förloras (om partiet fortfarande är giltigt). |
 | VR-05.6 | Om ett parti inte längre är tillgängligt ska spelaren informeras tydligt. | 
 
 
