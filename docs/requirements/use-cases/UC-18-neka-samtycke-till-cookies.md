@@ -29,7 +29,7 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 ## Alternativa flöden
 **A1 – Spelaren ändrar tidigare nekat samtycke till godkännande:**
 - Spelaren kan senare ändra sitt val via cookie-inställningar, vilket leder över till UC-17.
-- 
+  
 **A2 – Tekniskt fel vid lagring av nekat samtycke:**
 - Om det nekade valet av tekniska skäl inte kan sparas, ska systemet ändå inte aktivera icke-nödvändiga cookies, och bör visa dialogen igen vid nästa besök.
 
