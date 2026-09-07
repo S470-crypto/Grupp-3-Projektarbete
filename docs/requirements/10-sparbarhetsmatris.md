@@ -46,7 +46,7 @@
 |    NFR-01.2 |Speldata raderas 24 timmar efter senaste aktivitet|  UC-NFR-06  |
 |    NFR-01.3 |Systemet ska lagra den data som krävs | UC-07, UC-17  |
 |    NFR-01.4 | Cookies lagras pseudonymiserat i 6 månader|  UC-17 |
-|    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |  UC-17  |
+|    NFR-01.5 |Den data som systemet lagrar ska framgå i integritetspolicyn |  UC-17?  |
 |    NFR-02.1 |Systemet visar turordning, resultat och hur spelare startar parti | UC-01, UC-02, UC-04, UC-06, UC-09  |
 |    NFR-02.2 |Ingen kontoregistrering krävs |  UC-01, UC-02, UC-03  |
 |    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| UC-12 |
