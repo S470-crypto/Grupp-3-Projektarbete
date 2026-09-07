@@ -49,12 +49,12 @@
 
 ## Eftervillkor: 
 
-- Partiets senaste tillstånd är alltid sparat inom en kort, definierad tidsram efter varje förändring.
+- Partiets senaste tillstånd är sparat efter varje förändring.
 - Vid oavsiktligt avbrott kan partiet återställas till senast sparade tillstånd.
 
 ## Testbar avslutning: 
 
-- Efter varje giltigt drag är spelbrädets nya tillstånd sparat (i 24 timmar).
+- Efter varje giltigt drag är spelbrädets nya tillstånd sparat.
    
 - Vid simulerad krasch (t.ex. stängd flik) och återöppning återställs partiet till exakt det tillstånd det hade precis innan kraschen.
   
