@@ -1,3 +1,4 @@
+[Tillbaka till README](../../README.md)
 # 0. Ordlista
 
 ## Termer och definitioner
