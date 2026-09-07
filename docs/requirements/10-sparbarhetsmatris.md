@@ -52,7 +52,7 @@
 |    NFR-02.3 |Systemet visar enkla icke tekniska felmeddelanden.| UC-12 |
 |    NFR-02.4 |Webbsidan ska fungera på mobil och dator |  UC-01, UC-02, UC-03, UC-04 |
 |    NFR-03.1 |Spelet ska vara responsivt utan lag.  |  UC-NFR-01 |
-|    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 supress tester. | UC-NFR-01 |
+|    NFR-03.2 |Svarstid under spelets gång. | UC-NFR-01 |
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. |  UC-NFR-01   |
 |    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.|  UC-NFR-01  |
 |    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade|  UC-02 |
