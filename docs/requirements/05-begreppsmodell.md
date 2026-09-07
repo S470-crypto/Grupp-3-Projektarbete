@@ -1,3 +1,4 @@
+[Tillbaka till README](../../README.md)
 ```mermaid
 classDiagram
     %% ===== AKTÖRER =====
