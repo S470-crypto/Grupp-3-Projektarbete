@@ -16,7 +16,9 @@ Syfte: Säkerställa att pågående speldata bevaras kontinuerligt så att ett p
 ## Förvillkor: 
 Ett parti pågår (status: pågående eller pausad)
 Autosave-funktionen är aktiv och tillgänglig
-Trigger: 
+
+
+## Trigger: 
 Ett drag görs, partiet pausas, eller partiets tillstånd förändras på annat sätt under ett pågående parti.
 
 ## Huvudflöde: 
