@@ -16,7 +16,7 @@ Syfte: Säkerställa att driftuppdateringar (t.ex. ny kodversion) kan genomföra
 ## Förvillkor: 
 * En ny systemversion är redo att distribueras
 * Pågående partier finns i systemet vid uppdateringstillfället
-* Systemet stödjer en uppdateringsstrategi som bevarar tillstånd (t.ex. rullande uppdatering, tillståndsseparerad lagring)
+* Systemet stödjer en uppdateringsstrategi som bevarar tillstånd i servern.
 
 ## Trigger: 
 Administratören initierar en driftsättning av en ny systemversion.
