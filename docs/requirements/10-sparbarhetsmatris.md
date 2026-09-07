@@ -84,7 +84,7 @@
 |UC-06| Spela drag | FR-01.6, FR-01.8, NFR-02.1 |
 |UC-07| Pausa och återuppta parti| FR-01.13, NFR-05.1|
 |UC-08| Välja svårighetsgrad| FR-01.15 |
-|UC-09| Avsluta parti (visa resultat)|  NFR-02.1|
+|UC-09| Avsluta parti (visa resultat)|  FR-01.5, NFR-02.1|
 |UC-10| Skapa konto som admin| FR-02.6, NFR-09.3 |
 |UC-11| Förhindra tredje spelare från att ansluta| FR-01.12, NFR-06.1 |
 |UC-12| Visa felmeddelande| FR-01.14 |
