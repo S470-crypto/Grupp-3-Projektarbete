@@ -7,13 +7,14 @@
 **Use case ID:** UC-NFR-03
 
 **Primär aktör:** Spelare
+
 **Sekundär aktör:** Dataansvarig
 
 **Syfte:** Spelaren har möjlighet att begära och information om den personliga data som hanteras och behandlas (enligt GDPR artikel 12-13).
 
 ## Förvillkor:
 
-- Spelaren skickar en förfrågan till dataansvarig via epost till supportadress.
+- Spelaren skickar en förfrågan till dataansvarig (t.ex. via epost till supportadress som finns på hemsidan).
 
 - Länk-ID anges i förfrågan kopplat till ett aktivt parti.
 
@@ -31,19 +32,19 @@
 
 ## Alternativa flöden:
 
-**A1:** Spelaren undrar specifikt om samtycke till cookies
+**A1:Spelaren undrar specifikt om samtycke till cookies**
 
 - Dataansvarig svarar spelaren med information om var spelaren själv kan kontrollera sitt samtycke samt hur hen kan se när samtycke skett i webbläsaren/klienten.
 
-**A2:** Det saknas tillräckligt med information
+**A2: Det saknas tillräckligt med information**
 
 - Länk-ID saknas eller är ogiltigt och det finns inte tillräckligt med identifierande information för att kunna söka i servern.
 - Dataansvarig återkopplar till spelaren via mail och efterfrågar mer information, t.ex. till ett aktivt länk-ID med en pågående spelsession.
 
 ## Eftervillkor:
 
-Spelaren får besked att endast minimalt med information lagras, varför den lagras och att det endast är strikt nödvändig information som lagras.
+- Spelaren får besked att endast minimalt med information lagras, varför den lagras och att det endast är strikt nödvändig information som lagras.
 
 ## Testbar avslutning:
 
-När spelaren skickat begäran om integritetsinformation kopplat till länk-ID hanteras det av dataansvarig som tar fram informationen och återkopplar till spelaren.
+- När spelaren skickat begäran om integritetsinformation kopplat till länk-ID hanteras det av dataansvarig som tar fram informationen och återkopplar till spelaren.
