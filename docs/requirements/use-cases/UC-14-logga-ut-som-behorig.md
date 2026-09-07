@@ -29,7 +29,7 @@
 
 ## Alternativa flöden
 
-**A1:** Utloggning pga inaktivitet
+**A1: Utloggning pga inaktivitet**
 
 - Administratören har varit inaktiv 15 minuter vilket triggar systemet att logga ut
 
