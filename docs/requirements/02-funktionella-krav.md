@@ -1,3 +1,4 @@
+[Tillbaka till README](../../README.md)
 # 2. Funktionella krav
 
 ## 2.1. Spelet, initiering och spelande
