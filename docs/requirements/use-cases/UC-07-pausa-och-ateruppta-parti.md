@@ -1,6 +1,7 @@
-# **Use Case: UC-07-Pause och återuppta parti**
+[Tillbaka till README](../../../README.md)
+# **Use Case: UC-07-Pausa och återuppta parti**
 
-**Namn:** Pausa och återuppta parti
+**Use case:** Pausa och återuppta parti
 
 
 **Use Case ID:** UC-07
