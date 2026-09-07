@@ -3,10 +3,10 @@ Av: Sami, Mikaela, Honelyn, Andreas
 
 ## Projektet
 Detta är ett skolprojekt i kursen krav och användningsfall. 
-- Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som vi identifierat.
-- Genom att intervjua en fiktiv kund skulle vi fånga upp testbara krav.
-- Vi har skapat diagram för att identifiera tillstånd och aktiviteter
-- Fokus på kravanalysen snarare än själva implementationen av systemet. 
+- Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som identifierades.
+- Genom intervju med en fiktiv kund har vi fångat upp testbara krav.
+- Vi har skapat diagram för att identifiera tillstånd och aktiviteter.
+- Fokus i detta projekt har legat på kravanalysen snarare än själva implementationen av systemet. 
 
 
 
