@@ -1,3 +1,4 @@
+[Tillbaka till README](../../README.md)
 # 9. Verksamhetsregler
 
 
