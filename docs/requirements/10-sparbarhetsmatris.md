@@ -72,10 +72,27 @@
 |    NFR-09.6 | Samtycke till cookies ska lagras|  UC-17  |
 
 
-## 10.3 Use cases relaterat till krav
+## 10.3 Use cases relaterade till krav
 
-|UC-ID  | UC (kortfattat)                  | Krav ID         |
+|UC-ID  | Use case namn               | Kopplas till krav ID         |
 |-------|-------------------------------|----------------|
 |UC-01|  Starta parti mot dator (AI) |FR-01.1, FR-01.4, NFR-02.1, NFR-02.2,  NFR-02.4 |
 |UC-02|  Starta parti bjud in vän |FR-01.2, NFR-02.1, NFR-02.2,  NFR-02.4, NFR-04.3 |
 |UC-03|  Anslut till parti via länk |FR-01.2, FR-01.9, NFR-02.2,  NFR-02.4 |
+|UC-04| Spela igen mot samma motståndare | |
+|UC-05| Avbryt väntan vid timeout| |
+|UC-06| Spela drag | |
+|UC-07| Pausa och återuppta parti| |
+|UC-08| Välja svårighetsgrad| |
+|UC-09| Avsluta parti (visa resultat)| |
+|UC-10| Skapa konto som admin| |
+|UC-11| Förhindra tredje spelare från att ansluta| |
+|UC-12| Visa felmeddelande| |
+|UC-13| Logga in som behörig| |
+|UC-14| Logga ut som behörig| |
+|UC-15| Inaktivera konto som admin| |
+|UC-16| Avgöra vems tur det är| |
+|UC-17| Godkänn samtycke till cookies| |
+|UC-18| Neka samtycke till cookies| |
+|UC-19| Rensa cookies (återkalla)| |
+|UC-20| Avsluta/lämna pågående parti| |
