@@ -9,7 +9,7 @@
 |KK-02|  Systemet ska visa eller ge en kort instruktion (FAQ) som förklarar hur man spelar och startar ett spel. |
 |KK-03|  Systemet ska informera användaren är borta eller för länge eller om spelet avbryts. |
 |KK-04|  Systemet ska informera användaren om att inbjudningslänken bara ska delas med den person som ska spela. |
-|KK-05|  =Inbjudan ska delas via kanaler som användaren redan använder till exempel Sms, WhatsApp. | 
+|KK-05|  Inbjudan ska delas via kanaler som användaren redan använder till exempel Sms, WhatsApp. | 
 |KK-O6|  Systemet ska tydligt informera användaren när ett parti inte längre är tillgängligt. |
 |KK-07|  Spelets regler och villkor ska finnas tillgängliga innan användaren börjar spela. |
 |KK-08|  Användaren ska kunna spela utan att installera extra program. |
