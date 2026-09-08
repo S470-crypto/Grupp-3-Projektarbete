@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     start(( )) --> Ejhanterat["Ejhanterat"]
 
@@ -19,3 +20,4 @@ flowchart TD
     class Nekat nekat
     class Ejhanterat neutral
     class start starty
+​```
