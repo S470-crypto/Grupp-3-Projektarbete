@@ -1,5 +1,5 @@
 [Tillbaka till README](../../../README.md)
-# UC-NFR-07 Spel-skall-kunna-återskapas-efter-krasch
+# UC-NFR-07 Spel skall kunna återskapas efter krasch
 
 
 ## Meta 
