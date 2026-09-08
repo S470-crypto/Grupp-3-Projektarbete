@@ -27,8 +27,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-03.1 |Spelet ska vara responsivt utan lag.  | 
-|    NFR-03.2 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 cypress tester. |
+|    NFR-03.1 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 cypress tester. |
 
 
 ## **NFR-04: Skalbarhet**
@@ -36,14 +35,13 @@
 | ----------- | ----------- | 
 |    NFR-04.1 |Arkitekturen ska kunna skalas horisontellt vid trafikökning. | 
 |    NFR-04.2 |Systemet ska kunna hantera plötsliga belastningstoppar.| 
-|    NFR-04.3 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
 
 
 ## **NFR-05: Drift** 
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid kortare avbrott utan att partiet abryts. | 
+|    NFR-05.1 |Systemet ska automatiskt återansluta en spelare vid kortare avbrott (5 minuter) utan att partiet avbryts. | 
 
 
 ## **NFR-06: Säkerhet**
@@ -53,6 +51,7 @@
 |    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Oanvänd inbjudningslänk inaktiveras efter 5 minuter. | 
 |    NFR-06.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad till de med rollbaserad behörighet i system och administrationsportalen.| 
+|    NFR-06.4 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
 
 
 ## **NFR-07: Testbarhet**
