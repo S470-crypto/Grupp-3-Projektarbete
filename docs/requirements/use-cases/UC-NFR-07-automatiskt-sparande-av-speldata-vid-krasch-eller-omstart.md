@@ -1,10 +1,10 @@
 [Tillbaka till README](../../../README.md)
-# UC-NFR-07 Automatiskt sparande av speldata vid krasch eller omstart 
+# UC-NFR-07 Spel-skall-kunna-återskapas-efter-krasch
 
 
 ## Meta 
 
-**Use case:** Automatiskt sparande av speldata vid krasch eller omstart
+**Use case:** Spel skall kunna återskapas efter krasch
 
 **Use case ID:** UC-NFR-07
 
