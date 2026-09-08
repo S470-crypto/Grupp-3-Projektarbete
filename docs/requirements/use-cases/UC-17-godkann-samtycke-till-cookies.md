@@ -14,7 +14,7 @@
 
 - Spelaren besöker webbplatsen för första gången, eller har tidigare rensat sina cookies
 - Inget giltigt samtyckesval finns registrerat för spelaren
-- Cookie-dialogen är korrekt konfigurerad och tillgänglig i gränssnittet
+- Cookie-dialogen(banner) är korrekt konfigurerad och tillgänglig i gränssnittet
 
   ## **Trigger:**
 Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtyckesstatus finns, vilket gör att cookie-dialogen visas.
@@ -24,7 +24,7 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 2. Systemet kontrollerar om ett giltigt samtyckesval redan finns lagrat
 3. Systemet visar en cookie-dialog med information om vilka typer av cookies som används samt alternativ att godkänna eller neka
 4. Spelaren läser informationen och klickar på "Godkänn"
-5. Systemet registrerar samtycket lokalt hos spelaren
+5. Systemet registrerar samtycket lokalt hos spelaren och (psuedonymiserat i audit.log) på servern
 6. Systemet aktiverar cookie-samling för spelaren
 7. Cookie-dialogen stängs och spelaren kan fortsätta använda webbplatsen normalt
 
