@@ -17,4 +17,15 @@
 
 | UC ID | Use Case | Primär aktör | Sekundära aktörer | Relaterade krav |
 |-------|---------|-------------|------------------|----------------|
-|UC-01 |
+| UC-01 | Starta nytt parti mot dator(AI) | Spelare | AI | FR-01.1, FR-01.4 |
+| UC-02 | 
+| UC-03 |
+| UC-04 |
+| UC-05 |
+| UC-06 |
+| UC-07 |
+| UC-08 |
+| UC-09 |
+| UC-10 |
+
+
