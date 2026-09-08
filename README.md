@@ -4,14 +4,29 @@ Gruppmedlemmar: Sami, Mikaela, Honelyn, Andreas
 ## Om projektet
 Detta är ett skolprojekt i kursen krav och användningsfall. 
 - Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som identifierades.
-- I detta projekt fokus legat på kravanalysen snarare än själva implementationen av systemet. 
+- I detta projekt fokus legat på kravanalysen snarare än själva implementationen av systemet (kod för spelet ingår inte i detta projekt). 
 Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi fångat upp testbara krav och aktörer baserat på kundens beskrivningar.
 - Diagram har använts för att identifiera tillstånd och aktiviteter, user journey och use case modell.
 
-## Om systemet
-- Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet. 
+## Kort om systemet
+- Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet.
 
+### Centrala designval
 
+**Inga spelarkonton**
+Systemet använder länk-ID:n istället för kontoinloggning för att:
+- Minimera mängden personuppgifter.
+- Förenkla GDPR-hantering.
+- Undvika kontoregistrering och långsiktig datalagring.
+
+**Dataminimering och lagring**
+Systemet följer principen om minimal datalagring:
+- Endast data som krävs för att ett parti ska fungera sparas.
+- Partidata raderas automatiskt efter 24 timmars inaktivitet.
+- Ingen användarprofil eller historik lagras.
+
+**Cookie-samtycke och integritet**
+Cookie-samtycke hanteras separat från speldata och lagras pseudonymiserat. Detta möjliggör dataminimering även utan spelarkonton och säkerställer att samtycke inte kan kopplas till en specifik spelare.
 
 ## Innehåll
 
