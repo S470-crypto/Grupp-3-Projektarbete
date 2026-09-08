@@ -3,7 +3,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Speldata sparas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
+|    NFR-01.1 |Speldata sparas och kan återupptas vid krasch/omstart - Sparas lokalt i webbläsare genom cookie-samling| 
 |    NFR-01.2 |Speldata ska sparas kontinuerligt och ska automatiskt raderas 24 timmar efter senaste aktivitet| 
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt. | 
 |    NFR-01.4 | Samtyckes-ID för cookies lagras pseudonymiserat i 6 månader sedan raderas det från audit log backend.| 
