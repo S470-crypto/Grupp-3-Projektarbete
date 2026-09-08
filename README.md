@@ -26,7 +26,7 @@ Systemet ska följa principen om minimal datalagring. Endast data som krävs fö
 
 För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat från speldata och lagras pseudonymiserat.
 
-## Innehåll
+## Dokumentstruktur
 
 |   Dokument    | Innehåll    |
 |-------------|-------------|
