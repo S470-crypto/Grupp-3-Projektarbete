@@ -11,21 +11,24 @@ Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling
 ## Kort om systemet
 - Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet.
 
-### Centrala designval
+## Centrala designval
 
 **Inga spelarkonton**
+
 Systemet använder länk-ID:n istället för kontoinloggning för att:
 - Minimera mängden personuppgifter.
 - Förenkla GDPR-hantering.
 - Undvika kontoregistrering och långsiktig datalagring.
 
 **Dataminimering och lagring**
+
 Systemet följer principen om minimal datalagring:
 - Endast data som krävs för att ett parti ska fungera sparas.
 - Partidata raderas automatiskt efter 24 timmars inaktivitet.
 - Ingen användarprofil eller historik lagras.
 
 **Cookie-samtycke och integritet**
+
 Cookie-samtycke hanteras separat från speldata och lagras pseudonymiserat. Detta möjliggör dataminimering även utan spelarkonton och säkerställer att samtycke inte kan kopplas till en specifik spelare.
 
 ## Innehåll
