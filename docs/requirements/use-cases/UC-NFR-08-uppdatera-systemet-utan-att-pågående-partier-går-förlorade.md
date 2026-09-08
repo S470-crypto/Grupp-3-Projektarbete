@@ -3,15 +3,16 @@
 
 
 ## Meta 
-Use case: Uppdatera systemet utan att pågående partier går förlorade
 
-Use case ID: UC-NFR-08
+**Use case:** Uppdatera systemet utan att pågående partier går förlorade
 
-Primär aktör: Administratör
+**Use case ID:** UC-NFR-08
 
-Sekundär aktör: Spelare (påverkas indirekt), System
+**Primär aktör:** Administratör
 
-Syfte: Säkerställa att driftuppdateringar (t.ex. ny kodversion) kan genomföras utan att spelare förlorar sina pågående partier (NFR-08.2).
+**Sekundär aktör**: Spelare (påverkas indirekt), System
+
+**Syfte:** Säkerställa att driftuppdateringar (t.ex. ny kodversion) kan genomföras utan att spelare förlorar sina pågående partier.
 
 ## Förvillkor: 
 * En ny systemversion är redo att distribueras
@@ -23,7 +24,7 @@ Administratören initierar en driftsättning av en ny systemversion.
 
 ## Huvudflöde: 
 1. Administratören initierar uppdateringen
-2. Systemet säkerställer att alla pågående partiers tillstånd är sparat i en beständig lagring, separat från applikationsinstansen som ska uppdateras (kopplar till UC-NFR-06)
+2. Systemet säkerställer att alla pågående partiers tillstånd är sparat i en beständig lagring, separat från applikationsinstansen som ska uppdateras
 3. Den nya versionen driftsätts, t.ex. genom att nya instanser startas parallellt med de gamla
 4. Trafik och pågående sessioner flyttas gradvis över till den nya versionen
 5. Spelare med pågående partier fortsätter sina partier på den nya versionen med bevarat tillstånd
@@ -31,26 +32,26 @@ Administratören initierar en driftsättning av en ny systemversion.
 
 
 ## Alternativa flöden: 
-**A1:** Ett pågående partis tillstånd kan inte överföras korrekt till den nya versionen (t.ex. p.g.a. en inkompatibel dataformatändring)
-Systemet informerar berörd spelare om att partiet inte kunde återupptas, som ett undantag snarare än normalfallet.
+
+**A1: Ett pågående partis tillstånd kan inte överföras korrekt till den nya versionen (t.ex. p.g.a. en inkompatibel dataformatändring)**
+
+- Systemet informerar berörd spelare om att partiet inte kunde återupptas, som ett undantag snarare än normalfallet.
 
 
-**A2:** Uppdateringen måste avbrytas mitt i processen
+**A2: Uppdateringen måste avbrytas mitt i processen**
 
-Systemet återgår till den tidigare versionen (rollback) utan att pågående partier påverkas, eftersom tillståndet aldrig var beroende av en specifik applikationsinstans.
+- Systemet återgår till den tidigare versionen (rollback) utan att pågående partier påverkas, eftersom tillståndet aldrig var beroende av en specifik applikationsinstans.
 
 ## Eftervillkor: 
-Den nya systemversionen är i drift
-Samtliga partier som pågick innan uppdateringen är fortsatt spelbara med bevarat tillstånd (bräde, tur, historik)
+Den nya systemversionen är i drift.
+Samtliga partier som pågick innan uppdateringen är fortsatt spelbara med bevarat tillstånd (spelbräde, tur, historik).
 
 ## Testbar avslutning: 
-**T1:** Ett parti som pågår vid uppdateringstillfället kan fortsätta spelas utan avbrott eller dataförlust efter att uppdateringen slutförts.
 
+- Ett parti som pågår vid uppdateringstillfället kan fortsätta spelas utan avbrott eller dataförlust efter att uppdateringen slutförts.
 
-**T2:** Brädets tillstånd, tur-status och historik är identiska före och efter uppdateringen för ett pågående parti.
+- Spelbrädets tillstånd, tur-status och historik är identiska före och efter uppdateringen för ett pågående parti.
 
+- Vid en avbruten uppdatering (rollback) påverkas inga pågående partier.
 
-**T3:** Vid en avbruten uppdatering (rollback) påverkas inga pågående partier.
-
-
-**T4:** Spelaren märker ingen eller minimal avbrottstid under uppdateringen (en acceptabel nedtid bör fastställas tillsammans med kunden).
+- Spelaren märker ingen eller minimal avbrottstid under uppdateringen (en acceptabel nedtid bör fastställas tillsammans med kunden).
