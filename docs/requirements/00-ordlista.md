@@ -25,8 +25,7 @@
 | GDPR | General data protection regulation. |
 | Pseudonymisering | Personuppgifter ersätts med en kod eller psudonym så att data inte längre kan kopplas till en specifik person. |
 | Kryptering | Gör läsbar information till olöslig kod för att skyyda den från obehöriga. |
-| Audit.log | All system aktivitet lagras i audi.log |
-| Spelvy | |
+| Audit.log | amtyckes-ID för cookies lagras pseudonymiserat i audit.log |
 | Samtycke | Cookie consent. |
 | Anonymisering | Personuppgifter som tas bort så att en person inte längre kan identifieras. |
 | Personuppgiftsincident | En personuppgiftsincident är en säkerhetsincident som leder till oavsiktlig eller olaglig förstöring eller förlust av personuppgifter. |
