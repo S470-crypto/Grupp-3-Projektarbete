@@ -1,12 +1,15 @@
 # Grupp-3-Projektarbete
-Av: Sami, Mikaela, Honelyn, Andreas
+Gruppmedlemmar: Sami, Mikaela, Honelyn, Andreas
 
-## Projektet
+## Om projektet
 Detta är ett skolprojekt i kursen krav och användningsfall. 
 - Uppgiften gick ut på att vi skulle genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som identifierades.
-- Genom intervju med en fiktiv kund har vi fångat upp testbara krav.
-- Vi har skapat diagram för att identifiera tillstånd och aktiviteter.
-- Fokus i detta projekt har legat på kravanalysen snarare än själva implementationen av systemet. 
+- I detta projekt fokus legat på kravanalysen snarare än själva implementationen av systemet. 
+Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi fångat upp testbara krav och aktörer baserat på kundens beskrivningar.
+- Diagram har använts för att identifiera tillstånd och aktiviteter, user journey och use case modell.
+
+  ## Om systemet
+  - Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet. 
 
 
 
