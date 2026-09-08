@@ -24,4 +24,4 @@
 | ID | Beskrivning|
 |----|-------------|
 |KK-14| Systemet ska ge tydlig information om hur spelet behandlar användar- och speldata |
-|KK-12| Information om cookies och integritet ska vara lätt att hitta när användaren använder webbplatsen.
+|KK-15| Information om cookies och integritet ska vara lätt att hitta när användaren använder webbplatsen.
