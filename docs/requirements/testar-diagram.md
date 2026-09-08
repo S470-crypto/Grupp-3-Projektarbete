@@ -1,30 +1,21 @@
-@startuml
-skinparam state {
-  BackgroundColor<<godkant>> #EAF3DE
-  BorderColor<<godkant>> #3B6D11
-  FontColor<<godkant>> #173404
+flowchart TD
+    start(( )) --> Ejhanterat["Ejhanterat"]
 
-  BackgroundColor<<nekat>> #FCEBEB
-  BorderColor<<nekat>> #A32D2D
-  FontColor<<nekat>> #501313
+    Ejhanterat -->|Godkänner samtycke| Godkant["Godkänt"]
+    Ejhanterat -->|Nekar samtycke| Nekat["Nekat"]
 
-  BackgroundColor<<neutral>> #F1EFE8
-  BorderColor<<neutral>> #5F5E5A
-  FontColor<<neutral>> #2C2C2A
-}
+    Godkant -->|Ändrar val till nekat| Nekat
+    Nekat -->|Ändrar val till godkänt| Godkant
 
-state "Ejhanterat" as Ejhanterat <<neutral>>
-state "Godkänt" as Godkant <<godkant>>
-state "Nekat" as Nekat <<nekat>>
+    Godkant -.->|Rensar cookies| Ejhanterat
+    Nekat -.->|Rensar cookies| Ejhanterat
 
-[*] --> Ejhanterat
+    classDef godkant fill:#EAF3DE,stroke:#3B6D11,color:#173404;
+    classDef nekat fill:#FCEBEB,stroke:#A32D2D,color:#501313;
+    classDef neutral fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A;
+    classDef starty fill:none,stroke:none;
 
-Ejhanterat --> Godkant : Godkänner samtycke
-Ejhanterat --> Nekat : Nekar samtycke
-
-Godkant --> Nekat : Ändrar val till nekat
-Nekat --> Godkant : Ändrar val till godkänt
-
-Godkant ..> Ejhanterat : Rensar cookies
-Nekat ..> Ejhanterat : Rensar cookies
-@enduml
+    class Godkant godkant
+    class Nekat nekat
+    class Ejhanterat neutral
+    class start starty
