@@ -22,7 +22,7 @@ Systemet inkluderar inte användarkonton för spelarna, ingen spelstatistik elle
 | Dataansvarig | Primär/sekundär aktör (Mänsklig)| Säkerställer att GDPR följs, ansvarar för radering och eventuella personuppgiftsincidenter. |
 | Systemet | Sekundär systemaktör | Validerar drag och raderar inaktiva spelpartier |
 
-## 1.5 Översikt av dokumentstruktur
+## 1.5 Översikt av innehåll
 
 |   Dokument    | Innehåll    |
 |-------------|-------------|
