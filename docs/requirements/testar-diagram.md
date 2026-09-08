@@ -1,23 +1,30 @@
+@startuml
+skinparam state {
+  BackgroundColor<<godkant>> #EAF3DE
+  BorderColor<<godkant>> #3B6D11
+  FontColor<<godkant>> #173404
 
-```mermaid
-flowchart TD
-    Start(( )) --> E[Ejhanterat]
+  BackgroundColor<<nekat>> #FCEBEB
+  BorderColor<<nekat>> #A32D2D
+  FontColor<<nekat>> #501313
 
+  BackgroundColor<<neutral>> #F1EFE8
+  BorderColor<<neutral>> #5F5E5A
+  FontColor<<neutral>> #2C2C2A
+}
 
-E -->|Godkänner samtycke| G[Godkänt]
-E -->|Nekar samtycke| N[Nekat]
+state "Ejhanterat" as Ejhanterat <<neutral>>
+state "Godkänt" as Godkant <<godkant>>
+state "Nekat" as Nekat <<nekat>>
 
-G -->|Rensar cookies| E
-N -->|Rensar cookies| E
+[*] --> Ejhanterat
 
-G -->|Ändrar val till nekat| N
-N -->|Ändrar val till godkänt| G
+Ejhanterat --> Godkant : Godkänner samtycke
+Ejhanterat --> Nekat : Nekar samtycke
 
-%% Osynlig nod för att skapa mer horisontellt utrymme
-G ~~~ Spacer[ ]
-Spacer ~~~ N
+Godkant --> Nekat : Ändrar val till nekat
+Nekat --> Godkant : Ändrar val till godkänt
 
-style E fill:#f0eee7,stroke:#aaa,color:#444
-style G fill:#e8f4dc,stroke:#8caf6c,color:#285b1c
-style N fill:#fce8e8,stroke:#d77b7b,color:#8b2929
-style Spacer fill:none,stroke:none,color:none
+Godkant ..> Ejhanterat : Rensar cookies
+Nekat ..> Ejhanterat : Rensar cookies
+@enduml
