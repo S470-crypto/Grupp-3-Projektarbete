@@ -37,7 +37,7 @@ För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat 
 |   [04-Icke funktionella krav](docs/requirements/04-icke-funktionella-krav.md) | Hur systemet ska fungera och kvalitetsegenskaper|
 |   [05-Begreppsmodell](docs/requirements/05-begreppsmodell.md)| Visuell karta över centrala begrepp och hur de hänger samman|
 |   [06-User journey](docs/requirements/06-user-journey.md) | Diagram över användarresa |
-|   [07-Use cases overview](docs/requirements/07-use-cases-overview.md) | Översikt över use cases och diagram|
+|   [07-Use cases overview](docs/requirements/07-use-cases-overview.md) | Översikt över use cases och use case-modeller|
 |   [08-Diagram](docs/requirements/08-diagram.md) | Tillståndsdiagram och aktivitetsdiagram|
 |   [09-Verksamhetsregler](docs/requirements/09-verksamhetsregler.md) | Beskriver spelets regler |
 |   [10-Spårbarhetsmatris](docs/requirements/10-sparbarhetsmatris.md)| Tabeller visar översikt av krav kopplat till use cases|
