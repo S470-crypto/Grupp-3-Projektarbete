@@ -32,8 +32,9 @@ Administratören initierar en driftsättning av en ny systemversion.
 
 ## Alternativa flöden: 
 **A1:** Ett pågående partis tillstånd kan inte överföras korrekt till den nya versionen (t.ex. p.g.a. en inkompatibel dataformatändring)
-
 Systemet informerar berörd spelare om att partiet inte kunde återupptas, som ett undantag snarare än normalfallet.
+
+
 **A2:** Uppdateringen måste avbrytas mitt i processen
 
 Systemet återgår till den tidigare versionen (rollback) utan att pågående partier påverkas, eftersom tillståndet aldrig var beroende av en specifik applikationsinstans.
@@ -44,6 +45,12 @@ Samtliga partier som pågick innan uppdateringen är fortsatt spelbara med bevar
 
 ## Testbar avslutning: 
 **T1:** Ett parti som pågår vid uppdateringstillfället kan fortsätta spelas utan avbrott eller dataförlust efter att uppdateringen slutförts.
+
+
 **T2:** Brädets tillstånd, tur-status och historik är identiska före och efter uppdateringen för ett pågående parti.
+
+
 **T3:** Vid en avbruten uppdatering (rollback) påverkas inga pågående partier.
+
+
 **T4:** Spelaren märker ingen eller minimal avbrottstid under uppdateringen (en acceptabel nedtid bör fastställas tillsammans med kunden).
