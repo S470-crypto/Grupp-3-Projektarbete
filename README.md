@@ -4,32 +4,27 @@ Gruppmedlemmar: Sami, Mikaela, Honelyn, Andreas
 ## Om projektet
 Detta är ett skolprojekt i kursen krav och användningsfall. 
 - Uppgiften gick ut på att genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som identifierades.
-- I detta projekt fokus legat på kravanalysen snarare än själva implementationen av systemet (kod för spelet ingår inte i detta projekt). 
-Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi fångat upp testbara krav och aktörer baserat på kundens beskrivningar.
-- Diagram har skapats och använts för att identifiera tillstånd och aktiviteter, user journey och use case modeller.
+- I detta projekt har fokus legat på kravanalysen snarare än själva implementationen av systemet (kod för spelet ingår inte i detta projekt). 
+Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi baserat på kundens beskrivningar fångat upp och formulerat testbara krav samt identifierat aktörer.
+- Diagram har skapats och använts för att identifiera tillstånd och aktiviteter, användarresa (user journey) och use case-modeller.
 
 ## Kort om systemet
-- Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet.
 
-## Centrala designval
+Ett webbaserat Gomoku-spel som ska gå att spela i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot datorn (AI) eller spela mot en vän genom att bjuda in till spel via en delad länk till partiet.
+
+## Designval
 
 ### Inga spelarkonton
 
-- Systemet använder länk-ID:n istället för kontoinloggning för att:
-  - Minimera mängden personuppgifter.
-  - Förenkla GDPR-hantering.
-  - Undvika kontoregistrering och långsiktig datalagring.
+Systemet ska använda länk-ID:n istället för kontoinloggning. Kundens önskemål var att undvika kontoregistrering. Valet bidrar även till att minimera mängden personuppgifter som ska lagras.
 
 ### Dataminimering och lagring
 
-- Systemet följer principen om minimal datalagring:
-  - Endast data som krävs för att ett parti ska fungera sparas.
-  - Partidata raderas automatiskt efter 24 timmars inaktivitet.
-  - Ingen användarprofil eller historik lagras.
+Systemet ska följa principen om minimal datalagring. Endast data som krävs för att ett parti ska fungera sparas. Partidata raderas automatiskt efter 24 timmars inaktivitet. Ingen spelarprofil eller spelhistorik lagras.
 
 ### Cookie-samtycke och integritet
 
-- För att uppfylla kraven i GDPR sparas uppgifter om cookie-samtycke separat från speldata och lagras pseudonymiserat.
+För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat från speldata och lagras pseudonymiserat.
 
 ## Innehåll
 
