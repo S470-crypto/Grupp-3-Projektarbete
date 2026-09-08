@@ -16,16 +16,16 @@ Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling
 **Inga spelarkonton**
 
 Systemet använder länk-ID:n istället för kontoinloggning för att:
- - Minimera mängden personuppgifter.
- - Förenkla GDPR-hantering.
- - Undvika kontoregistrering och långsiktig datalagring.
+ -- Minimera mängden personuppgifter.
+ -- Förenkla GDPR-hantering.
+ -- Undvika kontoregistrering och långsiktig datalagring.
 
 **Dataminimering och lagring**
 
 Systemet följer principen om minimal datalagring:
- - Endast data som krävs för att ett parti ska fungera sparas.
- - Partidata raderas automatiskt efter 24 timmars inaktivitet.
- - Ingen användarprofil eller historik lagras.
+ -- Endast data som krävs för att ett parti ska fungera sparas.
+ -- Partidata raderas automatiskt efter 24 timmars inaktivitet.
+ -- Ingen användarprofil eller historik lagras.
 
 **Cookie-samtycke och integritet**
 
