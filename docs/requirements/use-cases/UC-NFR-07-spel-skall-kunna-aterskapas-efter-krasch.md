@@ -33,8 +33,10 @@
 
 
 ## Alternativa flöden: 
-**A1: Ingen sparad data hittas (t.ex. vid nekat samtycke till cookies)**
 
+**A1: Ingen sparad data hittas**
+
+- Spelaren eller webbläsaren har rensat samtycke till cookies
 - Systemet visar startsidan som vanligt, ingen återställning sker. 
 
 **A2: Sparad data är korrupt eller ofullständig vid återställningsförsök**
