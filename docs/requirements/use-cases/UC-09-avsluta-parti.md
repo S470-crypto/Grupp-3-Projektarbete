@@ -46,7 +46,6 @@ En spelare placerar en bricka.
 ## **Eftervillkor:**
 * Partiets status är satt till avslutat vid vinst eller oavgjort.
 * Vid vinst är vinnaren identifierad och resultatet visas för spelarna.
-* 
 
 
 
