@@ -32,7 +32,7 @@ För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat 
 |-------------|-------------|
 |   [00-Ordlista](docs/requirements/00-ordlista.md) | Beskriver de centrala begrepp som används     |
 |   [01-Inledning](docs/requirements/01-inledning.md) | Kortfattad beskrivning av systemet och syfte   |
-|   [02-Funktionella krav](docs/requirements/02-funktionella-krav.md) | Vad systemet måste göra   |
+|   [02-Funktionella krav](docs/requirements/02-funktionella-krav.md) | Vad systemet ska göra   |
 |   [03-Kompletterande krav](docs/requirements/03-kompletterande-krav.md) | Antaganden och begränsningar  |
 |   [04-Icke funktionella krav](docs/requirements/04-icke-funktionella-krav.md) | Hur systemet ska fungera och kvalitetsegenskaper|
 |   [05-Begreppsmodell](docs/requirements/05-begreppsmodell.md)| Visuell karta över centrala begrepp och hur de hänger samman|
