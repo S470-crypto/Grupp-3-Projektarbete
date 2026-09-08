@@ -8,8 +8,8 @@ Detta är ett skolprojekt i kursen krav och användningsfall.
 Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi fångat upp testbara krav och aktörer baserat på kundens beskrivningar.
 - Diagram har använts för att identifiera tillstånd och aktiviteter, user journey och use case modell.
 
-  ## Om systemet
-  - Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet. 
+## Om systemet
+- Ett webbaserat Gomoku-spel som kan spelas i webbläsaren på datorn eller mobilen utan installation eller kontoregistrering. Spelaren ska kunna spela själv mot en dator (AI)-motståndare eller spela mot en vän som motståndare genom att bjuda in till spel via en delad länk till partiet. 
 
 
 
