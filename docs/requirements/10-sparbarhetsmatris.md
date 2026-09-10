@@ -71,7 +71,7 @@
 |    NFR-09.6 | Samtycke till cookies ska lagras|  UC-17  |
 
 
-## 10.3 Funktionella use cases relaterade till krav
+## 10.3 Use cases relaterade till krav
 
 |UC-ID  | Use case namn               | Kopplas till krav ID         |
 |-------|-------------------------------|----------------|
@@ -97,7 +97,7 @@
 |UC-20| Avsluta/lämna pågående parti| FR-01.16, NFR-05.1 |
 
 
-## 10.4 Icke funktionella use cases relaterade till krav
+## 10.4 NFR-use cases relaterade till krav
 
 |UC-NFR-ID  | Use case namn               | Kopplas till krav ID         |
 |-------|-------------------------------|----------------|
@@ -105,7 +105,7 @@
 |UC-NFR-02| Begära radering av speldata | FR-02.7, NFR-09.1 |
 |UC-NFR-03| Hantera begäran om integritetsinformation |  FR-02.4, NFR-09.4 |
 |UC-NFR-04| Hantering av information vid dataintrång |  FR-02.5, NFR-09.2  |
-|UC-NFR-05| Granska systemloggar | |
+|UC-NFR-05| Granska systemloggar | FR-02.8, NFR-06.3, NFR-09.3|
 |UC-NFR-06| Automatisk rensning av partidata| FR-02.9, NFR-01.2,  NFR-08.1  |
 |UC-NFR-07| Spel skall kunna återskapas efter krasch| FR-01.13, NFR-01.1,  NFR-05.1  |
 |UC-NFR-08| Uppdatera systemet utan att pågående partier går förlorade | FR-01.13, NFR-08.2 |
