@@ -3,8 +3,8 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-01.1 |Speldata sparas och kan återupptas vid krasch/omstart| 
-|    NFR-01.2 |Speldata ska sparas kontinuerligt och ska automatiskt raderas 24 timmar efter senaste aktivitet| 
+|    NFR-01.1 |Speldata sparas och kan återupptas vid krasch/omstart.| 
+|    NFR-01.2 |Speldata ska sparas kontinuerligt och ska automatiskt raderas 24 timmar efter senaste aktivitet.| 
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt. | 
 |    NFR-01.4 | Samtyckes-ID för cookies lagras pseudonymiserat i 6 månader sedan raderas det från audit log backend.| 
 |    NFR-01.5 | Den data som systemet lagrar ska framgå i integritetspolicyn. |  
@@ -51,7 +51,7 @@
 |    NFR-06.1 | Åtkomstkontroll på inbjudningslänkar, obehöriga tredjeparter ska inte kunna gå med i ett parti. Oanvänd inbjudningslänk inaktiveras efter 5 minuter. | 
 |    NFR-06.2 |All kommunikation mellan klient och server ska ske krypterar via exempelvis HTTPS eller WSS. | 
 |    NFR-06.3 |Åtkomst till loggfiler är begränsad till de med rollbaserad behörighet i system och administrationsportalen.| 
-|    NFR-06.4 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force)| 
+|    NFR-06.4 |Inbjudningslänkar ska vara slumpmässigt genererade och tillräckligt komplexa för att inte kunna gissas (brute force).| 
 
 
 ## **NFR-07: Testbarhet**
