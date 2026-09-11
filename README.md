@@ -24,7 +24,7 @@ Systemet ska följa principen om minimal datalagring. Endast data som krävs fö
 
 ### Cookie-samtycke och integritet
 
-För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat från speldata och lagras pseudonymiserat.
+Cookie-samtycke sparas lokalt i webbläsaren samt med pseudonymiserat samtyckes-ID som lagras på servern i audit-log separerat från speldata. Detta val gjordes för att kunna visa att samtycke har inhämtats och för att radering ska ske enligt uppsatt lagringstid. 
 
 ## Dokumentstruktur
 
@@ -39,6 +39,6 @@ För att uppfylla kraven i GDPR ska uppgifter om cookie-samtycke sparas separat 
 |   [06-User journey](docs/requirements/06-user-journey.md) | Diagram över användarresa |
 |   [07-Use cases overview](docs/requirements/07-use-cases-overview.md) | Översikt över use cases och use case-modeller|
 |   [08-Diagram](docs/requirements/08-diagram.md) | Tillståndsdiagram och aktivitetsdiagram|
-|   [09-Verksamhetsregler](docs/requirements/09-verksamhetsregler.md) | Beskriver de villkor som gäller för systemet  |
+|   [09-Verksamhetsregler](docs/requirements/09-verksamhetsregler.md) | Beskriver de villkor/regler som gäller för systemet  |
 |   [10-Spårbarhetsmatris](docs/requirements/10-sparbarhetsmatris.md)| Matriser visar spårbarhet mellan krav kopplat till use cases|
 |   [Use cases](docs/requirements/use-cases)| Genväg till use cases|
