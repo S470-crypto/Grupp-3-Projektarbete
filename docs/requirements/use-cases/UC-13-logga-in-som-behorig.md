@@ -20,7 +20,7 @@ En administratör eller dataansvarig med behörighet har tillgång till de funkt
 
 - Personen behöver logga in på sidan för att utföra en uppgift som kräver administratörs- eller dataansvarigs behörighet (t.ex. övervaka drift eller besvara en GDPR-begäran) och navigerar till inloggningssidan.
 
-## Huvudvillkor
+## Huvudflöde
 
 1. Administratören navigerar till inloggningssidan
 
