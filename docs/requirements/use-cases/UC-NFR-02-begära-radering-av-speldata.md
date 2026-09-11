@@ -1,5 +1,5 @@
 [Tillbaka till README](../../../README.md)
-# UC-NFR-2: Begära radering av speldata
+# UC-NFR-02: Begära radering av speldata
  
 ## Meta
 
