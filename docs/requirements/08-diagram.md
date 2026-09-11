@@ -138,7 +138,7 @@ en ny inbjudningslänk
     end note
  
     KontoSkapas --> KontoAktivt : Aktiverar via länk
-    KontoSkapas --> KontoRaderat : Admin raderar konto
+    KontoSkapas --> KontoRaderat : Admin inaktiverar konto
  
     state KontoAktivt {
         [*] --> Utloggad
