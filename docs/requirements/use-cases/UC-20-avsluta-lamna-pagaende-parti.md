@@ -29,7 +29,7 @@ Spelaren väljer att lämna spelet, antingen aktivt via en "avsluta parti"-knapp
 
 ## Alternativa flöden
 **A1 – Passivt avslut (stänger flik/kraschar):** 
-- Spelaren stänger fliken eller webbläsaren kraschar utan direkt knapptryck. Systemet kan inte reagera proaktivt, utan förlitar sig på att partiet tillstånd redan sparats löpande via icke-nödvändiga cookies.
+- Spelaren stänger fliken eller webbläsaren kraschar utan direkt knapptryck. Systemet kan inte reagera proaktivt, utan förlitar sig på att partiet tillstånd redan sparats löpande via nödvändiga cookies.
 
 **A2 – Motspelaren lämnar ett online-spel:** 
 - Den andra spelaren (motståndaren) lämnar partiet istället för den spelare som anropar use caset. Kvarvarande spelare ska informeras om detta av systemet, så att spelet inte hänger i ett odefinierat väntetillstånd.
