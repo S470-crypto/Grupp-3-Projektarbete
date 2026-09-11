@@ -30,7 +30,7 @@
 | UC-09 | Avsluta parti | SYS | S, M | FR-01.5, NFR-02.1 |
 | UC-11 | Förhindra tredje spelare från att ansluta | S | SYS | FR-01.12, NFR-06.1 |
 | UC-12 | Visa felmeddelande | SYS | S, M, A | FR-01.14, NFR-02.3 |
-| UC-16 | Avgöra vems tur det är | SYS | S, M | FR-01.8, NFR-02.1 |
+| UC-16 | Avgöra vems tur det är | SYS | S, M | FR-01.7, FR-01.8, NFR-02.1 |
 | UC-20 | Avsluta/lämna pågående parti | S | M | FR-01.16, NFR-05.1 |
  
 ### 7.2.1 Spelloop (kärnspel)
