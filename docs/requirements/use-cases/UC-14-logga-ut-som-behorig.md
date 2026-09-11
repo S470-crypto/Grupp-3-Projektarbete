@@ -19,7 +19,7 @@
 
 - Administratören är klar med sina uppgifter och väljer att logga ut.
 
-## Huvudvillkor
+## Huvudflöde
 
 1. Administratören väljer att logga ut.
 
