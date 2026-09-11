@@ -7,24 +7,24 @@
 
 **Use case ID:** UC-13
 
-**Primär aktör:** Administratör eller Dataansvarig
+**Primär aktör:** Admin eller Dataansvarig
 
 **Syfte:** 
-En administratör eller dataansvarig med behörighet har tillgång till de funktioner som hör till dennes roll på en inloggningssida till systemet som skiljer sig från spelarnas kontofria spelvy
+En admin eller dataansvarig med behörighet har tillgång till de funktioner som hör till dennes roll i system- och administrationsportalen (som skiljer sig från spelarnas kontofria spelvy).
 
 ## Förvillkor
 
-- Administratör eller dataansvarig har redan ett aktivt konto med lösenord
+- Admin eller dataansvarig har redan ett aktivt konto med lösenord
 
 ## Trigger
 
-- Personen behöver logga in på sidan för att utföra en uppgift som kräver administratörs- eller dataansvarigs behörighet (t.ex. övervaka drift eller besvara en GDPR-begäran) och navigerar till inloggningssidan.
+- Aktören behöver logga in i portalen för att utföra en uppgift som kräver administratörs- eller dataansvarigs behörighet (t.ex. övervaka drift eller besvara en GDPR-begäran) och navigerar till inloggningssidan.
 
 ## Huvudflöde
 
-1. Administratören navigerar till inloggningssidan
+1. Admin navigerar till inloggningssidan
 
-2. Administratören anger giltig e-post och lösenord
+2. Admin anger giltig e-post och lösenord
 
 3. Systemet verifierar uppgifterna och kontrollerar att kontot är aktivt
 
@@ -46,7 +46,7 @@ Ett felmeddelande visas med information om att åtkomst nekas
 
 ## Eftervillkor
 
-- Administratören är inloggad och har en aktiv, autentiserad session på sidan
+- Admin är inloggad och har en aktiv, autentiserad session på sidan
 
 - Endast funktioner som matchar dennes behörighet/roll i systemet är tillgängliga för personen
 
