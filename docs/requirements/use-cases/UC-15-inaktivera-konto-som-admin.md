@@ -19,7 +19,7 @@
 
 - Admin får information om att ett konto med dataansvarigs roll/behörighet ska inaktiveras.
 
-## Huvudvillkor
+## Huvudflöde
 
 1. Admin navigerar till översikten för konton, väljer det konto som ska inaktiveras och väljer inaktivera konto.
 
