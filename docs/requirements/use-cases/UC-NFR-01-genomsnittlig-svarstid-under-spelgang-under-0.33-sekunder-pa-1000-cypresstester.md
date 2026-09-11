@@ -7,7 +7,7 @@
 
 **Use case ID:** UC-NFR-01
 
-**Primär aktor:** Admin
+**Primär aktör:** Admin
 
 **Syfte:** Uppnå en genomsnittlig svarstid på under 0.33 sekunder under spelets gång. 
 
