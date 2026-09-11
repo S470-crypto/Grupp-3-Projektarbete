@@ -11,6 +11,7 @@
 **Use case ID:** UC-NFR05
 
 **Primär aktör:** Administratör
+
 **Sekundär aktör:** Dataansvarig
 
 **Syfte:** Säkerställa att implementering av RBAC är korrekt när det gäller granskning av systemloggar.
