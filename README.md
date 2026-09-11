@@ -6,7 +6,7 @@ Detta är ett skolprojekt i kursen krav och användningsfall.
 - Uppgiften gick ut på att genomföra en kravinsamling för ett webbaserat spel (Gomoku - 5 i rad) och skapa användningsfall (use cases) för de krav som identifierades.
 - I detta projekt har fokus legat på kravanalysen snarare än själva implementationen av systemet (kod för spelet ingår inte i detta projekt). 
 Genom intervju/samtal med en fiktiv kund som saknade kunskap om systemutveckling har vi baserat på kundens beskrivningar fångat upp och formulerat testbara krav samt identifierat aktörer.
-- Diagram har skapats och använts för att identifiera tillstånd och aktiviteter, användarresa (user journey) och use case-modeller.
+- Diagram har skapats och använts för att identifiera tillstånd och aktiviteter, användarresa (user journey) och use case-diagram.
 
 ## Kort om systemet
 
@@ -37,7 +37,7 @@ Cookie-samtycke sparas lokalt i webbläsaren samt med pseudonymiserat samtyckes-
 |   [04-Icke funktionella krav](docs/requirements/04-icke-funktionella-krav.md) | Hur systemet ska fungera och kvalitetsegenskaper|
 |   [05-Begreppsmodell](docs/requirements/05-begreppsmodell.md)| Visuell karta över centrala begrepp och hur de hänger samman|
 |   [06-User journey](docs/requirements/06-user-journey.md) | Diagram över användarresa |
-|   [07-Use cases overview](docs/requirements/07-use-cases-overview.md) | Översikt över use cases och use case-modeller|
+|   [07-Use cases overview](docs/requirements/07-use-cases-overview.md) | Översikt över use cases och use case-diagram|
 |   [08-Diagram](docs/requirements/08-diagram.md) | Tillståndsdiagram och aktivitetsdiagram|
 |   [09-Verksamhetsregler](docs/requirements/09-verksamhetsregler.md) | Beskriver de villkor/regler som gäller för systemet  |
 |   [10-Spårbarhetsmatris](docs/requirements/10-sparbarhetsmatris.md)| Matriser visar spårbarhet mellan krav kopplat till use cases|
