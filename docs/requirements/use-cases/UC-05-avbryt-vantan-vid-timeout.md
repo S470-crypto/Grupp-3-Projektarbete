@@ -9,32 +9,39 @@
 
 **Primär aktör:** Spelare
 
-**Syfte:** Delad länk ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras. Spelare kan vänta en rimlig tid på att motståndare ska ansluta till partiet, när tidsgräns passerats kan spelaren välja att starta nytt parti eller avsluta. 
+**Sekundär aktör:** Systemet (tidsgräns)
+
+**Syfte:** Delad länk ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras för att undvika övergivna spelsessioner. Spelare väntar en rimlig tid på att motståndare ska ansluta till partiet, när tidsgräns passerats får spelaren alternativ för att komma vidare (starta nytt parti eller avsluta spel). 
 
 ## Förvillkor:
 - Spelaren har startat ett parti och delat en länk med motståndare.
-- Motståndaren har inte klickat på länken/anslutit till partiet.
 - Partiet är i ett väntande läge/väntar på motståndare att ansluta.
+- Motståndaren har inte klickat på länken/anslutit till partiet.
 
 ## Trigger:
-- Det finns en tidsgräns i systemet som har passerats utan att motståndare anslutit till partiet via den delade länken. 
+- Det finns en tidsgräns på 5 minuter i systemet som har passerats utan att motståndare anslutit till partiet via den delade länken. 
 
 ## Huvudflöden:
-1. Spelaren startar parti och delar länk med motståndare.
-2. Systemet väntar på att motståndare ska ansluta och nedräkning till tidsgräns (5 minuter) påbörjas. 
-3. Tidsgränsen passeras utan att motståndaren anslutit.
-4. Systemet avbryter väntan automatiskt och länken är inte längre giltig. 
-5. Systemet meddelar väntande spelaren att väntetiden har gått ut. 
+1. Systemet identifierar att tidsgränsen på 5 minuter har passerat utan att motståndaren har anslutit till partiet.
+2. Systemet avbryter väntande tillstånd automatiskt och länken inaktiveras, partiet avbryts.
+3. Systemet meddelar väntande spelaren att väntetiden har gått ut då motståndaren inte anslöt inom tidsgränsen.
+4. Systemet visar spelaren två val: starta nytt parti eller avsluta spel.
+5. Spelaren gör ett val och systemet utför den valda åtgärden.
 
 ## Alternativa flöden:
-**A1:** Spelaren avbryter partiet
+**A1: Spelaren avbryter partiet inom tidsgränsen**
 - Spelaren avbryter det startade partiet innan motståndaren klickat på länken.
-- Systemet avbryter väntande tillstånd.
-- Information visas för spelare och motståndare som klickar på länken att spelet har avbrutits. 
+- Systemet avbryter väntande tillstånd och partiet avbryts.
+- Spelaren dirigeras om till startsidan.
+
+**A2: Motståndare försöker ansluta efter tidsgränsen**
+- Motståndaren klickar på länken efter att tidsgränsen har passerats och länken har inaktiverats.
+- Systemet detekterar att länken är inaktiverad.
+- Systemet nekar anslutning och felmeddelande visas med information om att länken är ogiltig då tidsgränsen har passerats. 
 
 ## Eftervillkor:
-- Partiet är inte längre aktivt och har lämnat väntandeläge.
-- Spelare har fått meddelande med information samt möjlighet att komma vidare genom att starta nytt parti eller avsluta. 
+- Partiet är inte längre aktivt och det går inte att komma åt det tidigare partiet, länken är inaktiv/ogiltig.
+- Spelaren har fått meddelande med information samt möjlighet att komma vidare genom att starta nytt parti eller avsluta. 
 
 ## Testbar avslutning:
 Spelare väntar på att inbjuden motståndare ska ansluta. När 5 minuter har passerat (efter tidsgräns) då avbryts "vänta på spelare" automatiskt och meddelande visas där det framgår att motståndare inte har anslutit samt erbjuds möjlighet att gå vidare genom att starta nytt parti eller avsluta.
