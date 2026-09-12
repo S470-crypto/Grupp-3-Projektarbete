@@ -11,7 +11,7 @@
 
 **Sekundär aktör:** Systemet (tidsgräns)
 
-**Syfte:** Delad länk (länk-ID) ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras. Spelare ska inte behöva vänta för länge på att motståndare ska ansluta till partiet, när tidsgräns har passerats avbryts partiets väntande tillstånd och spelaren får alternativ för att komma vidare (starta nytt parti eller avsluta spel). 
+**Syfte:** Delad länk (länk-ID) ska vara giltig/aktiv i 5 minuter sedan ska länken bli ogiltig/inaktiveras för att undvika övergivna spelsessioner. Spelare väntar en rimlig tid på att motståndare ska ansluta till partiet, när tidsgräns har passerats får spelaren alternativ för att komma vidare (starta nytt parti eller avsluta spel). 
 
 ## Förvillkor:
 - Spelaren har startat ett parti och delat en länk med motståndare.
