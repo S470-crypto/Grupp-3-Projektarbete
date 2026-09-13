@@ -32,3 +32,4 @@
 | Applikationsinsats | en specifik, aktiv körning av ett datorprogram eller en applikation.  |
  | Rollback  | När systemet återgår till den tidigare sparade versionen.  |
  | TLS-certifikat | En digital fil som krypterar informationen som skickas mellan en webbserver och en besökares webbläsare. |
+ | Spelvy | Spelarnas kontofria gränssnitt |
