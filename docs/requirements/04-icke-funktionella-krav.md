@@ -6,7 +6,7 @@
 |    NFR-01.1 |Speldata sparas och kan återupptas vid krasch/omstart.| 
 |    NFR-01.2 |Speldata ska sparas kontinuerligt och ska automatiskt raderas 24 timmar efter senaste aktivitet.| 
 |    NFR-01.3 |Systemet ska enbart lagra den data som krävs för att spelet kan kunna köras korrekt. | 
-|    NFR-01.4 | Samtyckes-ID för cookies lagras pseudonymiserat i 6 månader sedan raderas det från audit log backend.| 
+|    NFR-01.4 | Samtyckes-ID för cookies lagras pseudonymiserat i 6 månader sedan raderas det från audit log på servern.| 
 |    NFR-01.5 | Den data som systemet lagrar ska framgå i integritetspolicyn. |  
 
 
