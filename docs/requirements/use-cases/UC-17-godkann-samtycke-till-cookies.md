@@ -24,7 +24,7 @@
 2. Systemet kontrollerar om ett giltigt samtyckesval redan finns lagrat
 3. Systemet visar en cookie-dialog med information om vilka typer av cookies som används samt alternativ att godkänna eller neka
 4. Spelaren läser informationen och klickar på "Godkänn"
-5. Systemet registrerar samtycket lokalt hos spelaren och (psuedonymiserat i audit-log) på servern
+5. Systemet registrerar samtycket lokalt hos spelaren och (psuedonymiserat i audit.log) på servern
 6. Systemet aktiverar cookie-samling för spelaren
 7. Cookie-dialogen stängs och spelaren kan fortsätta använda webbplatsen normalt
 
@@ -46,6 +46,6 @@
 ## **Testbar avslutning**
 
 - Vid första besök utan tidigare samtycke visas cookie-dialogen med alternativen godkänn eller neka.
-- Efter klick på "Godkänn" döljs dialogen och cookies aktiveras. Samtyckesval är sparat lokalt i spelarens webbläsare och post har skapats i audit-log. 
+- Efter klick på "Godkänn" döljs dialogen och cookies aktiveras. Samtyckesval är sparat lokalt i spelarens webbläsare och post har skapats i audit-loggen. 
 - Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies och dialogen visas igen vid nästa besök.
 - Efter godkänt samtycke kan spelare återuppta pågående parti efter att ha stängt spelsidan. 
