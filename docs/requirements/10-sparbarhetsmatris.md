@@ -17,7 +17,7 @@
 |FR-01.8|  Spelare kan spela drag    |  UC-06, UC-16         |
 |FR-01.9|  Anslut till parti via delad länk     |      UC-03     |
 |FR-01.10|  Systemet känner av 5 i rad |   UC-09 |
-|FR-01.11| Avbryt väntan på spelare |       UC-05 |
+|FR-01.11| Avbryt väntan på motståndare |       UC-05 |
 |FR-01.12|   Bara två spelare kan vara anslutna till ett parti. |    UC-11           |
 |FR-01.13| Pausa och återuppta parti |    UC-07, UC-NFR-07, UC-NFR-08    |
 |FR-01.14|  Visa felmeddelande |       UC-12 |
