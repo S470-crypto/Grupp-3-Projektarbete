@@ -8,7 +8,7 @@
 
 **Primär aktör:** Spelare
 
-**Syfte:** Ge spelaren möjlighet att aktivt acceptera användning av cookies, i enlighet med GDPR.
+**Syfte:** Ge spelaren möjlighet att aktivt acceptera användning av cookies för att kunna återuppta ett pågående parti, i enlighet med GDPR.
 
 ## **Förvillkor:**
 
@@ -17,14 +17,14 @@
 - Cookie-dialogen(banner) är korrekt konfigurerad och tillgänglig i gränssnittet
 
   ## **Trigger:**
-Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtyckesstatus finns, vilket gör att cookie-dialogen visas.
+- Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtyckesstatus finns, vilket gör att cookie-dialogen visas.
 
 ## **Huvudflöde**
 1. Spelaren navigerar till webbplatsen
 2. Systemet kontrollerar om ett giltigt samtyckesval redan finns lagrat
 3. Systemet visar en cookie-dialog med information om vilka typer av cookies som används samt alternativ att godkänna eller neka
 4. Spelaren läser informationen och klickar på "Godkänn"
-5. Systemet registrerar samtycket lokalt hos spelaren och (psuedonymiserat i audit.log) på servern
+5. Systemet registrerar samtycket lokalt hos spelaren och (psuedonymiserat i audit-log) på servern
 6. Systemet aktiverar cookie-samling för spelaren
 7. Cookie-dialogen stängs och spelaren kan fortsätta använda webbplatsen normalt
 
@@ -38,13 +38,14 @@ Spelaren laddar en sida på webbplatsen där ingen tidigare registrerad samtycke
 
 ## **Eftervillkor:**
 
-- Spelarens samtyckesval är sparat och kopplat till spelarens webbläsare/session
-- Endast de cookie-kategorier som spelaren godkänt är aktiva
-- Cookie-dialogen visas inte igen förrän samtycket löper ut, återkallas, eller rensas av spelaren
-Systemets gränssnitt reflekterar exakt det turtillstånd som systemet har internt för samtliga spelare i matchen.
+- Spelarens samtyckesval är sparat och kopplat till spelarens webbläsare/session. Samtycke har även sparats i audit-loggen på servern (pseudonymiserat samtyckes-ID, tidsstämpel, cookies som godkänts och version av samtyckestexten).
+- Endast de cookie-kategorier som spelaren godkänt är aktiva, med cookies kan partiet återupptas om sidan stängs ner.
+- Cookie-dialogen visas inte igen förrän samtycket löper ut, återkallas, eller rensas av spelaren.
+
 
 ## **Testbar avslutning**
 
-- Vid första besök utan tidigare samtycke visas cookie-dialogen.
-- Efter klick på "Godkänn" döljs dialogen och alla cookies aktiveras. 
-- Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies, och dialogen visas igen vid nästa besök.
+- Vid första besök utan tidigare samtycke visas cookie-dialogen med alternativen godkänn eller neka.
+- Efter klick på "Godkänn" döljs dialogen och cookies aktiveras. Samtyckesval är sparat lokalt i spelarens webbläsare och post har skapats i audit-log. 
+- Om spelaren stänger dialogen utan att göra ett aktivt val, aktiveras inga icke-nödvändiga cookies och dialogen visas igen vid nästa besök.
+- Efter godkänt samtycke kan spelare återuppta pågående parti efter att ha stängt spelsidan. 
