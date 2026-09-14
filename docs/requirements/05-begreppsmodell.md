@@ -134,6 +134,3 @@ Systembegrepp: Systemet hanterar alla pågående partier och skriver all aktivit
 GDPR/integritetsbegrepp: GDPR styr hur personuppgifter hanteras genom krav på Samtycke (via Cookie), Pseudonymisering, Kryptering och Anonymisering, samt hur en eventuell Personuppgiftsincident ska loggas och hanteras.
 
 
-# Spelregler 
-
-.....
