@@ -33,3 +33,4 @@
  | Rollback  | När systemet återgår till den tidigare sparade versionen.  |
  | TLS-certifikat | En digital fil som krypterar informationen som skickas mellan en webbserver och en besökares webbläsare. |
  | Spelvy | Spelarnas kontofria gränssnitt |
+ | RBAC | Role based access control, vilken behörighet olika roller har. | 
