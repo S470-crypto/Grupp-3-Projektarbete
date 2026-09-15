@@ -27,7 +27,7 @@
 
 | ID      | Beskrivning | 
 | ----------- | ----------- | 
-|    NFR-03.1 |Svarstid under spel gång förväntas vara mindre än 0.33 sekunder per 1000 cypress tester. |
+|    NFR-03.1 |Genomsnittlig svarstid under spelgång förväntas vara mindre än 0.33 sekunder per 1000 cypress tester. |
 
 
 ## **NFR-04: Skalbarhet**
