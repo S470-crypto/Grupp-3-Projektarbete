@@ -49,11 +49,11 @@ journey
 journey
     title Starta parti: Spelaren mot dator (AI)
     section Val av motståndare
-      Navigerar till startsidan: 5: Spelare
+      Navigerar till startsidan: 4: Spelare
       Väljer dator (AI) som motståndare: 5: Spelare
     section Matchstart
-      Matchen startas direkt: 5: Systemet
-      Initierar nytt tomt spelbräde: 5: Systemet
+      Matchen startas direkt: 4: Systemet
+      Initierar nytt tomt spelbräde: 4: Systemet
     section Turordning
       Avgör vem som börjar (slump/fast regel): 5: Systemet
       Visar spelbrädet och markerar vems tur det är: 5: Systemet
