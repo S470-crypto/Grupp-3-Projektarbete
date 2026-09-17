@@ -55,7 +55,7 @@ journey
       Matchen startas direkt: 4: Systemet
       Initierar nytt tomt spelbräde: 4: Systemet
     section Turordning
-      Avgör vem som börjar (slump/fast regel): 5: Systemet
+      Avgör vem som börjar (slump/fast regel): 4: Systemet
       Visar spelbrädet och markerar vems tur det är: 5: Systemet
     section Redo att spela
       Partiet är redo att spelas: 5: Spelare
