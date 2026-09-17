@@ -56,7 +56,7 @@ journey
       Initierar nytt tomt spelbräde: 4: Systemet
     section Turordning
       Avgör vem börjar (slump/fast regel): 4: Systemet
-      Visar spelbrädet&markerar vems tur det är: 5: Systemet
+      Visar spelbrädet & markerar vem börjar: 5: Systemet
     section Redo att spela
       Partiet är redo att spelas: 5: Spelare
 ```
