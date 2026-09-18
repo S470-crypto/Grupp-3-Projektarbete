@@ -5,7 +5,7 @@
 **Meta**
 
 
-**Use Case:** Förhindra tredje från att ansluta
+**Use Case:** Förhindra tredje spelare från att ansluta
 
 **Use case ID:** UC-11
 
