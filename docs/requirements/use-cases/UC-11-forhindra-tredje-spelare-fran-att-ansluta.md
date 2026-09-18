@@ -11,6 +11,8 @@
 
 **Primär Aktör:** Spelare
 
+**Sekundär Aktör:** Systemet
+
 **Syfte:** Förhindrar fler personer än två spelare ansluter till samma parti.
 
 
